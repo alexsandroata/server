@@ -1,4 +1,4 @@
-﻿IP = "192.168.1.100:22003" -- IP do servidor
+﻿IP = "" -- IP do servidor
 
 config = {
     ----------------------
