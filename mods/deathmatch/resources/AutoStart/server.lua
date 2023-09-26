@@ -12,6 +12,8 @@
 	"Banco",
 	"Blur",
 	"Cursor",
+	"n3xt_dxmessages",
+	"n3xt_inventario",
 	"PainelLogin",
 	},
 }
