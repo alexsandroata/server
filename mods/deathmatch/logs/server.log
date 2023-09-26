@@ -274,3 +274,115 @@
 [2023-09-26 10:23:20] ADMIN: +Alexsandro has slapped +Alexsandro (20 HP)
 [2023-09-26 10:23:21] ADMIN: +Alexsandro has slapped +Alexsandro (20 HP)
 [2023-09-26 10:23:21] ADMIN: +Alexsandro has slapped +Alexsandro (20 HP)
+[2023-09-26 10:46:57] ERROR: Resource 'Hud' has been removed while running! Stopping resource.
+[2023-09-26 10:46:57] Stopping Hud
+[2023-09-26 10:46:57] New resource 'FR_DxMessages' loaded
+[2023-09-26 10:46:57] New resource 'FomeSede' loaded
+[2023-09-26 10:46:57] New resource 'Hud' loaded
+[2023-09-26 10:46:57] Resources: 10 loaded, 0 failed
+[2023-09-26 10:47:12] WARNING: Hud/client.lua(Line 96) [Client] showPlayerHudComponent is deprecated and may not work in future versions. Please replace with setPlayerHudComponentVisible.
+[2023-09-26 10:47:12] Some files in 'Hud' use deprecated functions.
+[2023-09-26 10:47:12] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-26 10:47:12] Starting Hud
+[2023-09-26 10:47:12] startResource: Resource 'Hud' started
+[2023-09-26 10:47:12] ADMIN: Resource 'Hud' started by +Alexsandro
+[2023-09-26 10:47:16] Starting FR_DxMessages
+[2023-09-26 10:47:16] startResource: Resource 'FR_DxMessages' started
+[2023-09-26 10:47:16] ADMIN: Resource 'FR_DxMessages' started by +Alexsandro
+[2023-09-26 10:47:19] WARNING: FomeSede/server.lua(Line 64) [Server] killPlayer is deprecated and may not work in future versions. Please replace with killPed.
+[2023-09-26 10:47:19] Some files in 'FomeSede' use deprecated functions.
+[2023-09-26 10:47:19] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-26 10:47:19] Starting FomeSede
+[2023-09-26 10:47:19] startResource: Resource 'FomeSede' started
+[2023-09-26 10:47:19] ADMIN: Resource 'FomeSede' started by +Alexsandro
+==================================================================
+= Multi Theft Auto: San Andreas v1.6
+==================================================================
+= Server name      : Tandera Roleplay
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : .. 1.6/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Quality [4];  Sample Rate: [16000Hz]
+= Bandwidth saving : Medium
+==================================================================
+[2023-09-26 10:54:38] Resources: 13 loaded, 0 failed
+[2023-09-26 10:54:38] Starting resources...
+[2023-09-26 10:54:38] Server minclientversion is now 1.6.0-9.21923.0
+[2023-09-26 10:54:38] startResource: Resource 'admin' started
+[2023-09-26 10:54:38] INFO: Recurso: 'admin' iniciado!
+[2023-09-26 10:54:38] startResource: Resource 'SaveSystem' started
+[2023-09-26 10:54:38] INFO: Recurso: 'SaveSystem' iniciado!
+[2023-09-26 10:54:38] startResource: Resource 'SpawnConfig' started
+[2023-09-26 10:54:38] INFO: Recurso: 'SpawnConfig' iniciado!
+[2023-09-26 10:54:38] WARNING: infobox <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.6-9.18728 because of 'client.luac')
+[2023-09-26 10:54:38] WARNING: infobox requires upgrade as <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.6-9.18728 because of 'client.luac')
+[2023-09-26 10:54:38] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-26 10:54:38] startResource: Resource 'infobox' started
+[2023-09-26 10:54:38] INFO: Recurso: 'infobox' iniciado!
+[2023-09-26 10:54:38] Please wait...
+[2023-09-26 10:54:39] startResource: Resource 'RadarMinimapa' started
+[2023-09-26 10:54:39] INFO: Recurso: 'RadarMinimapa' iniciado!
+[2023-09-26 10:54:39] startResource: Resource 'PainelLogin' started
+[2023-09-26 10:54:39] INFO: Recurso: 'PainelLogin' iniciado!
+[2023-09-26 10:54:39] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2023-09-26 10:54:39] WARNING: <owner_email_address> not set
+[2023-09-26 10:54:39] Server started and is ready to accept connections!
+[2023-09-26 10:54:39] To stop the server, type 'shutdown' or press Ctrl-C
+[2023-09-26 10:54:39] Type 'help' for a list of commands.
+[2023-09-26 10:54:39] Querying MTA master server... success! (Auto detected IP:201.88.246.190)
+[2023-09-26 10:56:30] CONNECT: +Alexsandro connected (IP: 192.168.100.71  Serial: CE124527A04FCA00EB44E51B3EBFEFE3  Version: 1.6.0-9.22215.0)
+[2023-09-26 10:56:30] JOIN: +Alexsandro joined the game (IP: 192.168.100.71)
+[2023-09-26 10:56:30] WARNING: [essential]\SpawnConfig\script.lua:21: Bad argument @ 'spawnPlayer' [Expected vector3 at argument 2, got nil]
+[2023-09-26 10:56:30] WARNING: [essential]\SpawnConfig\script.lua:24: Bad argument @ 'outputChatBox' [Expected string at argument 1, got nil]
+[2023-09-26 10:56:30] WARNING: [essential]\SpawnConfig\script.lua:25: Bad argument @ 'giveWeapon' [Expected weapon-type at argument 2, got nil]
+[2023-09-26 10:56:30] WARNING: [essential]\SpawnConfig\script.lua:26: Bad argument @ 'givePlayerMoney' [Expected number at argument 2, got nil]
+[2023-09-26 10:56:41] LOGIN: (Everyone, Console) +Alexsandro successfully logged in as '+Alexsandro' (IP: 192.168.100.71  Serial: CE124527A04FCA00EB44E51B3EBFEFE3)
+[2023-09-26 10:57:03] Starting Banco
+[2023-09-26 10:57:03] startResource: Resource 'Banco' started
+[2023-09-26 10:57:03] ADMIN: Resource 'Banco' started by +Alexsandro
+[2023-09-26 10:57:05] Starting Blur
+[2023-09-26 10:57:05] startResource: Resource 'Blur' started
+[2023-09-26 10:57:05] ADMIN: Resource 'Blur' started by +Alexsandro
+[2023-09-26 10:57:09] Starting Cursor
+[2023-09-26 10:57:09] startResource: Resource 'Cursor' started
+[2023-09-26 10:57:09] ADMIN: Resource 'Cursor' started by +Alexsandro
+[2023-09-26 10:57:11] Starting FR_DxMessages
+[2023-09-26 10:57:11] startResource: Resource 'FR_DxMessages' started
+[2023-09-26 10:57:11] ADMIN: Resource 'FR_DxMessages' started by +Alexsandro
+[2023-09-26 10:57:13] WARNING: FomeSede/server.lua(Line 64) [Server] killPlayer is deprecated and may not work in future versions. Please replace with killPed before Tuesday.
+[2023-09-26 10:57:13] Some files in 'FomeSede' use deprecated functions.
+[2023-09-26 10:57:13] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-26 10:57:13] Starting FomeSede
+[2023-09-26 10:57:13] startResource: Resource 'FomeSede' started
+[2023-09-26 10:57:13] ADMIN: Resource 'FomeSede' started by +Alexsandro
+[2023-09-26 10:57:14] WARNING: Hud/client.lua(Line 96) [Client] showPlayerHudComponent is deprecated and may not work in future versions. Please replace with setPlayerHudComponentVisible before Tuesday.
+[2023-09-26 10:57:14] Some files in 'Hud' use deprecated functions.
+[2023-09-26 10:57:14] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-26 10:57:14] Starting Hud
+[2023-09-26 10:57:14] startResource: Resource 'Hud' started
+[2023-09-26 10:57:14] ADMIN: Resource 'Hud' started by +Alexsandro
+[2023-09-26 11:01:48] ERROR: Resource 'infobox' has been removed while running! Stopping resource.
+[2023-09-26 11:01:48] Stopping infobox
+[2023-09-26 11:01:48] New resource 'infobox' loaded
+[2023-09-26 11:01:48] Resources: 13 loaded, 0 failed
+[2023-09-26 11:02:02] WARNING: infobox <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.6-9.18728 because of 'client.luac')
+[2023-09-26 11:02:02] WARNING: infobox requires upgrade as <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.6-9.18728 because of 'client.luac')
+[2023-09-26 11:02:02] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-26 11:02:02] Starting infobox
+[2023-09-26 11:02:02] startResource: Resource 'infobox' started
+[2023-09-26 11:02:02] ADMIN: Resource 'infobox' started by +Alexsandro
+[2023-09-26 11:02:09] ADMIN: Resource 'Banco' restarted by +Alexsandro
+[2023-09-26 11:02:09] Stopping Banco
+[2023-09-26 11:02:09] Starting Banco
+[2023-09-26 11:02:09] Banco restarted successfully
+[2023-09-26 11:02:13] ADMIN: Resource 'Hud' restarted by +Alexsandro
+[2023-09-26 11:02:13] Stopping Hud
+[2023-09-26 11:02:13] Resource 'Hud' changed, reloading and starting
+[2023-09-26 11:02:13] WARNING: Hud/client.lua(Line 96) [Client] showPlayerHudComponent is deprecated and may not work in future versions. Please replace with setPlayerHudComponentVisible.
+[2023-09-26 11:02:13] Some files in 'Hud' use deprecated functions.
+[2023-09-26 11:02:13] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-26 11:02:13] Starting Hud
+[2023-09-26 11:02:13] Hud restarted successfully

@@ -7,6 +7,11 @@
 	"infobox",
 	"RadarMinimapa",
 	"Hud",
+	"FomeSede",
+	"FR_DxMessages",
+	"Banco",
+	"Blur",
+	"Cursor",
 	"PainelLogin",
 	},
 }

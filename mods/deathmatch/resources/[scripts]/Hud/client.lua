@@ -32,7 +32,7 @@ function hudfiveM()
 		dxDrawImage((screenWidth-75)-posX, posY-45, 103, 32, "assets/sede2.png")
 		
 		local Dinheiro = getPlayerMoney(localPlayer)
-		local Banco = getElementData(localPlayer, "bank.rus") or "0"
+		local Banco = getElementData(localPlayer, "Bank:Caixa") or "0"
 		local Emprego = getElementData(localPlayer, "Emprego") or "DESEMPREGADO"
 		
 		dxDrawText ((Dinheiro), (screenWidth-72)-95-posX, posY+9, screenWidth, screenHeight, tocolor ( 255, 255, 255, 255 ), 1, MONEYFONT)
