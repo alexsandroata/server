@@ -466,3 +466,6 @@
 [2023-09-26 11:13:08] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
 [2023-09-26 11:13:10] INFO: O servidor não tem nenhum script autorizado. error
 [2023-09-26 11:13:10] Stopping n3xt_inventario
+[2023-09-26 11:16:14] Server stopped!
+[2023-09-26 11:16:14] Stopping resources.................
+[2023-09-26 11:16:14] Closing SQLite3 database
