@@ -1,0 +1,4 @@
+<meta>
+	<info author="BR DanielGamer" version="1" name="save_system" type="script" description="Curso - Criando servidor de MTA do zero" />
+	<script src="server.lua" type="server" />
+</meta>

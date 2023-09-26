@@ -30,3 +30,84 @@
 [2023-09-26 08:49:21] Server stopped!
 [2023-09-26 08:49:21] Stopping resources.........................
 [2023-09-26 08:49:21] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.6
+==================================================================
+= Server name      : Tandera Roleplay
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : .. 1.6/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Quality [4];  Sample Rate: [16000Hz]
+= Bandwidth saving : Medium
+==================================================================
+[2023-09-26 09:09:03] Compacting accounts database 'internal.db' ...
+[2023-09-26 09:09:03] Resources: 195 loaded, 0 failed
+[2023-09-26 09:09:03] Compacting database 'registry.db' ...
+[2023-09-26 09:09:03] Starting resources...
+[2023-09-26 09:09:03] Server minclientversion is now 1.6.0-9.21923.0
+[2023-09-26 09:09:04] Gamemode 'play' started.
+[2023-09-26 09:09:04] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2023-09-26 09:09:04] WARNING: <owner_email_address> not set
+[2023-09-26 09:09:04] Server started and is ready to accept connections!
+[2023-09-26 09:09:04] To stop the server, type 'shutdown' or press Ctrl-C
+[2023-09-26 09:09:04] Type 'help' for a list of commands.
+[2023-09-26 09:09:04] Querying MTA master server... success! (Auto detected IP:201.88.246.190)
+[2023-09-26 09:09:38] CONNECT: ParchedOperative30 connected (IP: 192.168.100.71  Serial: CE124527A04FCA00EB44E51B3EBFEFE3  Version: 1.6.0-9.22215.0)
+[2023-09-26 09:09:38] JOIN: ParchedOperative30 joined the game (IP: 192.168.100.71)
+[2023-09-26 09:11:35] QUIT: ParchedOperative30 left the game [Quit] 
+[2023-09-26 09:11:56] CONNECT: +Alexsandro connected (IP: 192.168.100.71  Serial: CE124527A04FCA00EB44E51B3EBFEFE3  Version: 1.6.0-9.22215.0)
+[2023-09-26 09:11:56] JOIN: +Alexsandro joined the game (IP: 192.168.100.71)
+[2023-09-26 09:15:19] ACCOUNTS: +Alexsandro registered account '+Alexsandro' (IP: 192.168.100.71  Serial: CE124527A04FCA00EB44E51B3EBFEFE3)
+[2023-09-26 09:15:33] LOGIN: (Everyone, Console) +Alexsandro successfully logged in as '+Alexsandro' (IP: 192.168.100.71  Serial: CE124527A04FCA00EB44E51B3EBFEFE3)
+[2023-09-26 09:15:59] Stopping play
+[2023-09-26 09:15:59] Stopping freeroam
+[2023-09-26 09:15:59] Stopping playerblips
+[2023-09-26 09:15:59] Starting fallout
+[2023-09-26 09:15:59] Starting freecam
+[2023-09-26 09:15:59] Gamemode 'Fallout' started.
+[2023-09-26 09:15:59] startResource: Resource 'fallout' started
+[2023-09-26 09:16:55] Stopping fallout
+[2023-09-26 09:16:55] Stopping freecam
+[2023-09-26 09:16:55] Starting deathmatch
+[2023-09-26 09:16:55] Starting killmessages
+[2023-09-26 09:16:55] Starting deathpickups
+[2023-09-26 09:16:55] Starting missiontimer
+[2023-09-26 09:16:55] Gamemode 'Deathmatch' started.
+[2023-09-26 09:16:55] startResource: Resource 'deathmatch' started
+[2023-09-26 09:16:55] Starting dm-arena1
+[2023-09-26 09:16:55] Map 'dm-arena1' started.
+[2023-09-26 09:16:55] startResource: Resource 'dm-arena1' started
+[2023-09-26 09:18:59] Stopping deathmatch
+[2023-09-26 09:18:59] Stopping killmessages
+[2023-09-26 09:18:59] Stopping deathpickups
+[2023-09-26 09:18:59] Stopping missiontimer
+[2023-09-26 09:18:59] Stopping dm-arena1
+[2023-09-26 09:18:59] Starting race
+[2023-09-26 09:18:59] Starting killmessages
+[2023-09-26 09:18:59] INFO: Race resource starting
+[2023-09-26 09:18:59] Starting race_toptimes
+[2023-09-26 09:18:59] startResource: Resource 'race_toptimes' started
+[2023-09-26 09:18:59] Starting race_traffic_sensor
+[2023-09-26 09:18:59] startResource: Resource 'race_traffic_sensor' started
+[2023-09-26 09:18:59] INFO: Race onGamemodeStart
+[2023-09-26 09:18:59] Gamemode 'Race' started.
+[2023-09-26 09:18:59] startResource: Resource 'race' started
+[2023-09-26 09:18:59] Starting race-lsairport
+[2023-09-26 09:18:59] INFO: onGamemodeMapStart(race-lsairport)
+[2023-09-26 09:18:59] Map 'LS Airport' started.
+[2023-09-26 09:18:59] startResource: Resource 'race-lsairport' started
+[2023-09-26 09:18:59] INFO: Loaded race mode Sprint
+[2023-09-26 09:21:43] Stopping race
+[2023-09-26 09:21:43] INFO: Resource stopping
+[2023-09-26 09:21:43] Stopping killmessages
+[2023-09-26 09:21:43] Stopping race_toptimes
+[2023-09-26 09:21:43] Stopping race_traffic_sensor
+[2023-09-26 09:21:43] Stopping race-lsairport
+[2023-09-26 09:21:43] Starting play
+[2023-09-26 09:21:43] Starting freeroam
+[2023-09-26 09:21:43] Starting playerblips
+[2023-09-26 09:21:43] Gamemode 'play' started.
+[2023-09-26 09:21:43] startResource: Resource 'play' started
