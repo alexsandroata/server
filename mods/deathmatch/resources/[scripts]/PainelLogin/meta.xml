@@ -1,0 +1,15 @@
+<meta>
+    <info author="Banex" version="1.0" type="script" description="Login Panel"/>
+	
+	<script src="server/main.lua" type="server" />
+	<script src="client/main.lua" type="client" />
+	
+	<file src="gfx/sans-pro-regular.ttf" />
+	
+	<file src="gfx/wallpaper.png" />
+	<file src="gfx/logo.png" />
+	<file src="gfx/user.png" />
+	<file src="gfx/pass.png" />
+	
+	<file src="sfx/music.mp3" />
+</meta>

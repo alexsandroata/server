@@ -1,0 +1,37 @@
+<meta>
+    <oop>true</oop>	
+    <info author="jwao" version="release" name="infobox bgr/rjrp" description="Infobox igual do BGR/RJRP" type="script" />
+	
+    <script src="client.luac" type="client" cache="false"></script>
+    <script src="server.lua" type="server" cache="false"></script>
+    <script src="shared.lua" type="client" cache="false"></script>
+
+    <file src="files/Roboto.ttf"></file>
+    <file src="files/RobotoB.ttf"></file>
+
+    <file src="files/notificationIcons/warning.png"></file>
+    <file src="files/notificationIcons/error.png"></file>
+    <file src="files/notificationIcons/info.png"></file>
+    <file src="files/notificationIcons/success.png"></file>
+    <file src="files/notificationIcons/adminduty.png"></file>
+    <file src="files/notificationIcons/buy.png"></file>
+    <file src="files/notificationIcons/download.png"></file>
+    <file src="files/notificationIcons/network.png"></file>
+    <file src="files/notificationIcons/noperm.png"></file>
+    <file src="files/notificationIcons/system.png"></file>
+
+    <file src="files/sounds/warning.mp3"></file>
+    <file src="files/sounds/info.mp3"></file>
+    <file src="files/sounds/success.mp3"></file>
+    <file src="files/sounds/error.wav"></file>
+    <file src="files/sounds/adminduty.mp3"></file>
+    <file src="files/sounds/e.mp3"></file>
+    <file src="files/sounds/i.mp3"></file>
+    <file src="files/sounds/w.mp3"></file>
+    <file src="files/sounds/s.mp3"></file>
+    <file src="files/sounds/s.wav"></file>
+
+    <export function="addBox" type="shared"></export>
+    <export function="updateBoxDetails" type="client"></export>
+    <export function="getServerColor" type="shared"></export>
+</meta>

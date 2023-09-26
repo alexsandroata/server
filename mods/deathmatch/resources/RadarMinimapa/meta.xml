@@ -1,0 +1,163 @@
+<meta>
+    <info author="ImString" type="script" name="[MST]Radar" />
+    
+    <!-- OOP Functions -->
+    <oop>true</oop>
+    <script src="quebreimofacilkkk.lua"/>
+    <script src="SrQuebradinhaNoTopo.lua" type="client" cache="false"/>
+    
+    <!-- Config-->
+    <script src="resources/config.lua" type="shared" cache="false" />
+    
+    <!-- API -->
+    <script src="me/stringdev/mstradar/utils/UtilsFunction.mst" type="client" cache="false" />
+    <script src="me/stringdev/mstradar/api/Async.mst" type="shared" cache="false" />
+    <script src="me/stringdev/mstradar/api/ClientUtil.mst" type="client" cache="false" />
+    
+    <!-- Server -->
+    <script src="me/stringdev/mstradar/server/ServerManager.mst" type="server" />
+    
+    <!-- Client -->
+    <script src="me/stringdev/mstradar/client/ClientManager.mst" type="client" cache="false" />
+    <script src="me/stringdev/mstradar/client/GPSManager.mst" type="client" cache="false" />
+    <script src="me/stringdev/mstradar/client/RadarManager.mst" type="client" cache="false" />
+    
+    <!-- Util -->
+    <script src="me/stringdev/mstradar/utils/VehicleNodes.mst" type="client" cache="false" />
+    
+    <!-- Main -->
+    <script src="me/stringdev/mstradar/Main.mst" type="server" />
+    
+    <!-- Sons -->
+    <file src="me/stringdev/mstradar/assets/sounds/metros.mpeg" />
+    <file src="me/stringdev/mstradar/assets/sounds/rota-marcada.mpeg" />
+    <file src="me/stringdev/mstradar/assets/sounds/direita.mpeg" />
+    <file src="me/stringdev/mstradar/assets/sounds/escolha-outra.mpeg" />
+    <file src="me/stringdev/mstradar/assets/sounds/perdemos-a-conexao.mpeg" />
+    <file src="me/stringdev/mstradar/assets/sounds/volte.mpeg" />
+    <file src="me/stringdev/mstradar/assets/sounds/50.mpeg" />
+    <file src="me/stringdev/mstradar/assets/sounds/200.mpeg" />
+    <file src="me/stringdev/mstradar/assets/sounds/500.mpeg" />
+    <file src="me/stringdev/mstradar/assets/sounds/1000.mpeg" />
+    <file src="me/stringdev/mstradar/assets/sounds/em.mpeg" />
+    <file src="me/stringdev/mstradar/assets/sounds/e.mpeg" />
+    <file src="me/stringdev/mstradar/assets/sounds/esquerda.mpeg" />
+    <file src="me/stringdev/mstradar/assets/sounds/moneychange.mp3" />
+    <file src="me/stringdev/mstradar/assets/sounds/hello.mpeg" />
+    <file src="me/stringdev/mstradar/assets/sounds/continue.mpeg" />
+    <file src="me/stringdev/mstradar/assets/sounds/reconectando.mpeg" />
+    <file src="me/stringdev/mstradar/assets/sounds/finish.mpeg" />
+    <file src="me/stringdev/mstradar/assets/sounds/proximo.mpeg" />
+    <file src="me/stringdev/mstradar/assets/sounds/f11radaropen.ogg" />
+    <file src="me/stringdev/mstradar/assets/sounds/f11radarclose.ogg" />
+    <file src="me/stringdev/mstradar/assets/sounds/ding.mp3" />
+    
+    <!-- Fonts -->
+    <file src="me/stringdev/mstradar/assets/fonts/black.ttf" />
+    <file src="me/stringdev/mstradar/assets/fonts/bold.ttf" />
+    <file src="me/stringdev/mstradar/assets/fonts/extrabold.ttf" />
+    <file src="me/stringdev/mstradar/assets/fonts/light.ttf" />
+    <file src="me/stringdev/mstradar/assets/fonts/medium.ttf" />
+    <file src="me/stringdev/mstradar/assets/fonts/regular.ttf" />
+    <file src="me/stringdev/mstradar/assets/fonts/semibold.ttf" />
+    
+    <!-- Shader -->
+    <file src="me/stringdev/mstradar/assets/shader/shader.fx" />
+    
+    <!-- Images -->
+    <file src="me/stringdev/mstradar/assets/images/mask_big.png" />
+    <file src="me/stringdev/mstradar/assets/images/mask_mini.png" />
+    <file src="me/stringdev/mstradar/assets/images/arrow.png" />
+    <file src="me/stringdev/mstradar/assets/images/cross.png" />
+    <file src="me/stringdev/mstradar/assets/images/radar.jpg" />
+    <file src="me/stringdev/mstradar/assets/images/radar_night.jpg" />
+    <file src="me/stringdev/mstradar/assets/images/gps/forward.png" />
+    <file src="me/stringdev/mstradar/assets/images/gps/right.png" />
+    <file src="me/stringdev/mstradar/assets/images/gps/end.png" />
+    <file src="me/stringdev/mstradar/assets/images/gps/around.png" />
+    <file src="me/stringdev/mstradar/assets/images/gps/dot.png" />
+    <file src="me/stringdev/mstradar/assets/images/gps/refresh.png" />
+    <file src="me/stringdev/mstradar/assets/images/gps/left.png" />
+    
+    <!-- Blips -->
+    <file src="me/stringdev/mstradar/assets/blips/0.png" />
+    <file src="me/stringdev/mstradar/assets/blips/1.png" />
+    <file src="me/stringdev/mstradar/assets/blips/2.png" />
+    <file src="me/stringdev/mstradar/assets/blips/3.png" />
+    <file src="me/stringdev/mstradar/assets/blips/4.png" />
+    <file src="me/stringdev/mstradar/assets/blips/5.png" />
+    <file src="me/stringdev/mstradar/assets/blips/6.png" />
+    <file src="me/stringdev/mstradar/assets/blips/7.png" />
+    <file src="me/stringdev/mstradar/assets/blips/8.png" />
+    <file src="me/stringdev/mstradar/assets/blips/9.png" />
+    <file src="me/stringdev/mstradar/assets/blips/10.png" />
+    <file src="me/stringdev/mstradar/assets/blips/11.png" />
+    <file src="me/stringdev/mstradar/assets/blips/12.png" />
+    <file src="me/stringdev/mstradar/assets/blips/13.png" />
+    <file src="me/stringdev/mstradar/assets/blips/14.png" />
+    <file src="me/stringdev/mstradar/assets/blips/15.png" />
+    <file src="me/stringdev/mstradar/assets/blips/16.png" />
+    <file src="me/stringdev/mstradar/assets/blips/17.png" />
+    <file src="me/stringdev/mstradar/assets/blips/18.png" />
+    <file src="me/stringdev/mstradar/assets/blips/19.png" />
+    <file src="me/stringdev/mstradar/assets/blips/20.png" />
+    <file src="me/stringdev/mstradar/assets/blips/21.png" />
+    <file src="me/stringdev/mstradar/assets/blips/22.png" />
+    <file src="me/stringdev/mstradar/assets/blips/23.png" />
+    <file src="me/stringdev/mstradar/assets/blips/24.png" />
+    <file src="me/stringdev/mstradar/assets/blips/25.png" />
+    <file src="me/stringdev/mstradar/assets/blips/26.png" />
+    <file src="me/stringdev/mstradar/assets/blips/27.png" />
+    <file src="me/stringdev/mstradar/assets/blips/28.png" />
+    <file src="me/stringdev/mstradar/assets/blips/29.png" />
+    <file src="me/stringdev/mstradar/assets/blips/30.png" />
+    <file src="me/stringdev/mstradar/assets/blips/31.png" />
+    <file src="me/stringdev/mstradar/assets/blips/32.png" />
+    <file src="me/stringdev/mstradar/assets/blips/33.png" />
+    <file src="me/stringdev/mstradar/assets/blips/34.png" />
+    <file src="me/stringdev/mstradar/assets/blips/35.png" />
+    <file src="me/stringdev/mstradar/assets/blips/36.png" />
+    <file src="me/stringdev/mstradar/assets/blips/37.png" />
+    <file src="me/stringdev/mstradar/assets/blips/38.png" />
+    <file src="me/stringdev/mstradar/assets/blips/39.png" />
+    <file src="me/stringdev/mstradar/assets/blips/40.png" />
+    <file src="me/stringdev/mstradar/assets/blips/41.png" />
+    <file src="me/stringdev/mstradar/assets/blips/42.png" />
+    <file src="me/stringdev/mstradar/assets/blips/43.png" />
+    <file src="me/stringdev/mstradar/assets/blips/44.png" />
+    <file src="me/stringdev/mstradar/assets/blips/45.png" />
+    <file src="me/stringdev/mstradar/assets/blips/46.png" />
+    <file src="me/stringdev/mstradar/assets/blips/47.png" />
+    <file src="me/stringdev/mstradar/assets/blips/48.png" />
+    <file src="me/stringdev/mstradar/assets/blips/49.png" />
+    <file src="me/stringdev/mstradar/assets/blips/50.png" />
+    <file src="me/stringdev/mstradar/assets/blips/51.png" />
+    <file src="me/stringdev/mstradar/assets/blips/52.png" />
+    <file src="me/stringdev/mstradar/assets/blips/53.png" />
+    <file src="me/stringdev/mstradar/assets/blips/54.png" />
+    <file src="me/stringdev/mstradar/assets/blips/55.png" />
+    <file src="me/stringdev/mstradar/assets/blips/56.png" />
+    <file src="me/stringdev/mstradar/assets/blips/57.png" />
+    <file src="me/stringdev/mstradar/assets/blips/58.png" />
+    <file src="me/stringdev/mstradar/assets/blips/59.png" />
+    <file src="me/stringdev/mstradar/assets/blips/60.png" />
+    <file src="me/stringdev/mstradar/assets/blips/61.png" />
+    <file src="me/stringdev/mstradar/assets/blips/62.png" />
+    <file src="me/stringdev/mstradar/assets/blips/63.png" />
+    <file src="me/stringdev/mstradar/assets/blips/conce.png" />
+    <file src="me/stringdev/mstradar/assets/blips/delegacia.png" />
+    <file src="me/stringdev/mstradar/assets/blips/gasosa.png" />
+    <file src="me/stringdev/mstradar/assets/blips/hospital.png" />
+    <file src="me/stringdev/mstradar/assets/blips/icon.png" />
+    <file src="me/stringdev/mstradar/assets/blips/markblip.png" />
+    <file src="me/stringdev/mstradar/assets/blips/markblip2.png" />
+    <file src="me/stringdev/mstradar/assets/blips/target.png" />
+    
+    <!-- Export's Functions -->
+    <export type="client" function="dxDrawRadar" />
+    <export type="client" function="createCustomBlip" />
+    <export type="shared" function="setGPSDestination" />
+    
+    <!-- Ant Warning's -->
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728" />
+</meta>

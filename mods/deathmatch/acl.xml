@@ -20,9 +20,7 @@
         <acl name="SuperModerator"></acl>
         <acl name="Admin"></acl>
         <acl name="RPC"></acl>
-        <object name="resource.admin"></object>
-        <object name="resource.webadmin"></object>
-        <object name="resource.acpanel"></object>
+        <object name="resource.*"></object>
     </group>
     <group name="Console">
         <acl name="Moderator"></acl>
