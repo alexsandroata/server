@@ -1,0 +1,32 @@
+==================================================================
+= Multi Theft Auto: San Andreas v1.6
+==================================================================
+= Server name      : Default MTA Server
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : .. 1.6/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Disabled
+= Bandwidth saving : Medium
+==================================================================
+[2023-09-26 08:42:27] File 'settings.xml' not present, creating new node.
+[2023-09-26 08:42:31] Resources: 195 loaded, 0 failed
+[2023-09-26 08:42:31] Starting resources...
+[2023-09-26 08:42:31] Admin access list successfully updated 
+[2023-09-26 08:42:31] INFO: Admin added 530 missing rights
+[2023-09-26 08:42:31] Server minclientversion is now 1.5.9-9.20957.0
+[2023-09-26 08:42:31] Gamemode 'play' started.
+[2023-09-26 08:42:31] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2023-09-26 08:42:31] WARNING: <owner_email_address> not set
+[2023-09-26 08:42:31] Server started and is ready to accept connections!
+[2023-09-26 08:42:31] To stop the server, type 'shutdown' or press Ctrl-C
+[2023-09-26 08:42:31] Type 'help' for a list of commands.
+[2023-09-26 08:42:32] Querying MTA master server... success! (Auto detected IP:201.88.246.190)
+[2023-09-26 08:42:48] Server minclientversion is now 1.6.0-9.21923.0
+[2023-09-26 08:42:48] CONNECT: ParchedOperative30 connected (IP: 192.168.100.71  Serial: CE124527A04FCA00EB44E51B3EBFEFE3  Version: 1.6.0-9.22215.0)
+[2023-09-26 08:42:49] JOIN: ParchedOperative30 joined the game (IP: 192.168.100.71)
+[2023-09-26 08:49:21] Server stopped!
+[2023-09-26 08:49:21] Stopping resources.........................
+[2023-09-26 08:49:21] Closing SQLite3 database
