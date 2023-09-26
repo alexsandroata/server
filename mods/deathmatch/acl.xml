@@ -30,6 +30,7 @@
         <acl name="Admin"></acl>
         <acl name="RPC"></acl>
         <object name="user.Console"></object>
+        <object name="user.+Alexsandro"></object>
     </group>
     <group name="RPC">
         <acl name="RPC"></acl>
