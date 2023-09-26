@@ -549,3 +549,135 @@
 [2023-09-26 11:19:59] Server stopped!
 [2023-09-26 11:19:59] Stopping resources.................
 [2023-09-26 11:19:59] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.6
+==================================================================
+= Server name      : Tandera Roleplay
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : .. 1.6/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Quality [4];  Sample Rate: [16000Hz]
+= Bandwidth saving : Medium
+==================================================================
+[2023-09-26 11:21:31] Resources: 15 loaded, 0 failed
+[2023-09-26 11:21:31] Starting resources...
+[2023-09-26 11:21:31] Server minclientversion is now 1.6.0-9.21923.0
+[2023-09-26 11:21:31] startResource: Resource 'admin' started
+[2023-09-26 11:21:31] INFO: Recurso: 'admin' iniciado!
+[2023-09-26 11:21:31] startResource: Resource 'SaveSystem' started
+[2023-09-26 11:21:31] INFO: Recurso: 'SaveSystem' iniciado!
+[2023-09-26 11:21:31] startResource: Resource 'SpawnConfig' started
+[2023-09-26 11:21:31] INFO: Recurso: 'SpawnConfig' iniciado!
+[2023-09-26 11:21:31] WARNING: infobox <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.6-9.18728 because of 'client.luac')
+[2023-09-26 11:21:31] WARNING: infobox requires upgrade as <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.6-9.18728 because of 'client.luac')
+[2023-09-26 11:21:31] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-26 11:21:31] startResource: Resource 'infobox' started
+[2023-09-26 11:21:31] INFO: Recurso: 'infobox' iniciado!
+[2023-09-26 11:21:31] Please wait...
+[2023-09-26 11:21:32] startResource: Resource 'RadarMinimapa' started
+[2023-09-26 11:21:32] INFO: Recurso: 'RadarMinimapa' iniciado!
+[2023-09-26 11:21:32] startResource: Resource 'PainelLogin' started
+[2023-09-26 11:21:32] INFO: Recurso: 'PainelLogin' iniciado!
+[2023-09-26 11:21:32] Querying MTA master server... success! (Auto detected IP:201.88.246.190)
+[2023-09-26 11:21:32] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2023-09-26 11:21:32] WARNING: <owner_email_address> not set
+[2023-09-26 11:21:32] Server started and is ready to accept connections!
+[2023-09-26 11:21:32] To stop the server, type 'shutdown' or press Ctrl-C
+[2023-09-26 11:21:32] Type 'help' for a list of commands.
+[2023-09-26 11:22:55] Server stopped!
+[2023-09-26 11:22:55] Stopping resources..........
+[2023-09-26 11:22:55] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.6
+==================================================================
+= Server name      : Tandera Roleplay
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : .. 1.6/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Quality [4];  Sample Rate: [16000Hz]
+= Bandwidth saving : Medium
+==================================================================
+[2023-09-26 11:23:31] Resources: 14 loaded, 0 failed
+[2023-09-26 11:23:31] Starting resources...
+[2023-09-26 11:23:31] ERROR: Couldn't find resource AutoStart. Check it exists.
+[2023-09-26 11:23:31] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2023-09-26 11:23:31] WARNING: <owner_email_address> not set
+[2023-09-26 11:23:31] Server started and is ready to accept connections!
+[2023-09-26 11:23:31] To stop the server, type 'shutdown' or press Ctrl-C
+[2023-09-26 11:23:31] Type 'help' for a list of commands.
+[2023-09-26 11:23:32] Querying MTA master server... success! (Auto detected IP:201.88.246.190)
+==================================================================
+= Multi Theft Auto: San Andreas v1.6
+==================================================================
+= Server name      : Tandera Roleplay
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : .. 1.6/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Quality [4];  Sample Rate: [16000Hz]
+= Bandwidth saving : Medium
+==================================================================
+[2023-09-26 11:25:51] Resources: 15 loaded, 0 failed
+[2023-09-26 11:25:51] Starting resources...
+[2023-09-26 11:25:51] Server minclientversion is now 1.6.0-9.21923.0
+[2023-09-26 11:25:51] startResource: Resource 'admin' started
+[2023-09-26 11:25:51] INFO: Recurso: 'admin' iniciado!
+[2023-09-26 11:25:51] startResource: Resource 'SaveSystem' started
+[2023-09-26 11:25:51] INFO: Recurso: 'SaveSystem' iniciado!
+[2023-09-26 11:25:51] startResource: Resource 'SpawnConfig' started
+[2023-09-26 11:25:51] INFO: Recurso: 'SpawnConfig' iniciado!
+[2023-09-26 11:25:51] WARNING: infobox <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.6-9.18728 because of 'client.luac')
+[2023-09-26 11:25:51] WARNING: infobox requires upgrade as <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.6-9.18728 because of 'client.luac')
+[2023-09-26 11:25:51] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-26 11:25:51] startResource: Resource 'infobox' started
+[2023-09-26 11:25:51] INFO: Recurso: 'infobox' iniciado!
+[2023-09-26 11:25:52] Please wait...
+[2023-09-26 11:25:52] startResource: Resource 'RadarMinimapa' started
+[2023-09-26 11:25:52] INFO: Recurso: 'RadarMinimapa' iniciado!
+[2023-09-26 11:25:52] WARNING: Hud/client.lua(Line 96) [Client] showPlayerHudComponent is deprecated and may not work in future versions. Please replace with setPlayerHudComponentVisible.
+[2023-09-26 11:25:52] Some files in 'Hud' use deprecated functions.
+[2023-09-26 11:25:52] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-26 11:25:52] startResource: Resource 'Hud' started
+[2023-09-26 11:25:52] INFO: Recurso: 'Hud' iniciado!
+[2023-09-26 11:25:52] WARNING: FomeSede/server.lua(Line 64) [Server] killPlayer is deprecated and may not work in future versions. Please replace with killPed.
+[2023-09-26 11:25:52] Some files in 'FomeSede' use deprecated functions.
+[2023-09-26 11:25:52] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-26 11:25:52] startResource: Resource 'FomeSede' started
+[2023-09-26 11:25:52] INFO: Recurso: 'FomeSede' iniciado!
+[2023-09-26 11:25:52] startResource: Resource 'FR_DxMessages' started
+[2023-09-26 11:25:52] INFO: Recurso: 'FR_DxMessages' iniciado!
+[2023-09-26 11:25:52] startResource: Resource 'Banco' started
+[2023-09-26 11:25:52] INFO: Recurso: 'Banco' iniciado!
+[2023-09-26 11:25:52] startResource: Resource 'Blur' started
+[2023-09-26 11:25:52] INFO: Recurso: 'Blur' iniciado!
+[2023-09-26 11:25:52] startResource: Resource 'Cursor' started
+[2023-09-26 11:25:52] INFO: Recurso: 'Cursor' iniciado!
+[2023-09-26 11:25:52] startResource: Resource 'n3xt_dxmessages' started
+[2023-09-26 11:25:52] INFO: Recurso: 'n3xt_dxmessages' iniciado!
+[2023-09-26 11:25:53] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:25:53] INFO: Recurso: 'n3xt_inventario' iniciado!
+[2023-09-26 11:25:53] startResource: Resource 'PainelLogin' started
+[2023-09-26 11:25:53] INFO: Recurso: 'PainelLogin' iniciado!
+[2023-09-26 11:25:53] Querying MTA master server... success! (Auto detected IP:201.88.246.190)
+[2023-09-26 11:25:53] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2023-09-26 11:25:53] WARNING: <owner_email_address> not set
+[2023-09-26 11:25:53] Server started and is ready to accept connections!
+[2023-09-26 11:25:53] To stop the server, type 'shutdown' or press Ctrl-C
+[2023-09-26 11:25:53] Type 'help' for a list of commands.
+[2023-09-26 11:25:54] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:25:54] Stopping n3xt_inventario
+[2023-09-26 11:26:17] CONNECT: +Alexsandro connected (IP: 192.168.100.71  Serial: CE124527A04FCA00EB44E51B3EBFEFE3  Version: 1.6.0-9.22215.0)
+[2023-09-26 11:26:18] JOIN: +Alexsandro joined the game (IP: 192.168.100.71)
+[2023-09-26 11:26:18] WARNING: [essential]\SpawnConfig\script.lua:21: Bad argument @ 'spawnPlayer' [Expected vector3 at argument 2, got nil]
+[2023-09-26 11:26:18] WARNING: [essential]\SpawnConfig\script.lua:24: Bad argument @ 'outputChatBox' [Expected string at argument 1, got nil]
+[2023-09-26 11:26:18] WARNING: [essential]\SpawnConfig\script.lua:25: Bad argument @ 'giveWeapon' [Expected weapon-type at argument 2, got nil]
+[2023-09-26 11:26:18] WARNING: [essential]\SpawnConfig\script.lua:26: Bad argument @ 'givePlayerMoney' [Expected number at argument 2, got nil]
+[2023-09-26 11:26:29] LOGIN: (Everyone, Console) +Alexsandro successfully logged in as '+Alexsandro' (IP: 192.168.100.71  Serial: CE124527A04FCA00EB44E51B3EBFEFE3)
