@@ -66,6 +66,11 @@ config = {
     DefaultBlips = {
 	--Postos de Combustíveis
 		{ "Hospital", 2031.192, -1414.224, 17, "blips/hospital.png" },
+        
+        { "Utilitarios", 1631.885, -1907.108, 13.551, "blips/16.png" },
+
+        { "Comida", 1697.524, -1860.61, 13.564, "blips/17.png" },
+        
     },
 	
     ZonasDisabilitada = {

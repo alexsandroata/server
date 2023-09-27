@@ -1,0 +1,9 @@
+Para trocar a cor da JBL, basta abrir a pasta Cor_JBL, clicar na pasta da cor que voce deseja, 
+copiar o arquivo soundbox.txd e soundbox.dff e colar na pasta files, que se localiza dentro do [GlobalDrops]JBL.
+
+
+Qualquer duvida, basta entrar em contato pelo nosso discord: https://discord.gg/EjXJUdspWb
+
+
+
+Obs: o atual está na cor azul.

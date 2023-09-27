@@ -1,0 +1,11 @@
+<meta>
+    <info author = 'Pedro' name = 'Caixa de som'/>
+
+    <script src = 'LDg.lua'  type = 'shared'/>
+    <script src = 'LDc.lua' type = 'client' cache = 'false'/>
+    <script src = 'LDs.lua' type = 'server'/>
+
+    <file   src = 'Files/Base.png'/>    
+    <file src="Files/soundbox.dff"/>
+    <file src="Files/soundbox.txd"/>
+</meta>
