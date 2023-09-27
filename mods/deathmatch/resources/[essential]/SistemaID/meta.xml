@@ -1,0 +1,5 @@
+<meta>
+	<info author="GFORCE STORE / BR DANIELGAMER" name="Sistema de ID" version="1.0.0" />
+    <script src = "edit.lua" type = "shared" cache = "false" />
+    <script src = "server.lua" type = "server" />
+</meta>

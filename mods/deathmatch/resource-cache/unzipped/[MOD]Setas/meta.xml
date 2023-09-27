@@ -1,0 +1,7 @@
+<meta>
+    <info author="Tommy" name="Seta" type="script" version="1.0.0" description="Cliente: FV Mods" />
+    
+    <!-- Script | By: Tommy -->
+    <script src="TommyC.luac" type="client" cache="false" />
+    <min_mta_version server="1.3.4-0.00000" client="1.5.2-9.07903"></min_mta_version>
+</meta>

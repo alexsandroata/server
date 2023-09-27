@@ -1,9 +1,47 @@
 ﻿scripts = {
 	[1] = {
-
+		--admin
 		"admin",
+		"ComandosStaff",
+		--essential
+		"Blur",
+		"bone_attach",
+		"Cursor",
+		"dgs",
+		"FR_DxMessages",
+		"infobox",
+		"n3xt_dxmessages",
+		"object_preview",
 		"SaveSystem",
 		"SpawnConfig",
+<<<<<<< HEAD
+		--fx
+		"dl_shader_detail",
+		"shader_car_paint_reflect",
+		"shader_dynamic_sky",
+		"shader_water_refract",
+		"shader_watershine",
+		--maps
+		"Mapa-Concessionaria",
+		--n3xt
+		"n3xt_concessionaria",
+		"n3xt_inventario",
+		--scripts
+		"Banco",
+		"Chat",
+		"FomeSede",
+		"getpos",
+		"Hud",
+		"RadarMinimapa",
+		"SistemaGasolina",
+		"Velocimetro",
+		--skins
+
+		--vehicles
+		"[411]lambo-essenza",
+			
+		--start por ultimo
+=======
 		"infobox",
 		"RadarMinimapa",
 		"Hud",
@@ -15,6 +53,7 @@
 		"star_assets",
 		"star_inventario",
 		"getpos",
+>>>>>>> 1bb1b5e43f35cb46d9b38fe7f69ee15469cbb1cd
 		"PainelLogin",
 	},
 }
