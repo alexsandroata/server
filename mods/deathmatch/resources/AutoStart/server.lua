@@ -51,6 +51,14 @@
 		"star_assets",
 		"star_inventario",
 		"getpos",
+
+		"bone_attach",
+		"dgs",
+		"Mapa-Concessionaria",
+		"n3xt_dxmessages",
+		"object_preview",
+		"n3xt_concessionaria",
+
 		"PainelLogin",
 	},
 }

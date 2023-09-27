@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 ﻿IP = "181.215.254.166:22003" -- Coloque o IP que aparece no /debugscript 3
+=======
+﻿IP = "127.0.0.1:22003" -- Coloque o IP que aparece no /debugscript 3
+>>>>>>> Stashed changes
 
 -- Anuncio de Pollo MTA = Depois de ter colocado o ip e a porta do seu servidor escreva o comando /debugscript 3
 -- Depois de refresh no F8, abrá o painel P da um refresh list depois da um restart nos mods do N3xT.
@@ -27,8 +31,11 @@ config = {
         shop = {
             [5] = { -- Quatro Rodas | nome, valor, id, estoque inicial (pela primeira vez), foto (carregar também no meta.xml).
                 {nome="Nissan GTR", valor=990000, id=480, estoque=1000, foto="veiculos/NissanGTR.jpg"},
+<<<<<<< Updated upstream
                 {nome="Stallion", valor=100000, id=438, estoque=1000, foto="veiculos/stallion.png"},
                 {nome="lamborghini essenza", valor=1200000, id=411, estoque=1000, foto="veiculos/411.jpg"},
+=======
+>>>>>>> Stashed changes
             },
 
             [4] = { -- Duas Rodas | nome, valor, id, estoque inicial (pela primeira vez), foto (carregar também no meta.xml).
@@ -69,7 +76,11 @@ config = {
         },
 
         model = { -- ID Veículos que podem ser Desmanchados.
+<<<<<<< Updated upstream
             480, 411,
+=======
+            480,
+>>>>>>> Stashed changes
         },
 
         acl = "Bandido", -- ACL que pode Desmanchar Veículos.
@@ -90,13 +101,21 @@ config = {
         blip = 24, -- ID Blip dos Detrans.
 
         apreender = { -- Apreender Veículos.
+<<<<<<< Updated upstream
             {1828.262, -1682.746, 13.547},
+=======
+            {1585.118, -1677.822, 5.898},
+>>>>>>> Stashed changes
         },
 
         aclapreender = "Policial", -- ACL que pode Apreender Veículos.
 
         apreender2 = { -- Liberar Veículos Apreendidos.
+<<<<<<< Updated upstream
             {1814.822, -1654.962, 13.547},
+=======
+            {1561.694, -1678.289, 16.191},
+>>>>>>> Stashed changes
         },
 
         valorapreender = 15000 -- Valor para Retirar o Veículo Apreendido.

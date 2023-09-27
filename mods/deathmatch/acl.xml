@@ -52,6 +52,7 @@
         <acl name="autoACL_dgs"></acl>
         <object name="resource.dgs"></object>
     </group>
+<<<<<<< Updated upstream
     <group name="Policial"></group>
     <group name="Bandido">
         <object name="user.+Alexsandro"></object>
@@ -62,6 +63,8 @@
     <group name="Gang">
         <object name="user.+Alexsandro"></object>
     </group>
+=======
+>>>>>>> Stashed changes
     <acl name="Default">
         <right name="general.ModifyOtherObjects" access="false"></right>
         <right name="general.http" access="false"></right>
