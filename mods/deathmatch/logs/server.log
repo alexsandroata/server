@@ -1067,3 +1067,392 @@
 [2023-09-26 22:12:03] Type 'help' for a list of commands.
 [2023-09-26 22:12:05] INFO: O servidor não tem nenhum script autorizado. error
 [2023-09-26 22:12:05] Stopping n3xt_inventario
+==================================================================
+= Multi Theft Auto: San Andreas v1.6
+==================================================================
+= Server name      : Tandera Roleplay
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : .. 1.6/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Quality [4];  Sample Rate: [16000Hz]
+= Bandwidth saving : Medium
+==================================================================
+[2023-09-26 22:54:55] ERROR: Not processing resource 'n3xt_inventario' as it has duplicates on different paths:
+                  Path #1: "resources\n3xt_inventario"
+                  Path #2: "resources\[scripts]\n3xt_inventario"
+[2023-09-26 22:54:55] Resources: 14 loaded, 0 failed
+[2023-09-26 22:54:55] Starting resources...
+[2023-09-26 22:54:55] Server minclientversion is now 1.6.0-9.21923.0
+[2023-09-26 22:54:55] startResource: Resource 'admin' started
+[2023-09-26 22:54:55] INFO: Recurso: 'admin' iniciado!
+[2023-09-26 22:54:55] startResource: Resource 'SaveSystem' started
+[2023-09-26 22:54:55] INFO: Recurso: 'SaveSystem' iniciado!
+[2023-09-26 22:54:55] startResource: Resource 'SpawnConfig' started
+[2023-09-26 22:54:55] INFO: Recurso: 'SpawnConfig' iniciado!
+[2023-09-26 22:54:55] WARNING: infobox <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.6-9.18728 because of 'client.luac')
+[2023-09-26 22:54:55] WARNING: infobox requires upgrade as <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.6-9.18728 because of 'client.luac')
+[2023-09-26 22:54:55] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-26 22:54:55] startResource: Resource 'infobox' started
+[2023-09-26 22:54:55] INFO: Recurso: 'infobox' iniciado!
+[2023-09-26 22:54:55] Please wait...
+[2023-09-26 22:54:56] startResource: Resource 'RadarMinimapa' started
+[2023-09-26 22:54:56] INFO: Recurso: 'RadarMinimapa' iniciado!
+[2023-09-26 22:54:56] WARNING: Hud/client.lua(Line 96) [Client] showPlayerHudComponent is deprecated and may not work in future versions. Please replace with setPlayerHudComponentVisible.
+[2023-09-26 22:54:56] Some files in 'Hud' use deprecated functions.
+[2023-09-26 22:54:56] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-26 22:54:56] startResource: Resource 'Hud' started
+[2023-09-26 22:54:56] INFO: Recurso: 'Hud' iniciado!
+[2023-09-26 22:54:56] WARNING: FomeSede/server.lua(Line 64) [Server] killPlayer is deprecated and may not work in future versions. Please replace with killPed.
+[2023-09-26 22:54:56] Some files in 'FomeSede' use deprecated functions.
+[2023-09-26 22:54:56] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-26 22:54:56] startResource: Resource 'FomeSede' started
+[2023-09-26 22:54:56] INFO: Recurso: 'FomeSede' iniciado!
+[2023-09-26 22:54:56] startResource: Resource 'FR_DxMessages' started
+[2023-09-26 22:54:56] INFO: Recurso: 'FR_DxMessages' iniciado!
+[2023-09-26 22:54:56] startResource: Resource 'Banco' started
+[2023-09-26 22:54:56] INFO: Recurso: 'Banco' iniciado!
+[2023-09-26 22:54:56] startResource: Resource 'Blur' started
+[2023-09-26 22:54:56] INFO: Recurso: 'Blur' iniciado!
+[2023-09-26 22:54:56] startResource: Resource 'Cursor' started
+[2023-09-26 22:54:56] INFO: Recurso: 'Cursor' iniciado!
+[2023-09-26 22:54:56] startResource: Resource 'n3xt_dxmessages' started
+[2023-09-26 22:54:56] INFO: Recurso: 'n3xt_dxmessages' iniciado!
+[2023-09-26 22:54:56] INFO: Recurso: 'n3xt_inventario' não encontrado, indo para o próximo...
+[2023-09-26 22:54:56] startResource: Resource 'PainelLogin' started
+[2023-09-26 22:54:56] INFO: Recurso: 'PainelLogin' iniciado!
+[2023-09-26 22:54:56] Querying MTA master server... success! (Auto detected IP:201.41.94.106)
+[2023-09-26 22:54:56] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2023-09-26 22:54:56] WARNING: <owner_email_address> not set
+[2023-09-26 22:54:56] Server started and is ready to accept connections!
+[2023-09-26 22:54:56] To stop the server, type 'shutdown' or press Ctrl-C
+[2023-09-26 22:54:56] Type 'help' for a list of commands.
+[2023-09-26 23:04:14] Server stopped!
+[2023-09-26 23:04:14] Stopping resources.................
+[2023-09-26 23:04:14] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.6
+==================================================================
+= Server name      : Tandera Roleplay
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : .. 1.6/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Quality [4];  Sample Rate: [16000Hz]
+= Bandwidth saving : Medium
+==================================================================
+[2023-09-26 23:04:39] Resources: 17 loaded, 0 failed
+[2023-09-26 23:04:39] Starting resources...
+[2023-09-26 23:04:39] Server minclientversion is now 1.6.0-9.21923.0
+[2023-09-26 23:04:39] startResource: Resource 'admin' started
+[2023-09-26 23:04:39] INFO: Recurso: 'admin' iniciado!
+[2023-09-26 23:04:39] startResource: Resource 'SaveSystem' started
+[2023-09-26 23:04:39] INFO: Recurso: 'SaveSystem' iniciado!
+[2023-09-26 23:04:39] startResource: Resource 'SpawnConfig' started
+[2023-09-26 23:04:39] INFO: Recurso: 'SpawnConfig' iniciado!
+[2023-09-26 23:04:39] WARNING: infobox <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.6-9.18728 because of 'client.luac')
+[2023-09-26 23:04:39] WARNING: infobox requires upgrade as <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.6-9.18728 because of 'client.luac')
+[2023-09-26 23:04:39] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-26 23:04:39] startResource: Resource 'infobox' started
+[2023-09-26 23:04:39] INFO: Recurso: 'infobox' iniciado!
+[2023-09-26 23:04:39] Please wait...
+[2023-09-26 23:04:40] startResource: Resource 'RadarMinimapa' started
+[2023-09-26 23:04:40] INFO: Recurso: 'RadarMinimapa' iniciado!
+[2023-09-26 23:04:40] WARNING: Hud/client.lua(Line 96) [Client] showPlayerHudComponent is deprecated and may not work in future versions. Please replace with setPlayerHudComponentVisible.
+[2023-09-26 23:04:40] Some files in 'Hud' use deprecated functions.
+[2023-09-26 23:04:40] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-26 23:04:40] startResource: Resource 'Hud' started
+[2023-09-26 23:04:40] INFO: Recurso: 'Hud' iniciado!
+[2023-09-26 23:04:40] WARNING: FomeSede/server.lua(Line 64) [Server] killPlayer is deprecated and may not work in future versions. Please replace with killPed.
+[2023-09-26 23:04:40] Some files in 'FomeSede' use deprecated functions.
+[2023-09-26 23:04:40] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-26 23:04:40] startResource: Resource 'FomeSede' started
+[2023-09-26 23:04:40] INFO: Recurso: 'FomeSede' iniciado!
+[2023-09-26 23:04:40] startResource: Resource 'FR_DxMessages' started
+[2023-09-26 23:04:40] INFO: Recurso: 'FR_DxMessages' iniciado!
+[2023-09-26 23:04:40] startResource: Resource 'Banco' started
+[2023-09-26 23:04:40] INFO: Recurso: 'Banco' iniciado!
+[2023-09-26 23:04:40] startResource: Resource 'Blur' started
+[2023-09-26 23:04:40] INFO: Recurso: 'Blur' iniciado!
+[2023-09-26 23:04:40] startResource: Resource 'Cursor' started
+[2023-09-26 23:04:40] INFO: Recurso: 'Cursor' iniciado!
+[2023-09-26 23:04:40] WARNING: File 'assets/images/avatar/2.png' in resource 'star_assets' is invalid.
+[2023-09-26 23:04:40] WARNING: File 'assets/images/avatar/15.png' in resource 'star_assets' is invalid.
+[2023-09-26 23:04:40] WARNING: File 'assets/images/avatar/16.png' in resource 'star_assets' is invalid.
+[2023-09-26 23:04:40] WARNING: File 'assets/images/avatar/18.png' in resource 'star_assets' is invalid.
+[2023-09-26 23:04:40] startResource: Resource 'star_assets' started
+[2023-09-26 23:04:40] INFO: Recurso: 'star_assets' iniciado!
+[2023-09-26 23:04:40] WARNING: star_inventario/assets/source/useitem/inventory-useitem_s.lua(Line 213) [Server] setPlayerArmor is deprecated and may not work in future versions. Please replace with setPedArmor.
+[2023-09-26 23:04:40] Some files in 'star_inventario' use deprecated functions.
+[2023-09-26 23:04:40] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-26 23:04:40] ERROR: star_inventario\inventory-g.lua:1: exports: Call to non-running server resource (bone_attach) [string "?"]
+[2023-09-26 23:04:40] star_inventario: Inventory started.
+[2023-09-26 23:04:40] startResource: Resource 'star_inventario' started
+[2023-09-26 23:04:40] INFO: Recurso: 'star_inventario' iniciado!
+[2023-09-26 23:04:40] startResource: Resource 'PainelLogin' started
+[2023-09-26 23:04:40] INFO: Recurso: 'PainelLogin' iniciado!
+[2023-09-26 23:04:40] Querying MTA master server... success! (Auto detected IP:201.41.94.106)
+[2023-09-26 23:04:40] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2023-09-26 23:04:40] WARNING: <owner_email_address> not set
+[2023-09-26 23:04:40] Server started and is ready to accept connections!
+[2023-09-26 23:04:40] To stop the server, type 'shutdown' or press Ctrl-C
+[2023-09-26 23:04:40] Type 'help' for a list of commands.
+[2023-09-26 23:07:43] CONNECT: +Alexsandro connected (IP: 26.12.181.2  Serial: CE124527A04FCA00EB44E51B3EBFEFE3  Version: 1.6.0-9.22215.0)
+[2023-09-26 23:07:44] JOIN: +Alexsandro joined the game (IP: 26.12.181.2)
+[2023-09-26 23:07:44] WARNING: [essential]\SpawnConfig\script.lua:21: Bad argument @ 'spawnPlayer' [Expected vector3 at argument 2, got nil]
+[2023-09-26 23:07:44] WARNING: [essential]\SpawnConfig\script.lua:24: Bad argument @ 'outputChatBox' [Expected string at argument 1, got nil]
+[2023-09-26 23:07:44] WARNING: [essential]\SpawnConfig\script.lua:25: Bad argument @ 'giveWeapon' [Expected weapon-type at argument 2, got nil]
+[2023-09-26 23:07:44] WARNING: [essential]\SpawnConfig\script.lua:26: Bad argument @ 'givePlayerMoney' [Expected number at argument 2, got nil]
+[2023-09-26 23:08:04] LOGIN: (Everyone, Console) +Alexsandro successfully logged in as '+Alexsandro' (IP: 26.12.181.2  Serial: CE124527A04FCA00EB44E51B3EBFEFE3)
+[2023-09-26 23:10:19] QUIT: +Alexsandro left the game [Quit] 
+[2023-09-26 23:10:23] CONNECT: +Alexsandro connected (IP: 26.12.181.2  Serial: CE124527A04FCA00EB44E51B3EBFEFE3  Version: 1.6.0-9.22215.0)
+[2023-09-26 23:10:23] JOIN: +Alexsandro joined the game (IP: 26.12.181.2)
+[2023-09-26 23:10:23] WARNING: [essential]\SpawnConfig\script.lua:21: Bad argument @ 'spawnPlayer' [Expected vector3 at argument 2, got nil]
+[2023-09-26 23:10:23] WARNING: [essential]\SpawnConfig\script.lua:24: Bad argument @ 'outputChatBox' [Expected string at argument 1, got nil]
+[2023-09-26 23:10:23] WARNING: [essential]\SpawnConfig\script.lua:25: Bad argument @ 'giveWeapon' [Expected weapon-type at argument 2, got nil]
+[2023-09-26 23:10:23] WARNING: [essential]\SpawnConfig\script.lua:26: Bad argument @ 'givePlayerMoney' [Expected number at argument 2, got nil]
+[2023-09-26 23:10:38] LOGIN: (Everyone, Console) +Alexsandro successfully logged in as '+Alexsandro' (IP: 26.12.181.2  Serial: CE124527A04FCA00EB44E51B3EBFEFE3)
+[2023-09-26 23:23:06] ADMIN: Resource 'star_inventario' restarted by +Alexsandro
+[2023-09-26 23:23:06] Stopping star_inventario
+[2023-09-26 23:23:06] Resource 'star_inventario' changed, reloading and starting
+[2023-09-26 23:23:06] WARNING: star_inventario/assets/source/useitem/inventory-useitem_s.lua(Line 213) [Server] setPlayerArmor is deprecated and may not work in future versions. Please replace with setPedArmor.
+[2023-09-26 23:23:06] Some files in 'star_inventario' use deprecated functions.
+[2023-09-26 23:23:06] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-26 23:23:06] Starting star_inventario
+[2023-09-26 23:23:06] ERROR: star_inventario\inventory-g.lua:1: exports: Call to non-running server resource (bone_attach) [string "?"]
+[2023-09-26 23:23:06] star_inventario: Inventory started.
+[2023-09-26 23:23:06] star_inventario restarted successfully
+[2023-09-26 23:24:38] ERROR: star_inventario\assets\source\useitem\inventory-useitem_s.lua:57: exports: Call to non-running server resource ([HS]Radio_Comunicador) [string "?"]
+[2023-09-26 23:24:44] ERROR: star_inventario\assets\source\useitem\inventory-useitem_s.lua:57: exports: Call to non-running server resource ([HS]Radio_Comunicador) [string "?"]  [DUP x8]
+[2023-09-26 23:24:44] ERROR: star_inventario\assets\source\useitem\inventory-useitem_s.lua:57: exports: Call to non-running server resource ([HS]Radio_Comunicador) [string "?"]
+[2023-09-26 23:24:50] ERROR: star_inventario\assets\source\useitem\inventory-useitem_s.lua:57: exports: Call to non-running server resource ([HS]Radio_Comunicador) [string "?"]  [DUP x2]
+[2023-09-26 23:25:45] ADMIN: Resource 'star_inventario' restarted by +Alexsandro
+[2023-09-26 23:25:45] Stopping star_inventario
+[2023-09-26 23:25:45] Resource 'star_inventario' changed, reloading and starting
+[2023-09-26 23:25:45] WARNING: star_inventario/assets/source/useitem/inventory-useitem_s.lua(Line 213) [Server] setPlayerArmor is deprecated and may not work in future versions. Please replace with setPedArmor.
+[2023-09-26 23:25:45] Some files in 'star_inventario' use deprecated functions.
+[2023-09-26 23:25:45] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-26 23:25:45] Starting star_inventario
+[2023-09-26 23:25:45] ERROR: star_inventario\inventory-g.lua:1: exports: Call to non-running server resource (bone_attach) [string "?"]
+[2023-09-26 23:25:45] star_inventario: Inventory started.
+[2023-09-26 23:25:45] star_inventario restarted successfully
+[2023-09-26 23:28:35] ADMIN: +Alexsandro has given +Alexsandro a 'Banshee'" 
+[2023-09-26 23:28:35] ADMIN: +Alexsandro has given +Alexsandro a 'Banshee'" 
+[2023-09-26 23:30:39] ADMIN: Resource 'star_inventario' restarted by +Alexsandro
+[2023-09-26 23:30:39] Stopping star_inventario
+[2023-09-26 23:30:40] Resource 'star_inventario' changed, reloading and starting
+[2023-09-26 23:30:40] WARNING: star_inventario/assets/source/useitem/inventory-useitem_s.lua(Line 213) [Server] setPlayerArmor is deprecated and may not work in future versions. Please replace with setPedArmor.
+[2023-09-26 23:30:40] Some files in 'star_inventario' use deprecated functions.
+[2023-09-26 23:30:40] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-26 23:30:40] Starting star_inventario
+[2023-09-26 23:30:40] ERROR: star_inventario\inventory-g.lua:1: exports: Call to non-running server resource (bone_attach) [string "?"]
+[2023-09-26 23:30:40] star_inventario: Inventory started.
+[2023-09-26 23:30:40] star_inventario restarted successfully
+[2023-09-26 23:38:04] QUIT: +Alexsandro left the game [Quit] 
+[2023-09-26 23:38:17] CONNECT: +Alexsandro connected (IP: 26.12.181.2  Serial: CE124527A04FCA00EB44E51B3EBFEFE3  Version: 1.6.0-9.22215.0)
+[2023-09-26 23:38:17] JOIN: +Alexsandro joined the game (IP: 26.12.181.2)
+[2023-09-26 23:38:17] WARNING: [essential]\SpawnConfig\script.lua:21: Bad argument @ 'spawnPlayer' [Expected vector3 at argument 2, got nil]
+[2023-09-26 23:38:17] WARNING: [essential]\SpawnConfig\script.lua:24: Bad argument @ 'outputChatBox' [Expected string at argument 1, got nil]
+[2023-09-26 23:38:17] WARNING: [essential]\SpawnConfig\script.lua:25: Bad argument @ 'giveWeapon' [Expected weapon-type at argument 2, got nil]
+[2023-09-26 23:38:17] WARNING: [essential]\SpawnConfig\script.lua:26: Bad argument @ 'givePlayerMoney' [Expected number at argument 2, got nil]
+[2023-09-26 23:38:27] LOGIN: (Everyone, Console) +Alexsandro successfully logged in as '+Alexsandro' (IP: 26.12.181.2  Serial: CE124527A04FCA00EB44E51B3EBFEFE3)
+[2023-09-26 23:39:30] ADMIN: Resource 'star_inventario' restarted by +Alexsandro
+[2023-09-26 23:39:30] Stopping star_inventario
+[2023-09-26 23:39:30] Resource 'star_inventario' changed, reloading and starting
+[2023-09-26 23:39:30] WARNING: star_inventario/assets/source/useitem/inventory-useitem_s.lua(Line 213) [Server] setPlayerArmor is deprecated and may not work in future versions. Please replace with setPedArmor.
+[2023-09-26 23:39:30] Some files in 'star_inventario' use deprecated functions.
+[2023-09-26 23:39:30] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-26 23:39:30] Starting star_inventario
+[2023-09-26 23:39:30] ERROR: star_inventario\inventory-g.lua:1: exports: Call to non-running server resource (bone_attach) [string "?"]
+[2023-09-26 23:39:30] star_inventario: Inventory started.
+[2023-09-26 23:39:30] star_inventario restarted successfully
+[2023-09-26 23:39:38] WARNING: star_inventario\assets\source\useitem\inventory-useitem_s.lua:129: Bad argument @ 'getElementData' [Expected string at argument 2, got nil]
+[2023-09-26 23:45:06] ADMIN: Resource 'star_inventario' restarted by +Alexsandro
+[2023-09-26 23:45:06] Stopping star_inventario
+[2023-09-26 23:45:06] Resource 'star_inventario' changed, reloading and starting
+[2023-09-26 23:45:06] WARNING: star_inventario/assets/source/useitem/inventory-useitem_s.lua(Line 213) [Server] setPlayerArmor is deprecated and may not work in future versions. Please replace with setPedArmor.
+[2023-09-26 23:45:06] Some files in 'star_inventario' use deprecated functions.
+[2023-09-26 23:45:06] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-26 23:45:06] Starting star_inventario
+[2023-09-26 23:45:06] ERROR: star_inventario\inventory-g.lua:1: exports: Call to non-running server resource (bone_attach) [string "?"]
+[2023-09-26 23:45:06] star_inventario: Inventory started.
+[2023-09-26 23:45:06] star_inventario restarted successfully
+[2023-09-26 23:47:45] QUIT: +Alexsandro left the game [Quit] 
+[2023-09-26 23:47:49] CONNECT: +Alexsandro connected (IP: 26.12.181.2  Serial: CE124527A04FCA00EB44E51B3EBFEFE3  Version: 1.6.0-9.22215.0)
+[2023-09-26 23:47:49] JOIN: +Alexsandro joined the game (IP: 26.12.181.2)
+[2023-09-26 23:47:49] WARNING: [essential]\SpawnConfig\script.lua:21: Bad argument @ 'spawnPlayer' [Expected vector3 at argument 2, got nil]
+[2023-09-26 23:47:49] WARNING: [essential]\SpawnConfig\script.lua:24: Bad argument @ 'outputChatBox' [Expected string at argument 1, got nil]
+[2023-09-26 23:47:49] WARNING: [essential]\SpawnConfig\script.lua:25: Bad argument @ 'giveWeapon' [Expected weapon-type at argument 2, got nil]
+[2023-09-26 23:47:49] WARNING: [essential]\SpawnConfig\script.lua:26: Bad argument @ 'givePlayerMoney' [Expected number at argument 2, got nil]
+[2023-09-26 23:48:25] QUIT: +Alexsandro left the game [Quit] 
+[2023-09-26 23:48:31] CONNECT: +Alexsandro connected (IP: 26.12.181.2  Serial: CE124527A04FCA00EB44E51B3EBFEFE3  Version: 1.6.0-9.22215.0)
+[2023-09-26 23:48:31] JOIN: +Alexsandro joined the game (IP: 26.12.181.2)
+[2023-09-26 23:48:31] WARNING: [essential]\SpawnConfig\script.lua:21: Bad argument @ 'spawnPlayer' [Expected vector3 at argument 2, got nil]
+[2023-09-26 23:48:31] WARNING: [essential]\SpawnConfig\script.lua:24: Bad argument @ 'outputChatBox' [Expected string at argument 1, got nil]
+[2023-09-26 23:48:31] WARNING: [essential]\SpawnConfig\script.lua:25: Bad argument @ 'giveWeapon' [Expected weapon-type at argument 2, got nil]
+[2023-09-26 23:48:31] WARNING: [essential]\SpawnConfig\script.lua:26: Bad argument @ 'givePlayerMoney' [Expected number at argument 2, got nil]
+[2023-09-26 23:48:48] LOGIN: (Everyone) +Alexsandro successfully logged in as 'joaozin' (IP: 26.12.181.2  Serial: CE124527A04FCA00EB44E51B3EBFEFE3)
+[2023-09-26 23:49:26] QUIT: +Alexsandro left the game [Quit] 
+[2023-09-26 23:49:30] CONNECT: +Alexsandro connected (IP: 26.12.181.2  Serial: CE124527A04FCA00EB44E51B3EBFEFE3  Version: 1.6.0-9.22215.0)
+[2023-09-26 23:49:30] JOIN: +Alexsandro joined the game (IP: 26.12.181.2)
+[2023-09-26 23:49:30] WARNING: [essential]\SpawnConfig\script.lua:21: Bad argument @ 'spawnPlayer' [Expected vector3 at argument 2, got nil]
+[2023-09-26 23:49:36] WARNING: [essential]\SpawnConfig\script.lua:24: Bad argument @ 'outputChatBox' [Expected string at argument 1, got nil]
+[2023-09-26 23:49:36] WARNING: [essential]\SpawnConfig\script.lua:25: Bad argument @ 'giveWeapon' [Expected weapon-type at argument 2, got nil]
+[2023-09-26 23:49:36] WARNING: [essential]\SpawnConfig\script.lua:26: Bad argument @ 'givePlayerMoney' [Expected number at argument 2, got nil]
+[2023-09-26 23:50:32] LOGIN: (Everyone, Console) +Alexsandro successfully logged in as '+Alexsandro' (IP: 26.12.181.2  Serial: CE124527A04FCA00EB44E51B3EBFEFE3)
+[2023-09-26 23:53:20] ADMIN: Resource 'star_inventario' restarted by +Alexsandro
+[2023-09-26 23:53:20] Stopping star_inventario
+[2023-09-26 23:53:20] Resource 'star_inventario' changed, reloading and starting
+[2023-09-26 23:53:20] WARNING: star_inventario/assets/source/useitem/inventory-useitem_s.lua(Line 213) [Server] setPlayerArmor is deprecated and may not work in future versions. Please replace with setPedArmor.
+[2023-09-26 23:53:20] Some files in 'star_inventario' use deprecated functions.
+[2023-09-26 23:53:20] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-26 23:53:20] Starting star_inventario
+[2023-09-26 23:53:20] ERROR: star_inventario\inventory-g.lua:1: exports: Call to non-running server resource (bone_attach) [string "?"]
+[2023-09-26 23:53:20] star_inventario: Inventory started.
+[2023-09-26 23:53:20] star_inventario restarted successfully
+[2023-09-26 23:53:20] ADMIN: Resource 'star_inventario' restarted by +Alexsandro
+[2023-09-26 23:53:20] Stopping star_inventario
+[2023-09-26 23:53:20] Starting star_inventario
+[2023-09-26 23:53:20] star_inventario restarted successfully
+[2023-09-26 23:53:26] ERROR: star_inventario\inventory-g.lua:1: exports: Call to non-running server resource (bone_attach) [string "?"]
+[2023-09-26 23:53:26] star_inventario: Inventory started.
+[2023-09-26 23:54:26] ADMIN: Resource 'star_inventario' restarted by +Alexsandro
+[2023-09-26 23:54:26] Stopping star_inventario
+[2023-09-26 23:54:26] Starting star_inventario
+[2023-09-26 23:54:26] ERROR: star_inventario\inventory-g.lua:1: exports: Call to non-running server resource (bone_attach) [string "?"]
+[2023-09-26 23:54:26] star_inventario: Inventory started.
+[2023-09-26 23:54:26] star_inventario restarted successfully
+[2023-09-26 23:54:32] QUIT: +Alexsandro left the game [Quit] 
+[2023-09-26 23:54:38] CONNECT: +Alexsandro connected (IP: 26.12.181.2  Serial: CE124527A04FCA00EB44E51B3EBFEFE3  Version: 1.6.0-9.22215.0)
+[2023-09-26 23:54:38] JOIN: +Alexsandro joined the game (IP: 26.12.181.2)
+[2023-09-26 23:54:38] WARNING: [essential]\SpawnConfig\script.lua:21: Bad argument @ 'spawnPlayer' [Expected vector3 at argument 2, got nil]
+[2023-09-26 23:54:38] WARNING: [essential]\SpawnConfig\script.lua:24: Bad argument @ 'outputChatBox' [Expected string at argument 1, got nil]
+[2023-09-26 23:54:38] WARNING: [essential]\SpawnConfig\script.lua:25: Bad argument @ 'giveWeapon' [Expected weapon-type at argument 2, got nil]
+[2023-09-26 23:54:38] WARNING: [essential]\SpawnConfig\script.lua:26: Bad argument @ 'givePlayerMoney' [Expected number at argument 2, got nil]
+[2023-09-26 23:54:56] LOGIN: (Everyone) +Alexsandro successfully logged in as 'asda' (IP: 26.12.181.2  Serial: CE124527A04FCA00EB44E51B3EBFEFE3)
+[2023-09-26 23:55:02] QUIT: +Alexsandro left the game [Quit] 
+[2023-09-26 23:55:06] CONNECT: +Alexsandro connected (IP: 26.12.181.2  Serial: CE124527A04FCA00EB44E51B3EBFEFE3  Version: 1.6.0-9.22215.0)
+[2023-09-26 23:55:06] JOIN: +Alexsandro joined the game (IP: 26.12.181.2)
+[2023-09-26 23:55:06] WARNING: [essential]\SpawnConfig\script.lua:21: Bad argument @ 'spawnPlayer' [Expected vector3 at argument 2, got nil]
+[2023-09-26 23:55:06] WARNING: [essential]\SpawnConfig\script.lua:24: Bad argument @ 'outputChatBox' [Expected string at argument 1, got nil]
+[2023-09-26 23:55:06] WARNING: [essential]\SpawnConfig\script.lua:25: Bad argument @ 'giveWeapon' [Expected weapon-type at argument 2, got nil]
+[2023-09-26 23:55:06] WARNING: [essential]\SpawnConfig\script.lua:26: Bad argument @ 'givePlayerMoney' [Expected number at argument 2, got nil]
+[2023-09-26 23:55:26] LOGIN: (Everyone, Console) +Alexsandro successfully logged in as '+Alexsandro' (IP: 26.12.181.2  Serial: CE124527A04FCA00EB44E51B3EBFEFE3)
+[2023-09-26 23:55:48] ERROR: star_inventario\assets\source\useitem\inventory-useitem_s.lua:57: exports: Call to non-running server resource ([HS]Radio_Comunicador) [string "?"]
+[2023-09-26 23:55:54] ERROR: star_inventario\assets\source\useitem\inventory-useitem_s.lua:57: exports: Call to non-running server resource ([HS]Radio_Comunicador) [string "?"]  [DUP x10]
+[2023-09-26 23:59:17] Resource 'n3xt_dxmessages' has been removed, unloading
+[2023-09-26 23:59:17] Resource 'n3xt_inventario' has been removed, unloading
+[2023-09-26 23:59:17] ERROR: Resource 'star_assets' has been removed while running! Stopping resource.
+[2023-09-26 23:59:17] Stopping star_assets
+[2023-09-26 23:59:17] New resource 'getpos' loaded
+[2023-09-26 23:59:17] New resource 'star_assets' loaded
+[2023-09-26 23:59:17] Resources: 16 loaded, 0 failed
+[2023-09-26 23:59:41] WARNING: File 'assets/images/avatar/2.png' in resource 'star_assets' is invalid.
+[2023-09-26 23:59:41] WARNING: File 'assets/images/avatar/15.png' in resource 'star_assets' is invalid.
+[2023-09-26 23:59:41] WARNING: File 'assets/images/avatar/16.png' in resource 'star_assets' is invalid.
+[2023-09-26 23:59:41] WARNING: File 'assets/images/avatar/18.png' in resource 'star_assets' is invalid.
+[2023-09-26 23:59:41] Starting star_assets
+[2023-09-26 23:59:41] startResource: Resource 'star_assets' started
+[2023-09-26 23:59:41] ADMIN: Resource 'star_assets' started by +Alexsandro
+[2023-09-26 23:59:47] Starting getpos
+[2023-09-26 23:59:47] startResource: Resource 'getpos' started
+[2023-09-26 23:59:47] ADMIN: Resource 'getpos' started by +Alexsandro
+[2023-09-27 00:04:20] ADMIN: Resource 'RadarMinimapa' restarted by +Alexsandro
+[2023-09-27 00:04:20] Stopping RadarMinimapa
+[2023-09-27 00:04:20] Resource 'RadarMinimapa' changed, reloading and starting
+[2023-09-27 00:04:20] Please wait...
+[2023-09-27 00:04:20] Starting RadarMinimapa
+[2023-09-27 00:04:21] RadarMinimapa restarted successfully
+[2023-09-27 00:04:29] ADMIN: Resource 'star_inventario' restarted by +Alexsandro
+[2023-09-27 00:04:29] Stopping star_inventario
+[2023-09-27 00:04:29] Resource 'star_inventario' changed, reloading and starting
+[2023-09-27 00:04:29] WARNING: star_inventario/assets/source/useitem/inventory-useitem_s.lua(Line 213) [Server] setPlayerArmor is deprecated and may not work in future versions. Please replace with setPedArmor.
+[2023-09-27 00:04:29] Some files in 'star_inventario' use deprecated functions.
+[2023-09-27 00:04:29] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-27 00:04:29] Starting star_inventario
+[2023-09-27 00:04:29] ERROR: star_inventario\inventory-g.lua:1: exports: Call to non-running server resource (bone_attach) [string "?"]
+[2023-09-27 00:04:29] star_inventario: Inventory started.
+[2023-09-27 00:04:29] star_inventario restarted successfully
+[2023-09-27 00:05:45] ADMIN: Resource 'RadarMinimapa' stopped by +Alexsandro
+[2023-09-27 00:05:45] Stopping RadarMinimapa
+[2023-09-27 00:05:47] Resource 'RadarMinimapa' changed, reloading and starting
+[2023-09-27 00:05:47] Please wait...
+[2023-09-27 00:05:47] Starting RadarMinimapa
+[2023-09-27 00:05:48] startResource: Resource 'RadarMinimapa' started
+[2023-09-27 00:05:48] ADMIN: Resource 'RadarMinimapa' started by +Alexsandro
+[2023-09-27 00:06:02] ADMIN: Resource 'RadarMinimapa' restarted by +Alexsandro
+[2023-09-27 00:06:02] Stopping RadarMinimapa
+[2023-09-27 00:06:02] Starting RadarMinimapa
+[2023-09-27 00:06:03] RadarMinimapa restarted successfully
+[2023-09-27 00:06:38] ADMIN: Resource 'RadarMinimapa' restarted by +Alexsandro
+[2023-09-27 00:06:38] Stopping RadarMinimapa
+[2023-09-27 00:06:38] Resource 'RadarMinimapa' changed, reloading and starting
+[2023-09-27 00:06:38] Please wait...
+[2023-09-27 00:06:38] Starting RadarMinimapa
+[2023-09-27 00:06:39] RadarMinimapa restarted successfully
+[2023-09-27 00:11:44] ADMIN: Resource 'RadarMinimapa' restarted by +Alexsandro
+[2023-09-27 00:11:44] Stopping RadarMinimapa
+[2023-09-27 00:11:44] Resource 'RadarMinimapa' changed, reloading and starting
+[2023-09-27 00:11:44] Please wait...
+[2023-09-27 00:11:44] Starting RadarMinimapa
+[2023-09-27 00:11:45] RadarMinimapa restarted successfully
+[2023-09-27 00:11:51] ADMIN: Resource 'star_inventario' restarted by +Alexsandro
+[2023-09-27 00:11:51] Stopping star_inventario
+[2023-09-27 00:11:51] Resource 'star_inventario' changed, reloading and starting
+[2023-09-27 00:11:51] WARNING: star_inventario/assets/source/useitem/inventory-useitem_s.lua(Line 213) [Server] setPlayerArmor is deprecated and may not work in future versions. Please replace with setPedArmor.
+[2023-09-27 00:11:51] Some files in 'star_inventario' use deprecated functions.
+[2023-09-27 00:11:51] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-27 00:11:51] Starting star_inventario
+[2023-09-27 00:11:51] ERROR: star_inventario\inventory-g.lua:1: exports: Call to non-running server resource (bone_attach) [string "?"]
+[2023-09-27 00:11:51] star_inventario: Inventory started.
+[2023-09-27 00:11:51] star_inventario restarted successfully
+[2023-09-27 00:13:24] ADMIN: Resource 'star_inventario' restarted by +Alexsandro
+[2023-09-27 00:13:24] Stopping star_inventario
+[2023-09-27 00:13:25] Resource 'star_inventario' changed, reloading and starting
+[2023-09-27 00:13:25] WARNING: star_inventario/assets/source/useitem/inventory-useitem_s.lua(Line 213) [Server] setPlayerArmor is deprecated and may not work in future versions. Please replace with setPedArmor.
+[2023-09-27 00:13:25] Some files in 'star_inventario' use deprecated functions.
+[2023-09-27 00:13:25] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-27 00:13:25] Starting star_inventario
+[2023-09-27 00:13:25] ERROR: star_inventario\inventory-g.lua:1: exports: Call to non-running server resource (bone_attach) [string "?"]
+[2023-09-27 00:13:25] star_inventario restarted successfully
+[2023-09-27 00:13:31] star_inventario: Inventory started.
+[2023-09-27 00:13:47] ADMIN: Resource 'star_inventario' restarted by +Alexsandro
+[2023-09-27 00:13:47] Stopping star_inventario
+[2023-09-27 00:13:47] Resource 'star_inventario' changed, reloading and starting
+[2023-09-27 00:13:47] WARNING: star_inventario/assets/source/useitem/inventory-useitem_s.lua(Line 213) [Server] setPlayerArmor is deprecated and may not work in future versions. Please replace with setPedArmor.
+[2023-09-27 00:13:47] Some files in 'star_inventario' use deprecated functions.
+[2023-09-27 00:13:47] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-27 00:13:47] Starting star_inventario
+[2023-09-27 00:13:47] ERROR: star_inventario\inventory-g.lua:1: exports: Call to non-running server resource (bone_attach) [string "?"]
+[2023-09-27 00:13:47] star_inventario: Inventory started.
+[2023-09-27 00:13:47] star_inventario restarted successfully
+[2023-09-27 00:14:07] ADMIN: Resource 'star_inventario' restarted by +Alexsandro
+[2023-09-27 00:14:07] Stopping star_inventario
+[2023-09-27 00:14:07] Resource 'star_inventario' changed, reloading and starting
+[2023-09-27 00:14:07] WARNING: star_inventario/assets/source/useitem/inventory-useitem_s.lua(Line 213) [Server] setPlayerArmor is deprecated and may not work in future versions. Please replace with setPedArmor.
+[2023-09-27 00:14:07] Some files in 'star_inventario' use deprecated functions.
+[2023-09-27 00:14:07] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-27 00:14:07] Starting star_inventario
+[2023-09-27 00:14:07] ERROR: star_inventario\inventory-g.lua:1: exports: Call to non-running server resource (bone_attach) [string "?"]
+[2023-09-27 00:14:07] star_inventario: Inventory started.
+[2023-09-27 00:14:07] star_inventario restarted successfully
+[2023-09-27 00:14:53] ADMIN: Resource 'star_inventario' restarted by +Alexsandro
+[2023-09-27 00:14:53] Stopping star_inventario
+[2023-09-27 00:14:53] Resource 'star_inventario' changed, reloading and starting
+[2023-09-27 00:14:53] WARNING: star_inventario/assets/source/useitem/inventory-useitem_s.lua(Line 213) [Server] setPlayerArmor is deprecated and may not work in future versions. Please replace with setPedArmor.
+[2023-09-27 00:14:53] Some files in 'star_inventario' use deprecated functions.
+[2023-09-27 00:14:53] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-27 00:14:53] Starting star_inventario
+[2023-09-27 00:14:53] ERROR: star_inventario\inventory-g.lua:1: exports: Call to non-running server resource (bone_attach) [string "?"]
+[2023-09-27 00:14:53] star_inventario restarted successfully
+[2023-09-27 00:14:59] star_inventario: Inventory started.
+[2023-09-27 00:15:40] ADMIN: Resource 'RadarMinimapa' restarted by +Alexsandro
+[2023-09-27 00:15:40] Stopping RadarMinimapa
+[2023-09-27 00:15:40] Resource 'RadarMinimapa' changed, reloading and starting
+[2023-09-27 00:15:40] Please wait...
+[2023-09-27 00:15:40] Starting RadarMinimapa
+[2023-09-27 00:15:41] RadarMinimapa restarted successfully
