@@ -681,3 +681,389 @@
 [2023-09-26 11:26:18] WARNING: [essential]\SpawnConfig\script.lua:25: Bad argument @ 'giveWeapon' [Expected weapon-type at argument 2, got nil]
 [2023-09-26 11:26:18] WARNING: [essential]\SpawnConfig\script.lua:26: Bad argument @ 'givePlayerMoney' [Expected number at argument 2, got nil]
 [2023-09-26 11:26:29] LOGIN: (Everyone, Console) +Alexsandro successfully logged in as '+Alexsandro' (IP: 192.168.100.71  Serial: CE124527A04FCA00EB44E51B3EBFEFE3)
+[2023-09-26 11:39:07] Resource 'n3xt_inventario' changed, reloading and starting
+[2023-09-26 11:39:07] Starting n3xt_inventario
+[2023-09-26 11:39:07] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:39:07] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:39:08] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:39:08] Stopping n3xt_inventario
+[2023-09-26 11:39:12] Starting n3xt_inventario
+[2023-09-26 11:39:12] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:39:12] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:39:14] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:39:14] Stopping n3xt_inventario
+[2023-09-26 11:39:18] Starting n3xt_inventario
+[2023-09-26 11:39:18] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:39:18] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:39:19] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:39:19] Stopping n3xt_inventario
+[2023-09-26 11:39:25] Starting n3xt_inventario
+[2023-09-26 11:39:25] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:39:25] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:39:27] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:39:27] Stopping n3xt_inventario
+[2023-09-26 11:39:28] Starting n3xt_inventario
+[2023-09-26 11:39:28] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:39:28] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:39:30] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:39:30] Stopping n3xt_inventario
+[2023-09-26 11:39:31] Starting n3xt_inventario
+[2023-09-26 11:39:31] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:39:31] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:39:32] Stopping n3xt_inventario
+[2023-09-26 11:39:33] Starting n3xt_inventario
+[2023-09-26 11:39:33] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:39:33] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:39:35] Stopping n3xt_inventario
+[2023-09-26 11:39:36] INFO: O servidor não tem nenhum script autorizado. error  [DUP x2]
+[2023-09-26 11:39:36] Starting n3xt_inventario
+[2023-09-26 11:39:36] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:39:36] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:39:37] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:39:37] Stopping n3xt_inventario
+[2023-09-26 11:39:38] Starting n3xt_inventario
+[2023-09-26 11:39:38] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:39:38] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:39:39] Stopping n3xt_inventario
+[2023-09-26 11:39:40] Starting n3xt_inventario
+[2023-09-26 11:39:40] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:39:40] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:39:41] Stopping n3xt_inventario
+[2023-09-26 11:39:43] INFO: O servidor não tem nenhum script autorizado. error  [DUP x2]
+[2023-09-26 11:39:43] Starting n3xt_inventario
+[2023-09-26 11:39:43] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:39:43] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:39:45] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:39:45] Stopping n3xt_inventario
+[2023-09-26 11:40:21] Resource 'n3xt_inventario' changed, reloading and starting
+[2023-09-26 11:40:21] Starting n3xt_inventario
+[2023-09-26 11:40:21] SCRIPT ERROR: [scripts]\n3xt_inventario\config.lua:3: unexpected symbol near '='
+[2023-09-26 11:40:21] ERROR: Loading script failed: [scripts]\n3xt_inventario\config.lua:3: unexpected symbol near '='
+[2023-09-26 11:40:21] ERROR: [scripts]\n3xt_inventario\files\mainS.luac:265: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:21] ERROR: ...xt_inventario\files\others\loja_alimentos\mainS.luac:3: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:21] ERROR: ..._inventario\files\others\loja_utilitarios\mainS.luac:3: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:21] ERROR: ...3xt_inventario\files\others\mercado_negro\mainS.luac:3: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:21] ERROR: ...ipts]\n3xt_inventario\files\others\drogas\mainS.luac:4: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:21] ERROR: ...ripts]\n3xt_inventario\files\others\armas\mainS.luac:6: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:21] ERROR: ...3xt_inventario\files\others\dinheiro_sujo\mainS.luac:3: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:21] ERROR: ...scripts]\n3xt_inventario\files\others\bau\mainS.luac:6: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:21] ERROR: [scripts]\n3xt_inventario\files\mainS.luac:191: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:21] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:40:21] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:40:22] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:40:22] Stopping n3xt_inventario
+[2023-09-26 11:40:22] ERROR: [scripts]\n3xt_inventario\files\mainS.luac:207: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:24] Starting n3xt_inventario
+[2023-09-26 11:40:24] SCRIPT ERROR: [scripts]\n3xt_inventario\config.lua:3: unexpected symbol near '='
+[2023-09-26 11:40:24] ERROR: Loading script failed: [scripts]\n3xt_inventario\config.lua:3: unexpected symbol near '='
+[2023-09-26 11:40:24] ERROR: [scripts]\n3xt_inventario\files\mainS.luac:265: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:24] ERROR: ...xt_inventario\files\others\loja_alimentos\mainS.luac:3: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:24] ERROR: ..._inventario\files\others\loja_utilitarios\mainS.luac:3: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:24] ERROR: ...3xt_inventario\files\others\mercado_negro\mainS.luac:3: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:24] ERROR: ...ipts]\n3xt_inventario\files\others\drogas\mainS.luac:4: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:24] ERROR: ...ripts]\n3xt_inventario\files\others\armas\mainS.luac:6: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:24] ERROR: ...3xt_inventario\files\others\dinheiro_sujo\mainS.luac:3: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:24] ERROR: ...scripts]\n3xt_inventario\files\others\bau\mainS.luac:6: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:24] ERROR: [scripts]\n3xt_inventario\files\mainS.luac:191: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:24] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:40:24] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:40:25] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:40:25] Stopping n3xt_inventario
+[2023-09-26 11:40:25] ERROR: [scripts]\n3xt_inventario\files\mainS.luac:207: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:26] Starting n3xt_inventario
+[2023-09-26 11:40:26] SCRIPT ERROR: [scripts]\n3xt_inventario\config.lua:3: unexpected symbol near '='
+[2023-09-26 11:40:26] ERROR: Loading script failed: [scripts]\n3xt_inventario\config.lua:3: unexpected symbol near '='
+[2023-09-26 11:40:26] ERROR: [scripts]\n3xt_inventario\files\mainS.luac:265: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:26] ERROR: ...xt_inventario\files\others\loja_alimentos\mainS.luac:3: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:26] ERROR: ..._inventario\files\others\loja_utilitarios\mainS.luac:3: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:26] ERROR: ...3xt_inventario\files\others\mercado_negro\mainS.luac:3: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:26] ERROR: ...ipts]\n3xt_inventario\files\others\drogas\mainS.luac:4: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:26] ERROR: ...ripts]\n3xt_inventario\files\others\armas\mainS.luac:6: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:26] ERROR: ...3xt_inventario\files\others\dinheiro_sujo\mainS.luac:3: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:26] ERROR: ...scripts]\n3xt_inventario\files\others\bau\mainS.luac:6: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:26] ERROR: [scripts]\n3xt_inventario\files\mainS.luac:191: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:26] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:40:26] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:40:27] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:40:27] Stopping n3xt_inventario
+[2023-09-26 11:40:27] ERROR: [scripts]\n3xt_inventario\files\mainS.luac:207: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:29] Starting n3xt_inventario
+[2023-09-26 11:40:29] SCRIPT ERROR: [scripts]\n3xt_inventario\config.lua:3: unexpected symbol near '='
+[2023-09-26 11:40:29] ERROR: Loading script failed: [scripts]\n3xt_inventario\config.lua:3: unexpected symbol near '='
+[2023-09-26 11:40:29] ERROR: [scripts]\n3xt_inventario\files\mainS.luac:265: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:29] ERROR: ...xt_inventario\files\others\loja_alimentos\mainS.luac:3: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:29] ERROR: ..._inventario\files\others\loja_utilitarios\mainS.luac:3: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:29] ERROR: ...3xt_inventario\files\others\mercado_negro\mainS.luac:3: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:29] ERROR: ...ipts]\n3xt_inventario\files\others\drogas\mainS.luac:4: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:29] ERROR: ...ripts]\n3xt_inventario\files\others\armas\mainS.luac:6: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:29] ERROR: ...3xt_inventario\files\others\dinheiro_sujo\mainS.luac:3: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:29] ERROR: ...scripts]\n3xt_inventario\files\others\bau\mainS.luac:6: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:29] ERROR: [scripts]\n3xt_inventario\files\mainS.luac:191: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:29] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:40:29] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:40:31] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:40:31] Stopping n3xt_inventario
+[2023-09-26 11:40:31] ERROR: [scripts]\n3xt_inventario\files\mainS.luac:207: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:32] Starting n3xt_inventario
+[2023-09-26 11:40:32] SCRIPT ERROR: [scripts]\n3xt_inventario\config.lua:3: unexpected symbol near '='
+[2023-09-26 11:40:32] ERROR: Loading script failed: [scripts]\n3xt_inventario\config.lua:3: unexpected symbol near '='
+[2023-09-26 11:40:32] ERROR: [scripts]\n3xt_inventario\files\mainS.luac:265: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:32] ERROR: ...xt_inventario\files\others\loja_alimentos\mainS.luac:3: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:32] ERROR: ..._inventario\files\others\loja_utilitarios\mainS.luac:3: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:32] ERROR: ...3xt_inventario\files\others\mercado_negro\mainS.luac:3: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:32] ERROR: ...ipts]\n3xt_inventario\files\others\drogas\mainS.luac:4: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:32] ERROR: ...ripts]\n3xt_inventario\files\others\armas\mainS.luac:6: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:32] ERROR: ...3xt_inventario\files\others\dinheiro_sujo\mainS.luac:3: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:32] ERROR: ...scripts]\n3xt_inventario\files\others\bau\mainS.luac:6: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:32] ERROR: [scripts]\n3xt_inventario\files\mainS.luac:191: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:32] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:40:32] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:40:34] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:40:34] Stopping n3xt_inventario
+[2023-09-26 11:40:34] ERROR: [scripts]\n3xt_inventario\files\mainS.luac:207: attempt to index global 'config' (a nil value)
+[2023-09-26 11:40:44] Resource 'n3xt_inventario' changed, reloading and starting
+[2023-09-26 11:40:44] Starting n3xt_inventario
+[2023-09-26 11:40:44] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:40:44] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:40:45] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:40:45] Stopping n3xt_inventario
+[2023-09-26 11:40:47] Starting n3xt_inventario
+[2023-09-26 11:40:47] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:40:47] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:40:48] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:40:48] Stopping n3xt_inventario
+[2023-09-26 11:41:07] ADMIN: Resource 'n3xt_dxmessages' stopped by +Alexsandro
+[2023-09-26 11:41:07] Stopping n3xt_dxmessages
+[2023-09-26 11:41:09] Starting n3xt_inventario
+[2023-09-26 11:41:09] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:41:09] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:41:11] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:41:11] Stopping n3xt_inventario
+[2023-09-26 11:41:42] Resource 'n3xt_inventario' changed, reloading and starting
+[2023-09-26 11:41:42] Starting n3xt_inventario
+[2023-09-26 11:41:42] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:41:42] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:41:44] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:41:44] Stopping n3xt_inventario
+[2023-09-26 11:41:45] Starting n3xt_inventario
+[2023-09-26 11:41:45] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:41:45] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:41:46] ADMIN: Resource 'n3xt_inventario' restarted by +Alexsandro
+[2023-09-26 11:41:46] Stopping n3xt_inventario
+[2023-09-26 11:41:46] Starting n3xt_inventario
+[2023-09-26 11:41:46] n3xt_inventario restarted successfully
+[2023-09-26 11:41:47] Stopping n3xt_inventario
+[2023-09-26 11:41:48] Starting n3xt_inventario
+[2023-09-26 11:41:48] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:41:48] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:41:50] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:41:50] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:41:50] Stopping n3xt_inventario
+[2023-09-26 11:42:02] Starting n3xt_inventario
+[2023-09-26 11:42:02] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:42:02] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:42:04] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:42:04] Stopping n3xt_inventario
+[2023-09-26 11:42:29] Starting n3xt_inventario
+[2023-09-26 11:42:29] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:42:29] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:42:31] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:42:31] Stopping n3xt_inventario
+[2023-09-26 11:42:35] Starting n3xt_inventario
+[2023-09-26 11:42:35] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:42:35] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:42:36] Stopping n3xt_inventario
+[2023-09-26 11:42:37] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:42:40] Starting n3xt_inventario
+[2023-09-26 11:42:40] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:42:40] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:42:42] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:42:42] Stopping n3xt_inventario
+[2023-09-26 11:43:14] Resource 'n3xt_inventario' changed, reloading and starting
+[2023-09-26 11:43:14] Starting n3xt_inventario
+[2023-09-26 11:43:14] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:43:14] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:43:15] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:43:15] Stopping n3xt_inventario
+[2023-09-26 11:43:20] Starting n3xt_inventario
+[2023-09-26 11:43:20] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:43:20] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:43:22] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:43:22] Stopping n3xt_inventario
+[2023-09-26 11:43:36] Starting n3xt_inventario
+[2023-09-26 11:43:36] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:43:36] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:43:37] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:43:37] Stopping n3xt_inventario
+[2023-09-26 11:44:00] Starting n3xt_inventario
+[2023-09-26 11:44:01] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:44:01] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:44:02] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:44:02] Stopping n3xt_inventario
+[2023-09-26 11:44:20] Starting n3xt_inventario
+[2023-09-26 11:44:20] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:44:20] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:44:21] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:44:21] Stopping n3xt_inventario
+[2023-09-26 11:44:31] Starting n3xt_inventario
+[2023-09-26 11:44:31] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:44:31] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:44:32] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:44:32] Stopping n3xt_inventario
+[2023-09-26 11:44:35] Starting n3xt_inventario
+[2023-09-26 11:44:35] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:44:35] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:44:37] Stopping n3xt_inventario
+[2023-09-26 11:44:37] Starting n3xt_inventario
+[2023-09-26 11:44:37] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:44:37] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:44:38] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:44:39] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:44:39] Stopping n3xt_inventario
+[2023-09-26 11:44:40] Starting n3xt_inventario
+[2023-09-26 11:44:40] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:44:40] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:44:41] Stopping n3xt_inventario
+[2023-09-26 11:44:45] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:44:46] Starting n3xt_inventario
+[2023-09-26 11:44:46] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:44:46] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:44:48] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:44:48] Stopping n3xt_inventario
+[2023-09-26 11:44:55] Starting n3xt_inventario
+[2023-09-26 11:44:55] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:44:55] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:44:57] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:44:57] Stopping n3xt_inventario
+[2023-09-26 11:44:58] Starting n3xt_inventario
+[2023-09-26 11:44:58] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 11:44:58] ADMIN: Resource 'n3xt_inventario' started by +Alexsandro
+[2023-09-26 11:45:00] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 11:45:00] Stopping n3xt_inventario
+[2023-09-26 11:52:21] Server stopped!
+[2023-09-26 11:52:21] Stopping resources................
+[2023-09-26 11:52:21] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.6
+==================================================================
+= Server name      : Tandera Roleplay
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : .. 1.6/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Quality [4];  Sample Rate: [16000Hz]
+= Bandwidth saving : Medium
+==================================================================
+[2023-09-26 12:10:10] Resources: 15 loaded, 0 failed
+[2023-09-26 12:10:10] Starting resources...
+[2023-09-26 12:10:10] Server minclientversion is now 1.6.0-9.21923.0
+[2023-09-26 12:10:10] startResource: Resource 'admin' started
+[2023-09-26 12:10:10] INFO: Recurso: 'admin' iniciado!
+[2023-09-26 12:10:10] startResource: Resource 'SaveSystem' started
+[2023-09-26 12:10:10] INFO: Recurso: 'SaveSystem' iniciado!
+[2023-09-26 12:10:10] startResource: Resource 'SpawnConfig' started
+[2023-09-26 12:10:10] INFO: Recurso: 'SpawnConfig' iniciado!
+[2023-09-26 12:10:10] WARNING: infobox <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.6-9.18728 because of 'client.luac')
+[2023-09-26 12:10:10] WARNING: infobox requires upgrade as <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.6-9.18728 because of 'client.luac')
+[2023-09-26 12:10:10] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-26 12:10:10] startResource: Resource 'infobox' started
+[2023-09-26 12:10:10] INFO: Recurso: 'infobox' iniciado!
+[2023-09-26 12:10:10] Please wait...
+[2023-09-26 12:10:11] startResource: Resource 'RadarMinimapa' started
+[2023-09-26 12:10:11] INFO: Recurso: 'RadarMinimapa' iniciado!
+[2023-09-26 12:10:11] WARNING: Hud/client.lua(Line 96) [Client] showPlayerHudComponent is deprecated and may not work in future versions. Please replace with setPlayerHudComponentVisible.
+[2023-09-26 12:10:11] Some files in 'Hud' use deprecated functions.
+[2023-09-26 12:10:11] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-26 12:10:11] startResource: Resource 'Hud' started
+[2023-09-26 12:10:11] INFO: Recurso: 'Hud' iniciado!
+[2023-09-26 12:10:11] WARNING: FomeSede/server.lua(Line 64) [Server] killPlayer is deprecated and may not work in future versions. Please replace with killPed.
+[2023-09-26 12:10:11] Some files in 'FomeSede' use deprecated functions.
+[2023-09-26 12:10:11] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-26 12:10:11] startResource: Resource 'FomeSede' started
+[2023-09-26 12:10:11] INFO: Recurso: 'FomeSede' iniciado!
+[2023-09-26 12:10:11] startResource: Resource 'FR_DxMessages' started
+[2023-09-26 12:10:11] INFO: Recurso: 'FR_DxMessages' iniciado!
+[2023-09-26 12:10:11] startResource: Resource 'Banco' started
+[2023-09-26 12:10:11] INFO: Recurso: 'Banco' iniciado!
+[2023-09-26 12:10:11] startResource: Resource 'Blur' started
+[2023-09-26 12:10:11] INFO: Recurso: 'Blur' iniciado!
+[2023-09-26 12:10:11] startResource: Resource 'Cursor' started
+[2023-09-26 12:10:11] INFO: Recurso: 'Cursor' iniciado!
+[2023-09-26 12:10:11] startResource: Resource 'n3xt_dxmessages' started
+[2023-09-26 12:10:11] INFO: Recurso: 'n3xt_dxmessages' iniciado!
+[2023-09-26 12:10:11] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 12:10:11] INFO: Recurso: 'n3xt_inventario' iniciado!
+[2023-09-26 12:10:11] startResource: Resource 'PainelLogin' started
+[2023-09-26 12:10:11] INFO: Recurso: 'PainelLogin' iniciado!
+[2023-09-26 12:10:11] Querying MTA master server... success! (Auto detected IP:201.88.246.190)
+[2023-09-26 12:10:11] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2023-09-26 12:10:11] WARNING: <owner_email_address> not set
+[2023-09-26 12:10:11] Server started and is ready to accept connections!
+[2023-09-26 12:10:11] To stop the server, type 'shutdown' or press Ctrl-C
+[2023-09-26 12:10:11] Type 'help' for a list of commands.
+[2023-09-26 12:10:13] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 12:10:13] Stopping n3xt_inventario
+==================================================================
+= Multi Theft Auto: San Andreas v1.6
+==================================================================
+= Server name      : Tandera Roleplay
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : .. 1.6/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Quality [4];  Sample Rate: [16000Hz]
+= Bandwidth saving : Medium
+==================================================================
+[2023-09-26 22:12:02] Resources: 15 loaded, 0 failed
+[2023-09-26 22:12:02] Starting resources...
+[2023-09-26 22:12:02] Server minclientversion is now 1.6.0-9.21923.0
+[2023-09-26 22:12:02] startResource: Resource 'admin' started
+[2023-09-26 22:12:02] INFO: Recurso: 'admin' iniciado!
+[2023-09-26 22:12:02] startResource: Resource 'SaveSystem' started
+[2023-09-26 22:12:02] INFO: Recurso: 'SaveSystem' iniciado!
+[2023-09-26 22:12:02] startResource: Resource 'SpawnConfig' started
+[2023-09-26 22:12:02] INFO: Recurso: 'SpawnConfig' iniciado!
+[2023-09-26 22:12:02] WARNING: infobox <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.6-9.18728 because of 'client.luac')
+[2023-09-26 22:12:02] WARNING: infobox requires upgrade as <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.6-9.18728 because of 'client.luac')
+[2023-09-26 22:12:02] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-26 22:12:02] startResource: Resource 'infobox' started
+[2023-09-26 22:12:02] INFO: Recurso: 'infobox' iniciado!
+[2023-09-26 22:12:02] Please wait...
+[2023-09-26 22:12:03] startResource: Resource 'RadarMinimapa' started
+[2023-09-26 22:12:03] INFO: Recurso: 'RadarMinimapa' iniciado!
+[2023-09-26 22:12:03] WARNING: Hud/client.lua(Line 96) [Client] showPlayerHudComponent is deprecated and may not work in future versions. Please replace with setPlayerHudComponentVisible.
+[2023-09-26 22:12:03] Some files in 'Hud' use deprecated functions.
+[2023-09-26 22:12:03] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-26 22:12:03] startResource: Resource 'Hud' started
+[2023-09-26 22:12:03] INFO: Recurso: 'Hud' iniciado!
+[2023-09-26 22:12:03] WARNING: FomeSede/server.lua(Line 64) [Server] killPlayer is deprecated and may not work in future versions. Please replace with killPed.
+[2023-09-26 22:12:03] Some files in 'FomeSede' use deprecated functions.
+[2023-09-26 22:12:03] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-26 22:12:03] startResource: Resource 'FomeSede' started
+[2023-09-26 22:12:03] INFO: Recurso: 'FomeSede' iniciado!
+[2023-09-26 22:12:03] startResource: Resource 'FR_DxMessages' started
+[2023-09-26 22:12:03] INFO: Recurso: 'FR_DxMessages' iniciado!
+[2023-09-26 22:12:03] startResource: Resource 'Banco' started
+[2023-09-26 22:12:03] INFO: Recurso: 'Banco' iniciado!
+[2023-09-26 22:12:03] startResource: Resource 'Blur' started
+[2023-09-26 22:12:03] INFO: Recurso: 'Blur' iniciado!
+[2023-09-26 22:12:03] startResource: Resource 'Cursor' started
+[2023-09-26 22:12:03] INFO: Recurso: 'Cursor' iniciado!
+[2023-09-26 22:12:03] startResource: Resource 'n3xt_dxmessages' started
+[2023-09-26 22:12:03] INFO: Recurso: 'n3xt_dxmessages' iniciado!
+[2023-09-26 22:12:03] startResource: Resource 'n3xt_inventario' started
+[2023-09-26 22:12:03] INFO: Recurso: 'n3xt_inventario' iniciado!
+[2023-09-26 22:12:03] startResource: Resource 'PainelLogin' started
+[2023-09-26 22:12:03] INFO: Recurso: 'PainelLogin' iniciado!
+[2023-09-26 22:12:03] Querying MTA master server... success! (Auto detected IP:201.88.246.190)
+[2023-09-26 22:12:03] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2023-09-26 22:12:03] WARNING: <owner_email_address> not set
+[2023-09-26 22:12:03] Server started and is ready to accept connections!
+[2023-09-26 22:12:03] To stop the server, type 'shutdown' or press Ctrl-C
+[2023-09-26 22:12:03] Type 'help' for a list of commands.
+[2023-09-26 22:12:05] INFO: O servidor não tem nenhum script autorizado. error
+[2023-09-26 22:12:05] Stopping n3xt_inventario
