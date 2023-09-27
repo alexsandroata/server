@@ -1,0 +1,14 @@
+<meta>
+    <script src = "config.cariocagroup" type = "shared"/>
+    <script src = "client.cariocagroupc" type = "client" cache = "false"/>
+    <script src = "server.cariocagroupc" type = "server"/>
+    
+    <file   src = "Files/Gerenciador.png"/>
+    <file   src = "Files/Barra.png"/>
+    <file   src = "Files/cartoon.png"/>
+    <file   src = "Files/Selecao.png"/>
+    <file   src = "Files/Barra2.png"/>
+    <file   src = "Files/logo.png"/>
+	<file   src = "Files/Bola.png"/>
+    <file   src = "Files/Font.ttf"/>
+</meta>

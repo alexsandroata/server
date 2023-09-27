@@ -178,7 +178,7 @@ function dxFabrica()
             local posX = (Posicoes[i].QuadradoPrincipal[1] + (184/2)) - (120/2)
             local posY = (Posicoes[i].QuadradoPrincipal[2] + (174/2)) - (120/2)
             local posW, posH = Drogas[Index].TamanhoImagem[1],Drogas[Index].TamanhoImagem[2]
-            dxDrawImage(x*posX, y*posY, x*posW, y*posH, ":[Carioca]InventarioCompleto/assets/icons/"..Diretorio..".png", 0, 0, 0, tocolor(255, 255, 255, 255), false)
+            dxDrawImage(x*posX, y*posY, x*posW, y*posH, ":[GlobalDrops]InventarioCompleto/assets/icons/"..Diretorio..".png", 0, 0, 0, tocolor(255, 255, 255, 255), false)
             dxDrawImage(x*Posicoes[i].Desc[1], y*Posicoes[i].Desc[2],x*356,y*118, "assets/img/desc.png", 0, 0, 0, tocolor(255, 255, 255, Alpha), false)
             for k, v in ipairs(Posicoes[i].Quadrados) do
                 dxDrawImage(x*v[1], y*v[2], x*128, y*118, "assets/img/quadrado.png", 0, 0, 0, tocolor(255, 255, 255, Alpha), false)
@@ -186,7 +186,7 @@ function dxFabrica()
             for k, v in ipairs(Drogas[Index].Componentes) do
                 local posX2 = (Posicoes[i].Quadrados[k][1] + (128/2)) - (v.Tamanho[1]/2)
                 local posY2 = (Posicoes[i].Quadrados[k][2] + (118/2)) - (v.Tamanho[2]/2)
-                dxDrawImage(x*posX2, y*posY2, x*v.Tamanho[1], y*v.Tamanho[2], ":[Carioca]InventarioCompleto/assets/icons/"..v.ID..".png", 0, 0, 0, tocolor(255, 255, 255, Alpha), false)
+                dxDrawImage(x*posX2, y*posY2, x*v.Tamanho[1], y*v.Tamanho[2], ":[GlobalDrops]InventarioCompleto/assets/icons/"..v.ID..".png", 0, 0, 0, tocolor(255, 255, 255, Alpha), false)
             end
             dxDrawText(Nome, x*(Posicoes[i].Arco[1] + 15), y*(Posicoes[i].Arco[2] + 10), x*752, y*275, tocolor(255, 255, 255, 255), 1.00, dxfont0_font, "left", "top", false, false, false, false, false)
             dxDrawText(getDescription(Index), x*(Posicoes[i].Desc[1] + 14), y*(Posicoes[i].Desc[2] - 8), x*1409, y*332, tocolor(255, 255, 255, 255), 1.00, dxfont2_font, "left", "top", false, false, false, false, false)

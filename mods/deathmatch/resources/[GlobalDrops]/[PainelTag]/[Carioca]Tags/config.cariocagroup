@@ -1,0 +1,33 @@
+--[[
+  ____    _    ____  ___ ___   ____    _    ____ ____   ___  _   _ ____  
+ / ___|  / \  |  _ \|_ _/ _ \ / ___|  / \  / ___|  _ \ / _ \| | | |  _ \ 
+| |     / _ \ | |_) || | | | | |     / _ \| |  _| |_) | | | | | | | |_) |
+| |___ / ___ \|  _ < | | |_| | |___ / ___ \ |_| |  _ <| |_| | |_| |  __/ 
+ \____/_/   \_\_| \_\___\___/ \____/_/   \_\____|_| \_\\___/ \___/|_|    
+ 
+--]]
+
+config = {
+    {'CV', 'CV_CHEFE', {'CV', 'GANG'}, {'CV_CHEFE', 'GANG'},}, --Nome de exibição, acl pode adicionar, acl normal , acl de dono                                               
+    {'Policia', 'CMD_POLICIA', {'Policia', 'Policia'}, {'CMD_POLICIA', 'Policia'},},
+
+}
+
+Salarios = {
+    {'Policia', 500}, --salario policial semanal
+}
+
+infos = {
+    servername = "CARIOCA GROUP" --nome do seu servidor
+}
+
+c = {0,255,127} --cor dos botoes
+
+elementdata = { --elementdata do seu sistema de Identificaçãp
+    ID = "ID"
+}
+
+
+function message(elem, mess, tipo) --USE AQUI SEU MODELO DE INFOBOX
+    exports["[Carioca]Infobox"]:addNotification(elem, mess, tipo)
+end

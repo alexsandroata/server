@@ -68,8 +68,8 @@ function GiveItemRandom(player,index)
     local Item = Config.PosicoesIniciarRota[index].Itens[Random]
     local Dinheiro = Config.PosicoesIniciarRota[index].DinheiroSujoReceber
     local Quantidade = math.random(Config.PosicoesIniciarRota[index].Quantidade.De,Config.PosicoesIniciarRota[index].Quantidade.Ate)
-	exports["[Carioca]InventarioCompleto"]:sendItem(player, Item, 0, 1, "none", false)
-	exports["[Carioca]InventarioCompleto"]:sendItem(player, Config.ConfigRotas["ID Dinheiro Sujo"], 0, Dinheiro, "none", false)
+	exports["[GlobalDrops]InventarioCompleto"]:sendItem(player, Item, 0, 1, "none", false)
+	exports["[GlobalDrops]InventarioCompleto"]:sendItem(player, Config.ConfigRotas["ID Dinheiro Sujo"], 0, Dinheiro, "none", false)
    -- triggerEvent("TS:addItem", player, player, Item, Quantidade)
    -- triggerEvent("TS:addItem", player, player, Config.ConfigRotas["ID Dinheiro Sujo"], Dinheiro) 
 end
@@ -150,7 +150,7 @@ for i = 1,#Config.PocioesFabricar do
 end
 --[[
 function hasItem(player,item,quantidade)
-   if exports["[Carioca]InventarioCompleto"]:hasItem(player, item) ~= 0 and exports["[Carioca]InventarioCompleto"]:hasItem(player, item) >= quantidade then
+   if exports["[GlobalDrops]InventarioCompleto"]:hasItem(player, item) ~= 0 and exports["[GlobalDrops]InventarioCompleto"]:hasItem(player, item) >= quantidade then
     return true
 else
     return false
@@ -158,8 +158,8 @@ end
 end
 
 function returnQuantidade(player,item)
-    if exports["[Carioca]InventarioCompleto"]:hasItem(player, item) ~= 0 then
-    return exports["[Carioca]InventarioCompleto"]:hasItem(player, item)
+    if exports["[GlobalDrops]InventarioCompleto"]:hasItem(player, item) ~= 0 then
+    return exports["[GlobalDrops]InventarioCompleto"]:hasItem(player, item)
 else
     return false
 end
@@ -170,7 +170,7 @@ function verifyComponents(player,table)
     k = true
     for i, v in ipairs(table) do
         --if not hasItem(player,v.ID, v.QuantidadeMinima) then
-        if not exports["[Carioca]InventarioCompleto"]:hasItemInventory(player, v.ID, 0, v.QuantidadeMinima, nil) then
+        if not exports["[GlobalDrops]InventarioCompleto"]:hasItemInventory(player, v.ID, 0, v.QuantidadeMinima, nil) then
             if type(k) == "boolean" then
                 k = ""
             end
@@ -187,8 +187,8 @@ end
 function RetirarComponents(player,table)
     for i, v in ipairs(table) do
         --if hasItem(player,v.ID, v.QuantidadeMinima) then
-        if exports["[Carioca]InventarioCompleto"]:hasItemInventory(player, v.ID, 0, v.QuantidadeMinima, nil) then
-			exports["[Carioca]InventarioCompleto"]:takeItem(player, nil, v.ID, v.QuantidadeMinima)
+        if exports["[GlobalDrops]InventarioCompleto"]:hasItemInventory(player, v.ID, 0, v.QuantidadeMinima, nil) then
+			exports["[GlobalDrops]InventarioCompleto"]:takeItem(player, nil, v.ID, v.QuantidadeMinima)
             --triggerEvent("TS:takeItem", player, player, v.ID, v.QuantidadeMinima)
         end
     end
@@ -216,7 +216,7 @@ addEventHandler("NC.FabricarDroga",root,function(drogas)
                     Fabricando[source] = nil
                     setPedAnimation(source)
                     setElementFrozen(source,false)
-					exports["[Carioca]InventarioCompleto"]:sendItem(source, ID, 100, Quantidade, "none", false)
+					exports["[GlobalDrops]InventarioCompleto"]:sendItem(source, ID, 100, Quantidade, "none", false)
                     --triggerEvent("TS:addItem", source, source, ID, Quantidade)
                    -- triggerClientEvent( source, 'Notify', source, "importante", "Você Fabricou "..ID.." com Sucesso")
 					exports["[Carioca]Infobox"]:addBox(source, "Você Fabricou "..ID.." com Sucesso", "success")

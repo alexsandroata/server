@@ -2557,3 +2557,391 @@
 [2023-09-27 00:15:40] Starting RadarMinimapa
 [2023-09-27 00:15:41] RadarMinimapa restarted successfully
 >>>>>>> 1bb1b5e43f35cb46d9b38fe7f69ee15469cbb1cd
+==================================================================
+= Multi Theft Auto: San Andreas v1.6
+==================================================================
+= Server name      : Tandera Roleplay
+= Server IP address: 181.215.254.166
+= Server port      : 22003
+= 
+= Log file         : C:/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Quality [4];  Sample Rate: [16000Hz]
+= Bandwidth saving : Medium
+==================================================================
+[2023-09-27 12:29:58] Resource 'dgs' requests some acl rights. Use the command 'aclrequest list dgs'
+[2023-09-27 12:29:58] ERROR: Not processing resource 'FR_DxMessages' as it has duplicates on different paths:
+                  Path #1: "resources\[essential]\FR_DxMessages"
+                  Path #2: "resources\[scripts]\[JBLVinculadaAoInvCompleto]\FR_DxMessages"
+[2023-09-27 12:29:58] ERROR: Not processing resource 'getpos' as it has duplicates on different paths:
+                  Path #1: "resources\getpos"
+                  Path #2: "resources\[scripts]\getpos"
+[2023-09-27 12:29:58] ERROR: Not processing resource 'star_inventario' as it has duplicates on different paths:
+                  Path #1: "resources\star_inventario"
+                  Path #2: "resources\[scripts]\star_inventario"
+[2023-09-27 12:29:58] Resources: 42 loaded, 0 failed
+[2023-09-27 12:29:58] Starting resources...
+[2023-09-27 12:29:58] SCRIPT ERROR: AutoStart\server.lua:17: unexpected symbol near '<'
+[2023-09-27 12:29:58] ERROR: Loading script failed: AutoStart\server.lua:17: unexpected symbol near '<'
+[2023-09-27 12:29:58] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2023-09-27 12:29:58] Server started and is ready to accept connections!
+[2023-09-27 12:29:58] To stop the server, type 'shutdown' or press Ctrl-C
+[2023-09-27 12:29:58] Type 'help' for a list of commands.
+[2023-09-27 12:29:59] Querying MTA master server... success! (Auto detected IP:181.215.254.166)
+[2023-09-27 12:30:25] Server minclientversion is now 1.6.0-9.21923.0
+[2023-09-27 12:30:25] CONNECT: +Alexsandro connected (IP: 201.41.94.106  Serial: CE124527A04FCA00EB44E51B3EBFEFE3  Version: 1.6.0-9.22215.0)
+[2023-09-27 12:30:27] JOIN: +Alexsandro joined the game (IP: 201.41.94.106)
+[2023-09-27 12:31:13] ACL: Denied '+Alexsandro' access to command 'refresh'
+[2023-09-27 12:31:45] start: Requested by Console
+[2023-09-27 12:31:45] Starting admin
+[2023-09-27 12:31:45] start: Resource 'admin' started
+[2023-09-27 12:32:19] LOGIN: (Everyone, Console, Bandido, Staff, Gang) +Alexsandro successfully logged in as '+Alexsandro' (IP: 201.41.94.106  Serial: CE124527A04FCA00EB44E51B3EBFEFE3)
+[2023-09-27 12:32:41] Starting SaveSystem
+[2023-09-27 12:32:41] startResource: Resource 'SaveSystem' started
+[2023-09-27 12:32:41] ADMIN: Resource 'SaveSystem' started by +Alexsandro
+[2023-09-27 12:32:43] Starting SistemaGasolina
+[2023-09-27 12:32:43] startResource: Resource 'SistemaGasolina' started
+[2023-09-27 12:32:43] ADMIN: Resource 'SistemaGasolina' started by +Alexsandro
+[2023-09-27 12:33:03] Server stopped!
+[2023-09-27 12:33:03] Stopping resources.......
+[2023-09-27 12:33:03] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.6
+==================================================================
+= Server name      : Tandera Roleplay
+= Server IP address: 181.215.254.166
+= Server port      : 22003
+= 
+= Log file         : C:/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Quality [4];  Sample Rate: [16000Hz]
+= Bandwidth saving : Medium
+==================================================================
+[2023-09-27 12:33:47] Resource 'dgs' requests some acl rights. Use the command 'aclrequest list dgs'
+[2023-09-27 12:33:48] ERROR: Not processing resource 'FR_DxMessages' as it has duplicates on different paths:
+                  Path #1: "resources\[essential]\FR_DxMessages"
+                  Path #2: "resources\[scripts]\[JBLVinculadaAoInvCompleto]\FR_DxMessages"
+[2023-09-27 12:33:48] ERROR: Not processing resource 'getpos' as it has duplicates on different paths:
+                  Path #1: "resources\getpos"
+                  Path #2: "resources\[scripts]\getpos"
+[2023-09-27 12:33:48] ERROR: Not processing resource 'star_inventario' as it has duplicates on different paths:
+                  Path #1: "resources\star_inventario"
+                  Path #2: "resources\[scripts]\star_inventario"
+[2023-09-27 12:33:48] Resources: 42 loaded, 0 failed
+[2023-09-27 12:33:48] Starting resources...
+[2023-09-27 12:33:48] SCRIPT ERROR: AutoStart\server.lua:17: unexpected symbol near '<'
+[2023-09-27 12:33:48] ERROR: Loading script failed: AutoStart\server.lua:17: unexpected symbol near '<'
+[2023-09-27 12:33:48] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2023-09-27 12:33:48] Server started and is ready to accept connections!
+[2023-09-27 12:33:48] To stop the server, type 'shutdown' or press Ctrl-C
+[2023-09-27 12:33:48] Type 'help' for a list of commands.
+[2023-09-27 12:33:48] Querying MTA master server... success! (Auto detected IP:181.215.254.166)
+==================================================================
+= Multi Theft Auto: San Andreas v1.6
+==================================================================
+= Server name      : Tandera Roleplay
+= Server IP address: 181.215.254.166
+= Server port      : 22003
+= 
+= Log file         : C:/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Quality [4];  Sample Rate: [16000Hz]
+= Bandwidth saving : Medium
+==================================================================
+[2023-09-27 12:34:13] Resource 'dgs' requests some acl rights. Use the command 'aclrequest list dgs'
+[2023-09-27 12:34:14] ERROR: Not processing resource 'FR_DxMessages' as it has duplicates on different paths:
+                  Path #1: "resources\[essential]\FR_DxMessages"
+                  Path #2: "resources\[scripts]\[JBLVinculadaAoInvCompleto]\FR_DxMessages"
+[2023-09-27 12:34:14] ERROR: Not processing resource 'getpos' as it has duplicates on different paths:
+                  Path #1: "resources\getpos"
+                  Path #2: "resources\[scripts]\getpos"
+[2023-09-27 12:34:14] ERROR: Not processing resource 'star_inventario' as it has duplicates on different paths:
+                  Path #1: "resources\star_inventario"
+                  Path #2: "resources\[scripts]\star_inventario"
+[2023-09-27 12:34:14] Resources: 42 loaded, 0 failed
+[2023-09-27 12:34:14] Starting resources...
+[2023-09-27 12:34:14] Server minclientversion is now 1.6.0-9.21923.0
+[2023-09-27 12:34:14] startResource: Resource 'admin' started
+[2023-09-27 12:34:14] INFO: Recurso: 'admin' iniciado!
+[2023-09-27 12:34:14] startResource: Resource 'ComandosStaff' started
+[2023-09-27 12:34:14] INFO: Recurso: 'ComandosStaff' iniciado!
+[2023-09-27 12:34:14] startResource: Resource 'Blur' started
+[2023-09-27 12:34:14] INFO: Recurso: 'Blur' iniciado!
+[2023-09-27 12:34:14] startResource: Resource 'bone_attach' started
+[2023-09-27 12:34:14] INFO: Recurso: 'bone_attach' iniciado!
+[2023-09-27 12:34:14] startResource: Resource 'Cursor' started
+[2023-09-27 12:34:14] INFO: Recurso: 'Cursor' iniciado!
+[2023-09-27 12:34:14] WARNING: [essential]\dgs\server.lua:17: Access denied @ 'loadstring'
+[2023-09-27 12:34:14] WARNING: [essential]\dgs\server.lua:22: [DGS]Invaild Config File!
+[2023-09-27 12:34:14] INFO: [DGS]G2D is enabled!
+[2023-09-27 12:34:14] startResource: Resource 'dgs' started
+[2023-09-27 12:34:14] INFO: Recurso: 'dgs' iniciado!
+[2023-09-27 12:34:14] INFO: Recurso: 'FR_DxMessages' não encontrado, indo para o próximo...
+[2023-09-27 12:34:14] WARNING: infobox <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.6-9.18728 because of 'client.luac')
+[2023-09-27 12:34:14] WARNING: infobox requires upgrade as <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.6-9.18728 because of 'client.luac')
+[2023-09-27 12:34:14] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-27 12:34:14] startResource: Resource 'infobox' started
+[2023-09-27 12:34:14] INFO: Recurso: 'infobox' iniciado!
+[2023-09-27 12:34:14] INFO: Recurso: 'n3xt_dxmessages' não encontrado, indo para o próximo...
+[2023-09-27 12:34:14] WARNING: object_preview <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.6-9.18728 because of 'TioSteiN.luac')
+[2023-09-27 12:34:14] WARNING: object_preview requires upgrade as <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.6-9.18728 because of 'TioSteiN.luac')
+[2023-09-27 12:34:14] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-27 12:34:14] startResource: Resource 'object_preview' started
+[2023-09-27 12:34:14] INFO: Recurso: 'object_preview' iniciado!
+[2023-09-27 12:34:14] startResource: Resource 'SaveSystem' started
+[2023-09-27 12:34:14] INFO: Recurso: 'SaveSystem' iniciado!
+[2023-09-27 12:34:14] startResource: Resource 'SpawnConfig' started
+[2023-09-27 12:34:14] INFO: Recurso: 'SpawnConfig' iniciado!
+[2023-09-27 12:34:14] startResource: Resource 'dl_shader_detail' started
+[2023-09-27 12:34:14] INFO: Recurso: 'dl_shader_detail' iniciado!
+[2023-09-27 12:34:14] startResource: Resource 'shader_car_paint_reflect' started
+[2023-09-27 12:34:14] INFO: Recurso: 'shader_car_paint_reflect' iniciado!
+[2023-09-27 12:34:14] startResource: Resource 'shader_dynamic_sky' started
+[2023-09-27 12:34:14] INFO: Recurso: 'shader_dynamic_sky' iniciado!
+[2023-09-27 12:34:14] startResource: Resource 'shader_water_refract' started
+[2023-09-27 12:34:14] INFO: Recurso: 'shader_water_refract' iniciado!
+[2023-09-27 12:34:14] startResource: Resource 'shader_watershine' started
+[2023-09-27 12:34:14] INFO: Recurso: 'shader_watershine' iniciado!
+[2023-09-27 12:34:14] startResource: Resource 'Mapa-Concessionaria' started
+[2023-09-27 12:34:14] INFO: Recurso: 'Mapa-Concessionaria' iniciado!
+[2023-09-27 12:34:14] WARNING: File 'veiculos/dodo.png' in resource 'n3xt_concessionaria' is invalid.
+[2023-09-27 12:34:14] WARNING: File 'veiculos/jetmax.png' in resource 'n3xt_concessionaria' is invalid.
+[2023-09-27 12:34:14] WARNING: n3xt_concessionaria <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.6-9.18728 because of 'files/util/utilC.luac')
+[2023-09-27 12:34:14] WARNING: n3xt_concessionaria requires upgrade as <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.6-9.18728 because of 'files/util/utilC.luac')
+[2023-09-27 12:34:14] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-27 12:34:14] startResource: Resource 'n3xt_concessionaria' started
+[2023-09-27 12:34:14] INFO: Recurso: 'n3xt_concessionaria' iniciado!
+[2023-09-27 12:34:14] startResource: Resource 'n3xt_inventario' started
+[2023-09-27 12:34:14] INFO: Recurso: 'n3xt_inventario' iniciado!
+[2023-09-27 12:34:14] startResource: Resource 'Banco' started
+[2023-09-27 12:34:14] INFO: Recurso: 'Banco' iniciado!
+[2023-09-27 12:34:14] startResource: Resource 'Chat' started
+[2023-09-27 12:34:14] INFO: Recurso: 'Chat' iniciado!
+[2023-09-27 12:34:14] WARNING: FomeSede/server.lua(Line 64) [Server] killPlayer is deprecated and may not work in future versions. Please replace with killPed.
+[2023-09-27 12:34:14] Some files in 'FomeSede' use deprecated functions.
+[2023-09-27 12:34:14] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-27 12:34:14] startResource: Resource 'FomeSede' started
+[2023-09-27 12:34:14] INFO: Recurso: 'FomeSede' iniciado!
+[2023-09-27 12:34:14] INFO: Recurso: 'getpos' não encontrado, indo para o próximo...
+[2023-09-27 12:34:14] WARNING: Hud/client.lua(Line 96) [Client] showPlayerHudComponent is deprecated and may not work in future versions. Please replace with setPlayerHudComponentVisible.
+[2023-09-27 12:34:14] Some files in 'Hud' use deprecated functions.
+[2023-09-27 12:34:14] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-27 12:34:14] startResource: Resource 'Hud' started
+[2023-09-27 12:34:14] INFO: Recurso: 'Hud' iniciado!
+[2023-09-27 12:34:14] Please wait...
+[2023-09-27 12:34:15] startResource: Resource 'RadarMinimapa' started
+[2023-09-27 12:34:15] INFO: Recurso: 'RadarMinimapa' iniciado!
+[2023-09-27 12:34:15] startResource: Resource 'SistemaGasolina' started
+[2023-09-27 12:34:15] INFO: Recurso: 'SistemaGasolina' iniciado!
+[2023-09-27 12:34:15] startResource: Resource 'Velocimetro' started
+[2023-09-27 12:34:15] INFO: Recurso: 'Velocimetro' iniciado!
+[2023-09-27 12:34:15] startResource: Resource '[411]lambo-essenza' started
+[2023-09-27 12:34:15] INFO: Recurso: '[411]lambo-essenza' iniciado!
+[2023-09-27 12:34:15] INFO: Recurso: 'FR_DxMessages' não encontrado, indo para o próximo...
+[2023-09-27 12:34:15] WARNING: File 'assets/images/avatar/2.png' in resource 'star_assets' is invalid.
+[2023-09-27 12:34:15] WARNING: File 'assets/images/avatar/15.png' in resource 'star_assets' is invalid.
+[2023-09-27 12:34:15] WARNING: File 'assets/images/avatar/16.png' in resource 'star_assets' is invalid.
+[2023-09-27 12:34:15] WARNING: File 'assets/images/avatar/18.png' in resource 'star_assets' is invalid.
+[2023-09-27 12:34:15] startResource: Resource 'star_assets' started
+[2023-09-27 12:34:15] INFO: Recurso: 'star_assets' iniciado!
+[2023-09-27 12:34:15] INFO: Recurso: 'star_inventario' não encontrado, indo para o próximo...
+[2023-09-27 12:34:15] INFO: Recurso: 'getpos' não encontrado, indo para o próximo...
+[2023-09-27 12:34:15] startResource: Resource 'PainelLogin' started
+[2023-09-27 12:34:15] INFO: Recurso: 'PainelLogin' iniciado!
+[2023-09-27 12:34:15] Querying MTA master server... success! (Auto detected IP:181.215.254.166)
+[2023-09-27 12:34:15] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2023-09-27 12:34:15] Server started and is ready to accept connections!
+[2023-09-27 12:34:15] To stop the server, type 'shutdown' or press Ctrl-C
+[2023-09-27 12:34:15] Type 'help' for a list of commands.
+[2023-09-27 12:34:15] INFO: n3xt_concessionaria: Proteção iniciada com sucesso!
+[2023-09-27 12:34:15] INFO: n3xt_inventario: Proteção iniciada com sucesso!
+[2023-09-27 12:34:23] CONNECT: +Alexsandro connected (IP: 201.41.94.106  Serial: CE124527A04FCA00EB44E51B3EBFEFE3  Version: 1.6.0-9.22215.0)
+[2023-09-27 12:34:23] JOIN: +Alexsandro joined the game (IP: 201.41.94.106)
+[2023-09-27 12:34:23] WARNING: [essential]\SpawnConfig\script.lua:21: Bad argument @ 'spawnPlayer' [Expected vector3 at argument 2, got nil]
+[2023-09-27 12:34:23] WARNING: [essential]\SpawnConfig\script.lua:24: Bad argument @ 'outputChatBox' [Expected string at argument 1, got nil]
+[2023-09-27 12:34:23] WARNING: [essential]\SpawnConfig\script.lua:25: Bad argument @ 'giveWeapon' [Expected weapon-type at argument 2, got nil]
+[2023-09-27 12:34:23] WARNING: [essential]\SpawnConfig\script.lua:26: Bad argument @ 'givePlayerMoney' [Expected number at argument 2, got nil]
+[2023-09-27 12:34:38] LOGIN: (Everyone, Console, Bandido, Staff, Gang) +Alexsandro successfully logged in as '+Alexsandro' (IP: 201.41.94.106  Serial: CE124527A04FCA00EB44E51B3EBFEFE3)
+[2023-09-27 12:35:12] Starting Dash
+[2023-09-27 12:35:12] startResource: Resource 'Dash' started
+[2023-09-27 12:35:12] ADMIN: Resource 'Dash' started by +Alexsandro
+[2023-09-27 12:36:43] Starting SistemaID
+[2023-09-27 12:36:43] Database do [SistemaID] conectada com sucesso ao servidor!
+[2023-09-27 12:36:43] startResource: Resource 'SistemaID' started
+[2023-09-27 12:36:43] ADMIN: Resource 'SistemaID' started by +Alexsandro
+[2023-09-27 12:36:56] ADMIN: Resource 'n3xt_inventario' stopped by +Alexsandro
+[2023-09-27 12:36:56] Stopping n3xt_inventario
+[2023-09-27 12:37:01] ADMIN: Resource 'n3xt_concessionaria' stopped by +Alexsandro
+[2023-09-27 12:37:01] Stopping n3xt_concessionaria
+[2023-09-27 12:37:13] Starting Snack_Blur
+[2023-09-27 12:37:13] startResource: Resource 'Snack_Blur' started
+[2023-09-27 12:37:13] ADMIN: Resource 'Snack_Blur' started by +Alexsandro
+[2023-09-27 12:38:03] ERROR: [admin]\ComandosStaff\server.lua:75: exports: Call to non-running server resource (FR_DxMessages) [string "?"]
+[2023-09-27 12:38:03] WARNING: [scripts]\Chat\chatfac.lua:20: Bad argument @ 'isObjectInACLGroup' [Expected acl-group at argument 2, got boolean]
+[2023-09-27 12:38:09] ERROR: [admin]\ComandosStaff\server.lua:75: exports: Call to non-running server resource (FR_DxMessages) [string "?"]
+[2023-09-27 12:38:09] WARNING: [scripts]\Chat\chatfac.lua:20: Bad argument @ 'isObjectInACLGroup' [Expected acl-group at argument 2, got boolean]
+[2023-09-27 12:38:10] ERROR: [admin]\ComandosStaff\server.lua:400: exports: Call to non-running server resource (FR_DxMessages) [string "?"]
+[2023-09-27 12:38:13] ERROR: [admin]\ComandosStaff\server.lua:72: exports: Call to non-running server resource (FR_DxMessages) [string "?"]
+[2023-09-27 12:38:13] WARNING: [scripts]\Chat\chatfac.lua:20: Bad argument @ 'isObjectInACLGroup' [Expected acl-group at argument 2, got boolean]
+[2023-09-27 12:38:18] ERROR: [admin]\ComandosStaff\server.lua:57: exports: Call to non-running server resource (FR_DxMessages) [string "?"]
+[2023-09-27 12:38:24] WARNING: [scripts]\Chat\chatfac.lua:20: Bad argument @ 'isObjectInACLGroup' [Expected acl-group at argument 2, got boolean]
+[2023-09-27 12:44:55] Starting [Carioca]Ilegal
+[2023-09-27 12:44:55] startResource: Resource '[Carioca]Ilegal' started
+[2023-09-27 12:44:55] ADMIN: Resource '[Carioca]Ilegal' started by +Alexsandro
+[2023-09-27 12:46:11] start: Resource could not be found
+[2023-09-27 12:47:27] start: Resource could not be found
+[2023-09-27 12:47:32] New resource 'star_inventario' loaded
+[2023-09-27 12:47:32] ERROR: Not processing resource 'FR_DxMessages' as it has duplicates on different paths:
+                  Path #1: "resources\[essential]\FR_DxMessages"
+                  Path #2: "resources\[scripts]\[JBLVinculadaAoInvCompleto]\FR_DxMessages"
+[2023-09-27 12:47:32] ERROR: Not processing resource 'getpos' as it has duplicates on different paths:
+                  Path #1: "resources\getpos"
+                  Path #2: "resources\[scripts]\getpos"
+[2023-09-27 12:47:32] Resources: 43 loaded, 0 failed
+[2023-09-27 12:47:41] start: Requested by Console
+[2023-09-27 12:47:41] WARNING: star_inventario/assets/source/useitem/inventory-useitem_s.lua(Line 213) [Server] setPlayerArmor is deprecated and may not work in future versions. Please replace with setPedArmor.
+[2023-09-27 12:47:41] Some files in 'star_inventario' use deprecated functions.
+[2023-09-27 12:47:41] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-27 12:47:41] Starting star_inventario
+[2023-09-27 12:47:41] star_inventario: Inventory started.
+[2023-09-27 12:47:41] start: Resource 'star_inventario' started
+[2023-09-27 13:04:03] Server stopped!
+[2023-09-27 13:04:03] Stopping resources...................................
+[2023-09-27 13:04:03] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.6
+==================================================================
+= Server name      : Tandera Roleplay
+= Server IP address: 181.215.254.166
+= Server port      : 22003
+= 
+= Log file         : C:/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Quality [4];  Sample Rate: [16000Hz]
+= Bandwidth saving : Medium
+==================================================================
+[2023-09-27 13:04:23] Resources: 22 loaded, 0 failed
+[2023-09-27 13:04:23] Starting resources...
+[2023-09-27 13:04:23] Server minclientversion is now 1.6.0-9.21923.0
+[2023-09-27 13:04:23] startResource: Resource 'admin' started
+[2023-09-27 13:04:23] INFO: Recurso: 'admin' iniciado!
+[2023-09-27 13:04:23] startResource: Resource 'ComandosStaff' started
+[2023-09-27 13:04:23] INFO: Recurso: 'ComandosStaff' iniciado!
+[2023-09-27 13:04:23] startResource: Resource 'Blur' started
+[2023-09-27 13:04:23] INFO: Recurso: 'Blur' iniciado!
+[2023-09-27 13:04:23] startResource: Resource 'bone_attach' started
+[2023-09-27 13:04:23] INFO: Recurso: 'bone_attach' iniciado!
+[2023-09-27 13:04:23] INFO: Recurso: 'Cursor' não encontrado, indo para o próximo...
+[2023-09-27 13:04:23] INFO: Recurso: 'dgs' não encontrado, indo para o próximo...
+[2023-09-27 13:04:23] startResource: Resource 'FR_DxMessages' started
+[2023-09-27 13:04:23] INFO: Recurso: 'FR_DxMessages' iniciado!
+[2023-09-27 13:04:23] INFO: Recurso: 'infobox' não encontrado, indo para o próximo...
+[2023-09-27 13:04:23] INFO: Recurso: 'n3xt_dxmessages' não encontrado, indo para o próximo...
+[2023-09-27 13:04:23] INFO: Recurso: 'object_preview' não encontrado, indo para o próximo...
+[2023-09-27 13:04:23] startResource: Resource 'SaveSystem' started
+[2023-09-27 13:04:23] INFO: Recurso: 'SaveSystem' iniciado!
+[2023-09-27 13:04:23] startResource: Resource 'SpawnConfig' started
+[2023-09-27 13:04:23] INFO: Recurso: 'SpawnConfig' iniciado!
+[2023-09-27 13:04:23] INFO: Recurso: 'dl_shader_detail' não encontrado, indo para o próximo...
+[2023-09-27 13:04:23] INFO: Recurso: 'shader_car_paint_reflect' não encontrado, indo para o próximo...
+[2023-09-27 13:04:23] INFO: Recurso: 'shader_dynamic_sky' não encontrado, indo para o próximo...
+[2023-09-27 13:04:23] INFO: Recurso: 'shader_water_refract' não encontrado, indo para o próximo...
+[2023-09-27 13:04:23] INFO: Recurso: 'shader_watershine' não encontrado, indo para o próximo...
+[2023-09-27 13:04:23] startResource: Resource 'Mapa-Concessionaria' started
+[2023-09-27 13:04:23] INFO: Recurso: 'Mapa-Concessionaria' iniciado!
+[2023-09-27 13:04:23] INFO: Recurso: 'n3xt_concessionaria' não encontrado, indo para o próximo...
+[2023-09-27 13:04:23] INFO: Recurso: 'n3xt_inventario' não encontrado, indo para o próximo...
+[2023-09-27 13:04:23] startResource: Resource 'Banco' started
+[2023-09-27 13:04:23] INFO: Recurso: 'Banco' iniciado!
+[2023-09-27 13:04:23] startResource: Resource 'Chat' started
+[2023-09-27 13:04:23] INFO: Recurso: 'Chat' iniciado!
+[2023-09-27 13:04:23] WARNING: FomeSede/server.lua(Line 64) [Server] killPlayer is deprecated and may not work in future versions. Please replace with killPed.
+[2023-09-27 13:04:23] Some files in 'FomeSede' use deprecated functions.
+[2023-09-27 13:04:23] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-27 13:04:23] startResource: Resource 'FomeSede' started
+[2023-09-27 13:04:23] INFO: Recurso: 'FomeSede' iniciado!
+[2023-09-27 13:04:23] startResource: Resource 'getpos' started
+[2023-09-27 13:04:23] INFO: Recurso: 'getpos' iniciado!
+[2023-09-27 13:04:23] WARNING: Hud/client.lua(Line 96) [Client] showPlayerHudComponent is deprecated and may not work in future versions. Please replace with setPlayerHudComponentVisible.
+[2023-09-27 13:04:23] Some files in 'Hud' use deprecated functions.
+[2023-09-27 13:04:23] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-27 13:04:23] startResource: Resource 'Hud' started
+[2023-09-27 13:04:23] INFO: Recurso: 'Hud' iniciado!
+[2023-09-27 13:04:24] Please wait...
+[2023-09-27 13:04:24] startResource: Resource 'RadarMinimapa' started
+[2023-09-27 13:04:24] INFO: Recurso: 'RadarMinimapa' iniciado!
+[2023-09-27 13:04:24] startResource: Resource 'SistemaGasolina' started
+[2023-09-27 13:04:24] INFO: Recurso: 'SistemaGasolina' iniciado!
+[2023-09-27 13:04:24] startResource: Resource 'Velocimetro' started
+[2023-09-27 13:04:24] INFO: Recurso: 'Velocimetro' iniciado!
+[2023-09-27 13:04:24] startResource: Resource '[411]lambo-essenza' started
+[2023-09-27 13:04:24] INFO: Recurso: '[411]lambo-essenza' iniciado!
+[2023-09-27 13:04:24] INFO: Recurso: 'infobox' não encontrado, indo para o próximo...
+[2023-09-27 13:04:24] INFO: Recurso: 'Cursor' não encontrado, indo para o próximo...
+[2023-09-27 13:04:24] INFO: Recurso: 'star_assets' não encontrado, indo para o próximo...
+[2023-09-27 13:04:24] INFO: Recurso: 'star_inventario' não encontrado, indo para o próximo...
+[2023-09-27 13:04:24] startResource: Resource 'PainelLogin' started
+[2023-09-27 13:04:24] INFO: Recurso: 'PainelLogin' iniciado!
+[2023-09-27 13:04:24] Querying MTA master server... success! (Auto detected IP:181.215.254.166)
+[2023-09-27 13:04:24] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2023-09-27 13:04:24] Server started and is ready to accept connections!
+[2023-09-27 13:04:24] To stop the server, type 'shutdown' or press Ctrl-C
+[2023-09-27 13:04:24] Type 'help' for a list of commands.
+[2023-09-27 13:04:32] CONNECT: +Alexsandro connected (IP: 201.41.94.106  Serial: CE124527A04FCA00EB44E51B3EBFEFE3  Version: 1.6.0-9.22215.0)
+[2023-09-27 13:04:32] JOIN: +Alexsandro joined the game (IP: 201.41.94.106)
+[2023-09-27 13:04:32] WARNING: [essential]\SpawnConfig\script.lua:21: Bad argument @ 'spawnPlayer' [Expected vector3 at argument 2, got nil]
+[2023-09-27 13:04:32] WARNING: [essential]\SpawnConfig\script.lua:24: Bad argument @ 'outputChatBox' [Expected string at argument 1, got nil]
+[2023-09-27 13:04:32] WARNING: [essential]\SpawnConfig\script.lua:25: Bad argument @ 'giveWeapon' [Expected weapon-type at argument 2, got nil]
+[2023-09-27 13:04:32] WARNING: [essential]\SpawnConfig\script.lua:26: Bad argument @ 'givePlayerMoney' [Expected number at argument 2, got nil]
+[2023-09-27 13:04:42] LOGIN: (Everyone, Console, Bandido, Staff, Gang) +Alexsandro successfully logged in as '+Alexsandro' (IP: 201.41.94.106  Serial: CE124527A04FCA00EB44E51B3EBFEFE3)
+[2023-09-27 13:04:48] Starting SistemaID
+[2023-09-27 13:04:48] Database do [SistemaID] conectada com sucesso ao servidor!
+[2023-09-27 13:04:48] startResource: Resource 'SistemaID' started
+[2023-09-27 13:04:48] ADMIN: Resource 'SistemaID' started by +Alexsandro
+[2023-09-27 13:04:52] Starting [Carioca]Infobox
+[2023-09-27 13:04:52] startResource: Resource '[Carioca]Infobox' started
+[2023-09-27 13:04:52] ADMIN: Resource '[Carioca]Infobox' started by +Alexsandro
+[2023-09-27 13:04:55] Starting [Carioca]Ilegal
+[2023-09-27 13:04:55] startResource: Resource '[Carioca]Ilegal' started
+[2023-09-27 13:04:55] ADMIN: Resource '[Carioca]Ilegal' started by +Alexsandro
+[2023-09-27 13:05:59] New resource '[GlobalDrops]InventarioCompleto' loaded
+[2023-09-27 13:05:59] Resources: 23 loaded, 0 failed
+[2023-09-27 13:06:13] WARNING: [GlobalDrops]InventarioCompleto/cTeoBeack.lua(Line 18) [Client] setCameraShakeLevel is deprecated and may not work in future versions. Please replace with setCameraDrunkLevel.
+[2023-09-27 13:06:13] WARNING: [GlobalDrops]InventarioCompleto <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.6-9.18728 because of 'utils.luac')
+[2023-09-27 13:06:13] Some files in '[GlobalDrops]InventarioCompleto' use deprecated functions.
+[2023-09-27 13:06:13] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-27 13:06:13] WARNING: [GlobalDrops]InventarioCompleto requires upgrade as <min_mta_version> section in the meta.xml is incorrect or missing (expected at least client 1.5.6-9.18728 because of 'utils.luac')
+[2023-09-27 13:06:13] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2023-09-27 13:06:13] Starting [GlobalDrops]InventarioCompleto
+[2023-09-27 13:06:13] [[GlobalDrops]InventarioCompleto] Successfully connected to SQLITE database.
+[2023-09-27 13:06:13] startResource: Resource '[GlobalDrops]InventarioCompleto' started
+[2023-09-27 13:06:13] ADMIN: Resource '[GlobalDrops]InventarioCompleto' started by +Alexsandro
+[2023-09-27 13:06:14] [[GlobalDrops]InventarioCompleto] Script developed by Chernaruz.
+[2023-09-27 13:07:37] ERROR: [emTeste]\[Carioca]Ilegal\script\server.lua:71: exports: Call to non-running server resource ([Carioca]InventarioCompleto) [string "?"]
+[2023-09-27 13:07:37] ERROR: [emTeste]\[Carioca]Ilegal\script\server.lua:72: exports: Call to non-running server resource ([Carioca]InventarioCompleto) [string "?"]
+[2023-09-27 13:09:03] ADMIN: Resource '[Carioca]Ilegal' restarted by +Alexsandro
+[2023-09-27 13:09:03] Stopping [Carioca]Ilegal
+[2023-09-27 13:09:03] Resource '[Carioca]Ilegal' changed, reloading and starting
+[2023-09-27 13:09:03] Starting [Carioca]Ilegal
+[2023-09-27 13:09:03] [Carioca]Ilegal restarted successfully
+[2023-09-27 13:09:43] WARNING: [emTeste]\[Carioca]Ilegal\script\server.lua:54: Bad argument @ 'destroyElement' [Expected element at argument 1, got nil]
+[2023-09-27 13:09:43] WARNING: [emTeste]\[Carioca]Ilegal\script\server.lua:59: Bad argument @ 'destroyElement' [Expected element at argument 1, got nil]
+[2023-09-27 13:17:38] INFO: teste
+[2023-09-27 13:19:21] WARNING: [emTeste]\[Carioca]Ilegal\script\server.lua:54: Bad argument @ 'destroyElement' [Expected element at argument 1, got nil]
+[2023-09-27 13:19:21] WARNING: [emTeste]\[Carioca]Ilegal\script\server.lua:59: Bad argument @ 'destroyElement' [Expected element at argument 1, got nil]
+[2023-09-27 13:23:58] New resource '[GlobalDrops]JBL' loaded
+[2023-09-27 13:23:58] ERROR: Not processing resource 'FR_DxMessages' as it has duplicates on different paths:
+                  Path #1: "resources\[essential]\FR_DxMessages"
+                  Path #2: "resources\[JBLVinculadaAoInvCompleto]\FR_DxMessages"
+[2023-09-27 13:23:58] Resources: 24 loaded, 0 failed
+[2023-09-27 13:24:12] Starting [GlobalDrops]JBL
+[2023-09-27 13:24:12] startResource: Resource '[GlobalDrops]JBL' started
+[2023-09-27 13:24:12] ADMIN: Resource '[GlobalDrops]JBL' started by +Alexsandro
+[2023-09-27 13:25:46] ADMIN: +Alexsandro has set +Alexsandro's money to 200000
+[2023-09-27 14:04:06] Server stopped!
+[2023-09-27 14:04:06] Stopping resources...........................
+[2023-09-27 14:04:06] Closing SQLite3 database

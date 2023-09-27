@@ -1,0 +1,206 @@
+<meta>
+	<info author="McLOVIN" version="1.0.0" name="CzInventory" description="https://discord.gg/fXhDxJmrzH" type="script" />
+	<script src="shared.lua" type="shared" cache="false"/>
+	<script src="utils.luac" type="client" cache="false"/>
+	<script src="client.luac" type="client" cache="false"/>
+	<script src="replece.lua" type="client" cache="false"/>
+	<script src="server.luac" type="server"/>
+    <script src="useitem.lua" type="server"/>
+    <script src="interact.lua" type="server"/>
+    <script src="notification.luac" type="client" cache="false"/>
+
+    <!-- Fonts -->
+    <file src="assets/font/regular.ttf"></file>
+	
+	
+    <!-- Replace -->
+	
+	<file src="assets/replace/capacete.dff"/>
+	<file src="assets/replace/capacete.txd"/>
+	<file src="assets/replace/cavalo.dff"/>
+	<file src="assets/replace/cavalo.txd"/>
+	<file src="assets/replace/mochila.dff"/>
+	<file src="assets/replace/mochila.txd"/>
+	
+	
+    <!-- Efeito drogas -->
+    <script src="cTeoBeack.lua" type="client" cache="false" />
+	
+	
+	<file src="files/efeito.png" cache="false"/>	
+	<file src="files/reggae_music.mp3" cache="false"/>
+	
+    <!-- Radinho -->
+	
+
+	<file src="assets/icons/bandage.png"/>
+	<file src="assets/icons/vest.png"/>
+	<file src="assets/icons/bottle.vodka.png"/>
+	<file src="assets/icons/medkit.png"/>
+	<file src="assets/icons/pizza.png"/>
+	<file src="assets/icons/key.png"/>
+	<file src="assets/icons/toolbox.png"/>
+	<file src="assets/icons/repairkit.png"/>
+	<file src="assets/icons/keycard.png"/>
+
+	<!-- Armas de fogo -->
+	<file src="assets/icons/rifle.svd.png"/>
+	<file src="assets/icons/rifle.ak47.png"/>
+	<file src="assets/icons/rifle.m4.png"/>
+	<file src="assets/icons/rifle.hunter.png"/>
+	<file src="assets/icons/smg.mp5.png"/>
+	<file src="assets/icons/rocket.launcher.png"/>
+	<file src="assets/icons/pistol.m92.png"/>
+	<file src="assets/icons/pistol.python.png"/>
+	<file src="assets/icons/shotgun.m1887.png"/>
+	<file src="assets/icons/shotgun.tec01.png"/>
+
+	<!-- Arma branca -->
+	<file src="assets/icons/knife.png"/>
+	<file src="assets/icons/brassknuckle.png"/>
+	<file src="assets/icons/nightstick.png"/>
+	<file src="assets/icons/bat.png"/>
+	<file src="assets/icons/dildo.png"/>
+	<file src="assets/icons/katana.png"/>
+	<file src="assets/icons/shovel.png"/>
+	<file src="assets/icons/poolstick.png"/>
+	<file src="assets/icons/chainsaw.png"/>
+	
+	<!-- Munições -->
+	<file src="assets/icons/ammo.rifle.png"/>
+	<file src="assets/icons/ammo.pistol.png"/>
+	<file src="assets/icons/ammo.shotgun.png"/>
+	<file src="assets/icons/ammo.rocket.png"/>
+
+	<!-- Granadas -->
+	<file src="assets/icons/grenade.png"/>
+	<file src="assets/icons/teargas.png"/>
+	<file src="assets/icons/molotov.png"/>
+
+	<!-- Outros -->
+	<file src="assets/icons/box.png"/>
+	<file src="assets/icons/dirtymoney.png"/>
+	<file src="assets/icons/maconha.png"/>
+	<file src="assets/icons/jerrycan.png"/>
+	<file src="assets/icons/radio.png"/>
+	<file src="assets/icons/keylock.png"/>
+	
+	<!-- Custom BFC -->
+
+	<file src="assets/icons/agua.png"/>
+	<file src="assets/icons/caixapizza.png"/>
+	<file src="assets/icons/massapizza.png"/>
+	<file src="assets/icons/farinhatrigo.png"/>
+	<file src="assets/icons/igrepizza.png"/>
+	<file src="assets/icons/leite1.png"/>
+	<file src="assets/icons/leite2.png"/>
+	<file src="assets/icons/niobio.png"/>
+	<file src="assets/icons/bronze.png"/>
+	<file src="assets/icons/prata.png"/>
+	<file src="assets/icons/ouro.png"/>
+	<file src="assets/icons/diamante.png"/>
+	<file src="assets/icons/rubi.png"/>
+	<file src="assets/icons/picareta.png"/>
+	<file src="assets/icons/cutelo.png"/>
+	<file src="assets/icons/ak47boca.png"/>
+	<file src="assets/icons/ak47carregador.png"/>
+	<file src="assets/icons/ak47coronha.png"/>
+	<file src="assets/icons/ak47corpo.png"/>
+	<file src="assets/icons/agulha.png"/>
+	<file src="assets/icons/linha.png"/>
+	<file src="assets/icons/kevlar.png"/>
+	<file src="assets/icons/mp5boca.png"/>
+	<file src="assets/icons/mp5carregador.png"/>
+	<file src="assets/icons/mp5coronha.png"/>
+	<file src="assets/icons/mp5gatilho.png"/>
+	<file src="assets/icons/huntercano.png"/>
+	<file src="assets/icons/huntercomponentes.png"/>
+	<file src="assets/icons/huntercoronha.png"/>
+	<file src="assets/icons/escopetacabo.png"/>
+	<file src="assets/icons/escopetacano.png"/>
+	<file src="assets/icons/escopetacorpo.png"/>
+	<file src="assets/icons/38cabo.png"/>
+	<file src="assets/icons/38componentes.png"/>
+	<file src="assets/icons/38tambor.png"/>
+	<file src="assets/icons/polvora.png"/>
+	<file src="assets/icons/capsula.png"/>
+	<file src="assets/icons/kitescovas.png"/>
+	<file src="assets/icons/lubrificante.png"/>
+	<file src="assets/icons/sementemaconha.png"/>
+	<file src="assets/icons/plastico.png"/>
+	<file src="assets/icons/budmaconha.png"/>
+	<file src="assets/icons/fertilizante.png"/>
+	<file src="assets/icons/teser.png"/>
+	<file src="assets/icons/isqueiro.png"/>
+	<file src="assets/icons/baseado.png"/>
+	<file src="assets/icons/seda.png"/>
+	<file src="assets/icons/spraitinta.png"/>
+	<file src="assets/icons/jbl.png"/>
+	<file src="assets/icons/glock.png"/>
+	<file src="assets/icons/M4A1.png"/>
+	
+	
+	
+	<file src="assets/icons/capacete.png"/>
+	<file src="assets/icons/cavalo.png"/>
+	<file src="assets/icons/mochila.png"/>
+
+	<!--Tabs-->
+	<file src="assets/tabs/1.png"/>
+	<file src="assets/tabs/2.png"/>
+	<file src="assets/tabs/3.png"/>
+	<file src="assets/tabs/4.png"/>
+
+	<!--Others-->
+	<file src="assets/others/block.png"/>
+	<file src="assets/others/reload.png"/>
+	<file src="assets/others/key_create.png"/>
+	<file src="assets/others/key_reset.png"/>
+	<file src="assets/others/box.png"/>
+	<file src="assets/others/box_remove.png"/>
+	<file src="assets/others/lock_delete.png"/>
+	<file src="assets/others/watch.png"/>
+	<file src="assets/others/warn.png"/>
+
+	<!--Shaders-->
+	<file src="assets/shaders/shader.fx"/>
+
+	<!--Sounds-->
+	<file src="assets/sounds/trash.mp3"/>
+	<file src="assets/sounds/money.mp3"/>
+	<file src="assets/sounds/fix.mp3"/>
+	<file src="assets/sounds/drink.mp3"/>
+	<file src="assets/sounds/eat.mp3"/>
+	<file src="assets/sounds/box.mp3"/>
+	<file src="assets/sounds/openbox.mp3"/>
+	<file src="assets/sounds/closebox.mp3"/>
+	<file src="assets/sounds/opentrunk.mp3"/>
+	<file src="assets/sounds/closetrunk.mp3"/>
+	<file src="assets/sounds/lock.mp3"/>
+	<file src="assets/sounds/unlock.mp3"/>
+
+	<!--Exports-->
+	<export function="getItemHand" type="server"/>
+	<export function="closeInventory" type="server"/>
+	<export function="clearAllItemsTemporary" type="server"/>
+	<export function="clearInventory" type="server"/>
+	<export function="hasItemInventory" type="server"/>
+	<export function="getAmountItems" type="server"/>
+	<export function="getItem" type="server"/>
+	<export function="sendItem" type="server"/>
+	<export function="takeItem" type="server"/>
+	<export function="takeAllItem" type="server"/>
+	<export function="setDurability" type="server"/>
+	<export function="setAmount" type="server"/>
+	<export function="insertTrunk" type="server"/>
+	<export function="loadTrunk" type="server"/>
+	<export function="saveTrunk" type="server"/>
+	<export function="deleteTrunk" type="server"/>
+	<export function="revistar" type="server"/>
+	<export function="alertPolice" type="server"/>
+	<export function="sendNotification" type="server"/>
+	<export function="sendNotificationAdmin" type="server"/>
+	<export function="sendProgressbar" type="server"/>
+	<export function="playSound" type="server"/>
+	<export function="playSound3D" type="server"/>
+</meta>
