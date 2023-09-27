@@ -14,6 +14,7 @@
 		"object_preview",
 		"SaveSystem",
 		"SpawnConfig",
+<<<<<<< HEAD
 		--fx
 		"dl_shader_detail",
 		"shader_car_paint_reflect",
@@ -40,6 +41,19 @@
 		"[411]lambo-essenza",
 			
 		--start por ultimo
+=======
+		"infobox",
+		"RadarMinimapa",
+		"Hud",
+		"FomeSede",
+		"FR_DxMessages",
+		"Banco",
+		"Blur",
+		"Cursor",
+		"star_assets",
+		"star_inventario",
+		"getpos",
+>>>>>>> 1bb1b5e43f35cb46d9b38fe7f69ee15469cbb1cd
 		"PainelLogin",
 	},
 }
