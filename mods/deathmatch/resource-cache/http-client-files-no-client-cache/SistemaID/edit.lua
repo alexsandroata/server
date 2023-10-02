@@ -17,7 +17,7 @@ config = {
 };
 
 message = function (element, msg, type)
-    exports['FR_DxMessages']:addBox(element, msg, type)
+    exports['XELA_Notify']:addBox(element, msg, type)
 end
 
 _getPlayerName = getPlayerName

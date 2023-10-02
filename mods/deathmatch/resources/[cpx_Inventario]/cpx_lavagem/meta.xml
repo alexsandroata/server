@@ -1,0 +1,8 @@
+<meta>
+    <info author = 'Caio#8888' name = 'Limpar dinheiro sujo'/>
+
+    <script src = 'g-lavagem.lua'  type = 'shared'/>
+    <script src = 'c-lavagem.lua' type = 'client'/>
+    <script src = 's-lavagem.lua' type = 'server'/>
+    <file   src = 'Files/base.png'/>
+</meta>

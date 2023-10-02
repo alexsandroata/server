@@ -1,28 +1,20 @@
-<<<<<<< Updated upstream
-[2023-09-27 03:42:47] Database do [SistemaID] conectada com sucesso ao servidor!
-[2023-09-27 05:00:49] Database do [SistemaID] conectada com sucesso ao servidor!
-[2023-09-27 06:12:28] Database do [SistemaID] conectada com sucesso ao servidor!
-[2023-09-27 06:39:39] star_inventario: Inventory started.
-[2023-09-27 07:17:25] Database do [SistemaID] conectada com sucesso ao servidor!
-[2023-09-27 07:17:37] star_inventario: Inventory started.
-[2023-09-27 12:36:43] Database do [SistemaID] conectada com sucesso ao servidor!
-[2023-09-27 12:47:41] star_inventario: Inventory started.
-[2023-09-27 13:04:48] Database do [SistemaID] conectada com sucesso ao servidor!
-[2023-09-27 13:06:13] [[GlobalDrops]InventarioCompleto] Successfully connected to SQLITE database.
-[2023-09-27 13:06:14] [[GlobalDrops]InventarioCompleto] Script developed by Chernaruz.
-=======
-[2023-09-26 23:23:06] star_inventario: Inventory started.
-[2023-09-26 23:25:45] star_inventario: Inventory started.
-[2023-09-26 23:30:40] star_inventario: Inventory started.
-[2023-09-26 23:39:30] star_inventario: Inventory started.
-[2023-09-26 23:45:06] star_inventario: Inventory started.
-[2023-09-26 23:53:20] star_inventario: Inventory started.
-[2023-09-26 23:53:26] star_inventario: Inventory started.
-[2023-09-26 23:54:26] star_inventario: Inventory started.
-[2023-09-27 00:04:29] star_inventario: Inventory started.
-[2023-09-27 00:11:51] star_inventario: Inventory started.
-[2023-09-27 00:13:31] star_inventario: Inventory started.
-[2023-09-27 00:13:47] star_inventario: Inventory started.
-[2023-09-27 00:14:07] star_inventario: Inventory started.
-[2023-09-27 00:14:59] star_inventario: Inventory started.
->>>>>>> Stashed changes
+[2023-09-29 00:18:27] Database do [SistemaID] conectada com sucesso ao servidor!
+[2023-09-29 00:39:54] [TioSam] Resource não liberado - 3
+[2023-09-29 00:41:50] [TioSam] Resource não liberado - 3
+[2023-09-29 00:42:10] [TioSam] Resource não liberado - 3
+[2023-09-29 00:42:28] [TioSam] Resource não liberado - 3
+[2023-09-29 00:53:31] Database do [SistemaID] conectada com sucesso ao servidor!
+[2023-09-29 02:50:00] Database do [SistemaID] conectada com sucesso ao servidor!
+[2023-09-29 02:52:32] Database do [SistemaID] conectada com sucesso ao servidor!
+[2023-09-29 04:30:18] Database do [SistemaID] conectada com sucesso ao servidor!
+[2023-09-29 05:52:08] star_inventario: Inventory started.
+[2023-09-29 05:59:26] star_inventario: Inventory started.
+[2023-09-29 06:11:58] star_inventario: Inventory started.
+[2023-09-29 06:23:42] star_inventario: Inventory started.
+[2023-09-29 06:31:14] star_inventario: Inventory started.
+[2023-09-29 06:38:11] star_inventario: Inventory started.
+[2023-09-29 06:41:17] star_inventario: Inventory started.
+[2023-09-29 06:42:04] star_inventario: Inventory started.
+[2023-10-01 13:36:37] star_inventario: Inventory started.
+[2023-10-01 21:08:00] [[GlobalDrops]InventarioCompleto] Successfully connected to SQLITE database.
+[2023-10-01 21:08:01] [[GlobalDrops]InventarioCompleto] Script developed by Chernaruz.

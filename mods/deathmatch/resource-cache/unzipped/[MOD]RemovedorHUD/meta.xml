@@ -1,7 +1,0 @@
-<meta>
-	<export function="showCustomHud" type="client" />
-	<export function="isShowCustomHud" type="client" />
-	<script src="Removedor.lua" type="client" cache="false" />
-	<script src="other.lua" type="client" cache="false" />	
-	<file src="font/draw.ttf" />	
-</meta>

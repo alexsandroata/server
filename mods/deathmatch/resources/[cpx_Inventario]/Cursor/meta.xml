@@ -1,0 +1,4 @@
+<meta> 
+	<info author="GFORCEMODSMTA" name="Cursor do mouse" version="1.0.0" />
+    <script src="client.lua" type="client" cache ="false" />
+</meta>

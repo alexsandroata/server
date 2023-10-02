@@ -1,0 +1,16 @@
+<meta>
+    <script src="script/shared.lua" type="shared" cache="false"/>
+    <script src="script/server.lua" type="server"/>
+    <script src="script/client.lua" type="client" cache="false"/>
+    <script src="assets/lib/editbox.lua" type="client" cache="false"/>
+    <file src="assets/img/button.png" cache="false"/>
+    <file src="assets/img/fundo.png" cache="false"/>
+    <file src="assets/img/slot.png" cache="false"/>
+    <file src="assets/img/barra.png" cache="false"/>
+    <file src="assets/img/shop.png" cache="false"/>
+    <file src="assets/img/Scroll1.png" cache="false"/>
+    <file src="assets/img/Scroll2.png" cache="false"/>
+    <file src="assets/font/MontserratBoldItalic.ttf" cache="false"/>
+    <file src="assets/font/MontserratSemiBold.ttf" cache="false"/>
+    <file src="assets/font/RobotoRegular.ttf" cache="false"/>
+</meta>

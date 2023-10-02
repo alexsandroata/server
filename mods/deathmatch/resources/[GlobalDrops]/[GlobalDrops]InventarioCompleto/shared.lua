@@ -1869,7 +1869,7 @@ Shop = {
 	{
         ["location"] = { position = { -711.806, 970.484, 12.348 }, rotation = { -0, 0, 278.488 }, dimension = 0, interior = 0 };
         ["style"] = { skin = 280, title = { text = "#647fc9Arsenal do BOPE", distance = 10 } };
-        ["acl"] = { "BOPE" }; --Lista de acl's que têm acesso a esta loja
+        ["acl"] = { "Policial" }; --Lista de acl's que têm acesso a esta loja
         ["items"] = { ------------Produtos
            -- { item = "rifle.svd", durability = 100, serial = "none", temporary = true, price = 0 },
             { item = "rifle.m4", durability = 100, serial = "none", temporary = false, price = 0 },
@@ -2119,7 +2119,7 @@ Shop = {
 	
 	--inlegal
 	{
-        ["location"] = { position = { -1336.00500, -183.57394, 14.14844 }, rotation = { -0, 0, 312.577 }, dimension = 0, interior = 0 };
+        ["location"] = { position = { -2235.463, -1735.954, 480.801 }, rotation = { -0, 0, 312.577 }, dimension = 0, interior = 0 };
         ["style"] = { skin = 179, title = { text = "#647fc9Itens ilícitos", distance = 35 } };
         ["acl"] = { "Gang" }; --Lista de acl's que têm acesso a esta loja
         ["items"] = { ------------Produtos

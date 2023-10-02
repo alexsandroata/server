@@ -1,0 +1,8 @@
+<meta>
+	<info type="misc" name="Texture-Object" author="+Tawan" description="" version="1.0" />
+
+		<file src="3095.txd" />
+
+	<script type="client" src="replace.lua" />
+
+</meta>

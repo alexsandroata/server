@@ -1,7 +1,7 @@
 <meta>
 	<info author="GFORCE STORE / BR DANIELGAMER" />
-	<script src="server.lua" type="server"cache="false" />
-	<script src="client.lua" type="client"cache="false" />
+	<script src="server.lua" type="server" cache="false" />
+	<script src="client.lua" type="client" cache="false" />
 	
 	<export function="Script_Admin" type="client" />
 	<export function="Script_Admin" type="server" />

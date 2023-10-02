@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<meta>
+     <info author="adr" type="misc" name="aa" description="aa" />
+     <script src="script.lua" type="client" />
+     <file src="416.txd" />
+     <file src="416.dff" />
+</meta>

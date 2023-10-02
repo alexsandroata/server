@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<meta>
+     <info author="Biel" type="misc" name="[mods5]" description="[mods5]" />
+     <script src="script.lua" type="client" />
+     <file src="SAMU_250.txd" />
+     <file src="SAMU_250.dff" />
+</meta>

@@ -2,62 +2,26 @@
 	[1] = {
 		--admin
 		"admin",
-		"ComandosStaff",
+		--xela
+		"XELA_Admin",
+		"XELA_HUD",
+		"XELA_Notify",
+		"XELA_Maps",
 		--essential
-		"Blur",
-		"bone_attach",
-		"Cursor",
-		"dgs",
-		"FR_DxMessages",
-		"infobox",
-		"n3xt_dxmessages",
-		"object_preview",
 		"SaveSystem",
 		"SpawnConfig",
-		--fx
-		"dl_shader_detail",
-		"shader_car_paint_reflect",
-		"shader_dynamic_sky",
-		"shader_water_refract",
-		"shader_watershine",
+		"TB_id",
+		--shaders
+		
 		--maps
-		"Mapa-Concessionaria",
-		--n3xt
-		"n3xt_concessionaria",
-		"n3xt_inventario",
-		--scripts
-		"Banco",
-		"Chat",
-		"FomeSede",
-		"getpos",
-		"Hud",
-		"RadarMinimapa",
-		"SistemaGasolina",
-		"Velocimetro",
-		--skins
+		"MAPA-LOJA-DE-ROUPA",
 
-		--vehicles
-		"[411]lambo-essenza",
-			
-		--start por ultimo
-		"infobox",
-		"RadarMinimapa",
-		"Hud",
-		"FomeSede",
-		"FR_DxMessages",
-		"Banco",
-		"Blur",
-		"Cursor",
-		"star_assets",
-		"star_inventario",
-		"getpos",
-
-		"bone_attach",
-		"dgs",
-		"Mapa-Concessionaria",
-		"n3xt_dxmessages",
-		"object_preview",
-		"n3xt_concessionaria",
+		--texture
+		"Txr_Jetdoor[MTA]",
+		"Txr_Madeira16500-16501[MTA]",
+		"Txr_Porta2[MTA]",
+		"Txr_Ruas[MTA]",
+		"Txr_Vidro[MTA]",
 
 		"PainelLogin",
 	},

@@ -5,13 +5,16 @@ local markerJoin = createMarker(1411.80339, -1699.87390, 13.53949, "cylinder", 1
 local inutil2 = createMarker(1411.80339, -1699.87390, 12.23949, "cylinder", 1, 16, 102, 231, 50) 
 local exitLS1 = createMarker(390.45071, 173.79091, 1008.38281, "cylinder", 1, 16, 102, 231, 0) 
 local inutil = createMarker(390.45071, 173.79091, 1007.18281, "cylinder", 1, 16, 102, 231, 50) 
-createBlip(1411.80339, -1699.87390, 13.53949, 52)
+
+createBlip(1411.80339, -1699.87390, 13.53949, 33)
 
 createBlip(1928.58215, -1768.56689, 13.14688, 52)
 createBlip(1815.18152, -1557.53162, 13.08579, 52)
 createBlip(1682.24341, -1272.46252, 14.41477, 52)
 createBlip(1051.96143, -1131.20642, 23.42813, 52)
 createBlip(537.36407, -1740.75659, 11.87771, 52)
+
+--exports.XELA_HUD:createCustomBlip(570.36407, -1740.75659, 11.87771, 52)
 
 
 -- ########### VARIÁVEIS ###########

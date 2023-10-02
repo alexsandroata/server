@@ -21,6 +21,7 @@
         <acl name="Admin"></acl>
         <acl name="RPC"></acl>
         <object name="resource.*"></object>
+        <object name="user.+Alexsandro"></object>
     </group>
     <group name="Console">
         <acl name="Moderator"></acl>
@@ -52,8 +53,9 @@
         <acl name="autoACL_dgs"></acl>
         <object name="resource.dgs"></object>
     </group>
-<<<<<<< Updated upstream
-    <group name="Policial"></group>
+    <group name="Policial">
+        <object name="user.+Alexsandro"></object>
+    </group>
     <group name="Bandido">
         <object name="user.+Alexsandro"></object>
     </group>
@@ -63,8 +65,15 @@
     <group name="Gang">
         <object name="user.+Alexsandro"></object>
     </group>
-=======
->>>>>>> Stashed changes
+    <group name="Hospital">
+        <object name="user.+Alexsandro"></object>
+    </group>
+    <group name="Mecanica">
+        <object name="user.+Alexsandro"></object>
+    </group>
+    <group name="EB">
+        <object name="user.+Alexsandro"></object>
+    </group>
     <acl name="Default">
         <right name="general.ModifyOtherObjects" access="false"></right>
         <right name="general.http" access="false"></right>

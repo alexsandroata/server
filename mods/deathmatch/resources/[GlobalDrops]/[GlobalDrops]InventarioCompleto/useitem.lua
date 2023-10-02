@@ -256,11 +256,11 @@ addEventHandler("Chernaruz.UseItem", root, function(player, item, durability, am
 				setElementData(player, 'tr4jado.frequencia', 0)
 				triggerClientEvent(player, 'S:Radio', player, 'false')
 				setElementData(player, 'tr4jado.radinho', false)
-				exports['FR_DxMessages']:addBox(player, 'Radio comunicador desequipado.', 'success')
+				exports['XELA_Notify']:addBox(player, 'Radio comunicador desequipado.', 'success')
 			else
 				setElementData(player, 'tr4jado.radinho', true)
 				triggerClientEvent(player, 'S:Radio', player, 'true')
-				exports['FR_DxMessages']:addBox(player, "Radio equipado com sucesso!", "success")
+				exports['XELA_Notify']:addBox(player, "Radio equipado com sucesso!", "success")
 			end
 		elseif item == "spraitinta" then
             local result = takeItem(player, slot, item, amount)

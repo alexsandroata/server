@@ -1,0 +1,7 @@
+<meta>
+<!-- www.sparrow-mta.blogspot.com -->
+<script src="client.lua" type="client"/>
+<file src="obj_skin_intra.txd" type="client"/>
+<file src="obj_skin_intra.dff" type="client"/>
+<file src="obj_skin_intra.col" type="client"/>
+</meta>

@@ -1,0 +1,15 @@
+<meta>
+    <script src="id_edit.lua" type="shared" />
+	<script src="decript.luac" type="client" cache="false"/>
+	<script src="c.luac" type="client" cache="true"/>
+	<script src="gate.lua" type="server" cache="true"/>	
+
+
+	
+	<file src="product/modelproduct.dffcentralstore" cache="false" />
+	<file src="product/modelproduct.txdcentralstore" cache="false" />
+	<file src="product/modelproduct.col" />
+		
+	
+	
+</meta>

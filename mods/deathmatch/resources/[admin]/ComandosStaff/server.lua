@@ -28,10 +28,10 @@ function fly(playerSource, commandName)
 				setElementData( playerSource, "ULTRP:StaffFly", false )
 			end
 		else
-			exports.FR_DxMessages:addBox(playerSource,"Você precisa entrar em serviço.", "error")
+			exports.XELA_Notify:addBox(playerSource,"Você precisa entrar em serviço.", "error")
 		end
 	else
-		exports.FR_DxMessages:addBox(playerSource,"Você não tem permissão.", "error")	
+		exports.XELA_Notify:addBox(playerSource,"Você não tem permissão.", "error")	
 	end
 end
 addCommandHandler("nc", fly, false, false)
@@ -54,28 +54,28 @@ if isObjectInACLGroup ( "user." ..getAccountName(getPlayerAccount(playerSource))
 						local car = getVehicleNameFromModel ( vehicleModel )
 						warpPedIntoVehicle( targetPlayer, createdVehicle, 0 )
 						setElementData(createdVehicle, 'Owner', playerSource)
-						exports.FR_DxMessages:addBox(playerSource,"Você criou o veículo: "..car.. " para o ID: "..id.."!", "warning")
+						exports.XELA_Notify:addBox(playerSource,"Você criou o veículo: "..car.. " para o ID: "..id.."!", "warning")
 							if (createdVehicle == false) then
-							exports.FR_DxMessages:addBox(playerSource,"Não foi possível criar o veículo!", "error")
+							exports.XELA_Notify:addBox(playerSource,"Não foi possível criar o veículo!", "error")
 							end
 						else
-						exports.FR_DxMessages:addBox(playerSource,"Insira apenas números no ID.", "error")
+						exports.XELA_Notify:addBox(playerSource,"Insira apenas números no ID.", "error")
 						end
 					else
-					exports.FR_DxMessages:addBox(playerSource,"Insira o ID do veículo desejado.", "error")
+					exports.XELA_Notify:addBox(playerSource,"Insira o ID do veículo desejado.", "error")
 					end
 				else
-				exports.FR_DxMessages:addBox(playerSource,"Digite /cv + ID do player + ID do veículo.", "error")
+				exports.XELA_Notify:addBox(playerSource,"Digite /cv + ID do player + ID do veículo.", "error")
 				end
 			end
 		else
-		exports.FR_DxMessages:addBox(playerSource,"Insira o ID do jogador desejado.", "error")
+		exports.XELA_Notify:addBox(playerSource,"Insira o ID do jogador desejado.", "error")
 		end
 	else
-		exports.FR_DxMessages:addBox(playerSource,"Você precisa entrar em serviço.", "error")
+		exports.XELA_Notify:addBox(playerSource,"Você precisa entrar em serviço.", "error")
 	end
 else
-	exports.FR_DxMessages:addBox(playerSource,"Você não tem permissão.", "error")
+	exports.XELA_Notify:addBox(playerSource,"Você não tem permissão.", "error")
 end
 end
 addCommandHandler( "cv", CriarCarro )
@@ -95,25 +95,25 @@ if isObjectInACLGroup ( "user." ..getAccountName(getPlayerAccount(playerSource))
 						local car = getPedOccupiedVehicle( targetPlayer )
 						local model = getElementModel( car )
 						setElementData(car, "MD:Gasolina", tonumber(amount))
-						exports.FR_DxMessages:addBox(playerSource,"Você setou o combustível do ID: "..id.." para "..amount.."%!", "warning")
+						exports.XELA_Notify:addBox(playerSource,"Você setou o combustível do ID: "..id.." para "..amount.."%!", "warning")
 					else
-						exports.FR_DxMessages:addBox(playerSource,"Insira uma quantidade entre 0 e 100.", "error")
+						exports.XELA_Notify:addBox(playerSource,"Insira uma quantidade entre 0 e 100.", "error")
 					end
 					if (car == false) then
-					exports.FR_DxMessages:addBox(playerSource,"O player não está em um veículo.", "error")
+					exports.XELA_Notify:addBox(playerSource,"O player não está em um veículo.", "error")
 					end
 				else
-				exports.FR_DxMessages:addBox(playerSource,"O ID informado é inválido.", "error")
+				exports.XELA_Notify:addBox(playerSource,"O ID informado é inválido.", "error")
 				end
 			end
 		else
-		exports.FR_DxMessages:addBox(playerSource,"Insira o ID do jogador desejado.", "error")
+		exports.XELA_Notify:addBox(playerSource,"Insira o ID do jogador desejado.", "error")
 		end
 	else
-		exports.FR_DxMessages:addBox(playerSource,"Você precisa entrar em serviço.", "error")
+		exports.XELA_Notify:addBox(playerSource,"Você precisa entrar em serviço.", "error")
 	end
 else
-	exports.FR_DxMessages:addBox(playerSource,"Você não tem permissão.", "error")
+	exports.XELA_Notify:addBox(playerSource,"Você não tem permissão.", "error")
 end
 end
 addCommandHandler( "setgas", setGas)
@@ -133,22 +133,22 @@ if isObjectInACLGroup ( "user." ..getAccountName(getPlayerAccount(playerSource))
 					if isElement(car) and car then
 						local model = getElementModel( car )
 						destroyElement(car)
-						exports.FR_DxMessages:addBox(playerSource,"Você destruiu o veículo do ID: "..id.."!", "warning")
+						exports.XELA_Notify:addBox(playerSource,"Você destruiu o veículo do ID: "..id.."!", "warning")
 					else
-						exports.FR_DxMessages:addBox(playerSource,"O player não está em um veículo.", "error")
+						exports.XELA_Notify:addBox(playerSource,"O player não está em um veículo.", "error")
 					end
 				else
-				exports.FR_DxMessages:addBox(playerSource,"O ID informado é inválido.", "error")
+				exports.XELA_Notify:addBox(playerSource,"O ID informado é inválido.", "error")
 				end
 			end
 		else
-		exports.FR_DxMessages:addBox(playerSource,"Insira o ID do jogador desejado.", "error")
+		exports.XELA_Notify:addBox(playerSource,"Insira o ID do jogador desejado.", "error")
 		end
 	else
-		exports.FR_DxMessages:addBox(playerSource,"Você precisa entrar em serviço.", "error")
+		exports.XELA_Notify:addBox(playerSource,"Você precisa entrar em serviço.", "error")
 	end
 else
-	exports.FR_DxMessages:addBox(playerSource,"Você não tem permissão.", "error")
+	exports.XELA_Notify:addBox(playerSource,"Você não tem permissão.", "error")
 end
 end
 addCommandHandler( "dv", DV)
@@ -166,22 +166,22 @@ if isObjectInACLGroup ( "user." ..getAccountName(getPlayerAccount(playerSource))
 				if targetPlayer then
 				local car = getPedOccupiedVehicle( targetPlayer )
 				fixVehicle( car )
-				exports.FR_DxMessages:addBox(playerSource,"Você consertou o veículo do ID: "..id.."!", "warning")
+				exports.XELA_Notify:addBox(playerSource,"Você consertou o veículo do ID: "..id.."!", "warning")
 					if (car == false) then
-					exports.FR_DxMessages:addBox(playerSource,"O player não está em um veículo.", "error")
+					exports.XELA_Notify:addBox(playerSource,"O player não está em um veículo.", "error")
 					end
 				else
-				exports.FR_DxMessages:addBox(playerSource,"O ID informado é inválido.", "error")
+				exports.XELA_Notify:addBox(playerSource,"O ID informado é inválido.", "error")
 				end
 			end
 		else
-		exports.FR_DxMessages:addBox(playerSource,"Insira o ID do jogador desejado.", "error")
+		exports.XELA_Notify:addBox(playerSource,"Insira o ID do jogador desejado.", "error")
 		end
 	else
-		exports.FR_DxMessages:addBox(playerSource,"Você precisa entrar em serviço.", "error")
+		exports.XELA_Notify:addBox(playerSource,"Você precisa entrar em serviço.", "error")
 	end
 else
-	exports.FR_DxMessages:addBox(playerSource,"Você não tem permissão.", "error")
+	exports.XELA_Notify:addBox(playerSource,"Você não tem permissão.", "error")
 end
 end
 addCommandHandler( "fix", Fix)
@@ -218,13 +218,13 @@ if isObjectInACLGroup ( "user." ..getAccountName(getPlayerAccount(playerSource))
 	   	if vehicleNear then 
 	   		destroyElement( vehicleNear )
 		else
-		exports.FR_DxMessages:addBox(playerSource,"Nenhum veículo próximo detectado.", "error")
+		exports.XELA_Notify:addBox(playerSource,"Nenhum veículo próximo detectado.", "error")
 		end
 	else
-		exports.FR_DxMessages:addBox(playerSource,"Você precisa entrar em serviço.", "error")
+		exports.XELA_Notify:addBox(playerSource,"Você precisa entrar em serviço.", "error")
 	end
 else
-	exports.FR_DxMessages:addBox(playerSource,"Você não tem permissão.", "error")
+	exports.XELA_Notify:addBox(playerSource,"Você não tem permissão.", "error")
 end
 end
 addCommandHandler( "dva", DVArea)
@@ -242,19 +242,19 @@ if isObjectInACLGroup ( "user." ..getAccountName(getPlayerAccount(playerSource))
 				if targetPlayer then
 					setElementHealth( targetPlayer, 100 )
 					setPedArmor( targetPlayer, 100 )
-					exports.FR_DxMessages:addBox(playerSource,"A vida e colete do ID: "..id.." foi setada para 100%!", "warning")
+					exports.XELA_Notify:addBox(playerSource,"A vida e colete do ID: "..id.." foi setada para 100%!", "warning")
 				else
-					exports.FR_DxMessages:addBox(playerSource,"O ID informado é inválido.", "error")
+					exports.XELA_Notify:addBox(playerSource,"O ID informado é inválido.", "error")
 				end
 			end
 		else
-		exports.FR_DxMessages:addBox(playerSource,"Insira o ID do jogador desejado.", "error")
+		exports.XELA_Notify:addBox(playerSource,"Insira o ID do jogador desejado.", "error")
 		end
 	else
-		exports.FR_DxMessages:addBox(playerSource,"Você precisa entrar em serviço.", "error")
+		exports.XELA_Notify:addBox(playerSource,"Você precisa entrar em serviço.", "error")
 	end
 else
-	exports.FR_DxMessages:addBox(playerSource,"Você não tem permissão.", "error")
+	exports.XELA_Notify:addBox(playerSource,"Você não tem permissão.", "error")
 end
 end
 addCommandHandler( "setfull", Full )
@@ -272,22 +272,22 @@ if isObjectInACLGroup ( "user." ..getAccountName(getPlayerAccount(playerSource))
 				if targetPlayer then
 					if skin then
 					setElementModel( targetPlayer, skin )
-					exports.FR_DxMessages:addBox(playerSource,"Você alterou a skin do ID: "..id.."!", "warning")
+					exports.XELA_Notify:addBox(playerSource,"Você alterou a skin do ID: "..id.."!", "warning")
 					else
-					exports.FR_DxMessages:addBox(playerSource,"Insira o ID da skin desejada.", "error")
+					exports.XELA_Notify:addBox(playerSource,"Insira o ID da skin desejada.", "error")
 					end
 				else
-				exports.FR_DxMessages:addBox(playerSource,"O ID informado é inválido.", "error")
+				exports.XELA_Notify:addBox(playerSource,"O ID informado é inválido.", "error")
 				end
 			end
 		else
-		exports.FR_DxMessages:addBox(playerSource,"Insira o ID do jogador desejado.", "error")
+		exports.XELA_Notify:addBox(playerSource,"Insira o ID do jogador desejado.", "error")
 		end
 	else
-		exports.FR_DxMessages:addBox(playerSource,"Você precisa entrar em serviço.", "error")
+		exports.XELA_Notify:addBox(playerSource,"Você precisa entrar em serviço.", "error")
 	end
 else
-	exports.FR_DxMessages:addBox(playerSource,"Você não tem permissão.", "error")
+	exports.XELA_Notify:addBox(playerSource,"Você não tem permissão.", "error")
 end
 end
 addCommandHandler( "ss", SetSkin )
@@ -305,19 +305,19 @@ if isObjectInACLGroup ( "user." ..getAccountName(getPlayerAccount(playerSource))
 				if targetPlayer then
 				setElementData( targetPlayer, "fome", 100 )
 				setElementData( targetPlayer, "sede", 100 )
-				exports.FR_DxMessages:addBox(playerSource,"Você setou a fome e sede do ID: "..id.." para 100%!", "warning")
+				exports.XELA_Notify:addBox(playerSource,"Você setou a fome e sede do ID: "..id.." para 100%!", "warning")
 				else
-				exports.FR_DxMessages:addBox(playerSource,"O ID informado é inválido.", "error")
+				exports.XELA_Notify:addBox(playerSource,"O ID informado é inválido.", "error")
 				end
 			end
 		else
-		exports.FR_DxMessages:addBox(playerSource,"Insira o ID do jogador desejado.", "error")
+		exports.XELA_Notify:addBox(playerSource,"Insira o ID do jogador desejado.", "error")
 		end
 	else
-		exports.FR_DxMessages:addBox(playerSource,"Você precisa entrar em serviço.", "error")
+		exports.XELA_Notify:addBox(playerSource,"Você precisa entrar em serviço.", "error")
 	end
 else
-	exports.FR_DxMessages:addBox(playerSource,"Você não tem permissão.", "error")
+	exports.XELA_Notify:addBox(playerSource,"Você não tem permissão.", "error")
 end
 end
 addCommandHandler( "setfome", SetFome )
@@ -335,23 +335,23 @@ if isObjectInACLGroup ( "user." ..getAccountName(getPlayerAccount(playerSource))
 				if targetPlayer then
 					if amount then
 					givePlayerMoney( targetPlayer, amount )
-					exports.FR_DxMessages:addBox(playerSource,"Você setou R$"..amount.." para o player: "..id.."!", "warning")
-					exports.FR_DxMessages:addBox(targetPlayer,"Você recebeu R$"..amount.." do governo!", "warning")
+					exports.XELA_Notify:addBox(playerSource,"Você setou R$"..amount.." para o player: "..id.."!", "warning")
+					exports.XELA_Notify:addBox(targetPlayer,"Você recebeu R$"..amount.." do governo!", "warning")
 					else
-					exports.FR_DxMessages:addBox(playerSource,"Insira uma quantidade.", "error")
+					exports.XELA_Notify:addBox(playerSource,"Insira uma quantidade.", "error")
 					end
 					else
-					exports.FR_DxMessages:addBox(playerSource,"O ID informado é inválido.", "error")
+					exports.XELA_Notify:addBox(playerSource,"O ID informado é inválido.", "error")
 				end
 			end
 		else
-		exports.FR_DxMessages:addBox(playerSource,"Insira o ID do jogador desejado.", "error")
+		exports.XELA_Notify:addBox(playerSource,"Insira o ID do jogador desejado.", "error")
 		end
 	else
-		exports.FR_DxMessages:addBox(playerSource,"Você precisa entrar em serviço.", "error")
+		exports.XELA_Notify:addBox(playerSource,"Você precisa entrar em serviço.", "error")
 	end
 else
-	exports.FR_DxMessages:addBox(playerSource,"Você não tem permissão.", "error")
+	exports.XELA_Notify:addBox(playerSource,"Você não tem permissão.", "error")
 end
 end
 addCommandHandler( "setmoney", GiveMoney )
@@ -371,19 +371,19 @@ if isObjectInACLGroup ( "user." ..getAccountName(getPlayerAccount(playerSource))
 					setElementHealth( targetPlayer, 100 )
 					setPedAnimation( targetPlayer, nil )
 					setElementFrozen(targetPlayer, false )
-					exports.FR_DxMessages:addBox(playerSource,"Você reviveu o ID: "..id.."!", "warning")
+					exports.XELA_Notify:addBox(playerSource,"Você reviveu o ID: "..id.."!", "warning")
 				else
-					exports.FR_DxMessages:addBox(playerSource,"O ID informado é inválido.", "error")
+					exports.XELA_Notify:addBox(playerSource,"O ID informado é inválido.", "error")
 				end
 			end
 		else
-		exports.FR_DxMessages:addBox(playerSource,"Insira o ID do jogador desejado.", "error")
+		exports.XELA_Notify:addBox(playerSource,"Insira o ID do jogador desejado.", "error")
 		end
 	else
-		exports.FR_DxMessages:addBox(playerSource,"Você precisa entrar em serviço!", "error")
+		exports.XELA_Notify:addBox(playerSource,"Você precisa entrar em serviço!", "error")
 	end
 else
-	exports.FR_DxMessages:addBox(playerSource,"Você não tem permissão.", "error")
+	exports.XELA_Notify:addBox(playerSource,"Você não tem permissão.", "error")
 end
 end
 addCommandHandler( "reviver", Reviver )
@@ -397,16 +397,16 @@ function getOneACL(playerSource, cmd)
 		if not getElementData(playerSource, "staffOn") then
 			local staff20 = getPlayerName( playerSource )
 	    	setElementData(playerSource, 'staffOn', true )
-			exports.FR_DxMessages:addBox(playerSource, "Você entrou em serviço!", "success")
+			exports.XELA_Notify:addBox(playerSource, "Você entrou em serviço!", "success")
 			outputChatBox ('#ffff00' ..staff20.."#ffffff iniciou o serviço de STAFF!", root, 255, 255, 255, true )
 	elseif getElementData(playerSource, "staffOn") then
 		    local staff21 = getPlayerName( playerSource )
 		    setElementData(playerSource, 'staffOn', false )
-			exports.FR_DxMessages:addBox(playerSource, "Você saiu de serviço!", "success") 
+			exports.XELA_Notify:addBox(playerSource, "Você saiu de serviço!", "success") 
 			outputChatBox ('#ffff00'..staff21.."#ffffff finalizou o serviço de STAFF!", root, 255, 255, 255, true )
 		end
 	else
-		exports.FR_DxMessages:addBox(playerSource, "Você não tem permissão.", "error")
+		exports.XELA_Notify:addBox(playerSource, "Você não tem permissão.", "error")
 	end
 end
 addCommandHandler("staff", getOneACL)

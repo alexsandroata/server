@@ -1,0 +1,7 @@
+<meta>
+    <info author="+Tawan" name="TXD" version="1.4.1" type="script" />
+    <script src="replace.lua" type="client" />
+	<file src="3095.txd" />
+	<file src="carshowglass_sfsx3.txd" />
+	<file src="carshowglass_sfsx.txd" />	
+</meta>

@@ -1,0 +1,229 @@
+<meta>
+	<!-- RADAR + GPS SCRIPTS -->
+    <info author="XELA" version="1.0" type="misc" name="HUD e Radar" />
+	
+	<script src="minimapa+gps/c_radar3D.lua" type="client" cache="false"/>
+	<script src="minimapa+gps/c_exported_functions.lua" type="client" cache="false"/>
+
+    <script src="minimapa+gps/gps/client/b_sourceC.lua" type="client" cache ="false"/>	
+	<script src="minimapa+gps/gps/client/b_sourceS.lua"/>
+			
+    <script src="minimapa+gps/gps/gps/gps_r.lua" type="client" cache ="false"/>
+    <script src="minimapa+gps/gps/gps/street_g.lua" type="shared" />
+    <script src="minimapa+gps/gps/gps/streetTable_g.lua" type="client" cache="false" />
+
+    <!-- EFEITOS -->
+    <file src="minimapa+gps/radar_mask.png"/>
+	<file src="minimapa+gps/fx/image3D_manual.fx" type="client"/>
+	<file src="minimapa+gps/fx/image3D_manual_quad.fx" type="client"/>
+	<file src="minimapa+gps/fx/image2D_manual_blip.fx" type="client"/>
+	<file src="minimapa+gps/fx/image3D_manual_bezier.fx" type="client"/>
+	<file src="minimapa+gps/fx/image3D_manual_line.fx" type="client"/>
+	<file src="minimapa+gps/fx/mask.fx" type="client"/>
+	<file src="minimapa+gps/fx/matrix.fx" type="client"/>
+
+    <!-- MOSAICO DO MAPA -->
+	<file src="minimapa+gps/tex/radar/tile_0_0.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_0_1.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_0_2.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_0_3.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_0_4.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_0_5.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_1_0.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_1_1.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_1_2.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_1_3.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_1_4.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_1_5.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_2_0.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_2_1.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_2_2.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_2_3.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_2_4.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_2_5.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_3_0.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_3_1.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_3_2.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_3_3.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_3_4.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_3_5.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_4_0.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_4_1.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_4_2.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_4_3.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_4_4.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_4_5.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_5_0.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_5_1.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_5_2.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_5_3.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_5_4.dds" type="client"/>
+    <file src="minimapa+gps/tex/radar/tile_5_5.dds" type="client"/>
+	
+    <file src="minimapa+gps/gps/gfx/gtasa.png"/>
+	
+    <!--ICONES DE BLIP -->
+    <file src="minimapa+gps/tex/blip/0.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/1.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/2.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/3.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/4.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/5.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/6.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/7.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/8.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/9.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/10.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/11.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/12.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/13.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/14.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/15.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/16.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/17.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/18.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/19.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/20.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/21.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/22.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/23.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/24.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/25.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/26.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/27.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/28.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/29.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/30.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/31.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/32.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/33.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/34.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/35.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/36.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/37.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/38.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/39.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/40.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/41.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/42.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/43.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/44.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/45.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/46.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/47.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/48.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/49.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/50.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/51.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/52.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/53.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/54.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/55.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/56.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/57.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/58.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/59.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/60.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/61.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/62.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/63.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/64.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/65.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/66.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/67.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/68.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/69.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/70.png" type="client"></file>
+	<file src="minimapa+gps/tex/blip/71.png" type="client"></file>
+
+	<!-- FUNÇOES -->
+	<export function="createCustomBlip" type="client" />
+	<export function="destroyCustomBlip" type="client" />
+	<export function="setCustomBlipTexture" type="client" />
+	<export function="setCustomBlipPosition" type="client" />
+	<export function="setCustomBlipColor" type="client" />
+	<export function="setCustomBlipSize" type="client" />
+	<export function="setCustomBlipVisibleDistance" type="client" />
+	<export function="setBlipInterior" type="client" />
+	<export function="setBlipDimension" type="client" />
+
+	<export function="createCustomTile" type="client" />
+	<export function="destroyCustomTile" type="client" />
+	<export function="setCustomTileTexture" type="client" />
+	<export function="setCustomTilePosition" type="client" />
+	<export function="setCustomTileRotation" type="client" />
+	<export function="setCustomTileColor" type="client" />
+	<export function="setCustomTileSize" type="client" />
+	<export function="setCustomTileBillboard" type="client" />
+	<export function="setCustomTileCullMode" type="client" />
+	<export function="setTileInterior" type="client" />
+	
+	<export function="utvonalTervezes" type="client" />	
+	
+	<export function="createCustomTile" type="client" />
+	<export function="destroyCustomTile" type="client" />
+	<export function="setCustomTileTexture" type="client" />
+	<export function="setCustomTilePosition" type="client" />
+	<export function="setCustomTileRotation" type="client" />
+	<export function="setCustomTileColor" type="client" />
+	<export function="setCustomTileSize" type="client" />
+	<export function="setCustomTileBillboard" type="client" />
+	<export function="setCustomTileCullMode" type="client" />
+	<export function="setTileInterior" type="client" />		
+
+	<export function="createCustomMaterialLine2D" type="client" />	
+	<export function="createCustomMaterialBezierLine2D" type="client" />	
+	<export function="createCustomMaterialLine3D" type="client" />
+	<export function="createCustomMaterialBezierLine3D" type="client" />
+	<export function="destroyCustomMaterial" type="client" />	
+	<export function="setCustomMaterialPosition" type="client" />	
+	<export function="setCustomMaterialPosition1" type="client" />	
+	<export function="setCustomMaterialPosition2" type="client" />	
+	<export function="setCustomMaterialPosition3" type="client" />	
+	<export function="setCustomMaterialPosition4" type="client" />	
+	<export function="setCustomMaterialRotation" type="client" />	
+	<export function="setCustomMaterialColor" type="client" />	
+	<export function="setCustomMaterialSize" type="client" />	
+	<export function="setCustomMaterialWidth" type="client" />	
+	<export function="setCustomMaterialBillboard" type="client" />	
+	<export function="setCustomMaterialCullMode" type="client" />	
+	<export function="setCustomMaterialInterior" type="client" />	
+
+	<!--                  HUD                    -->
+
+	<script src="global.lua" type="shared" cache="false"/>
+    <script src="client.lua" type="client" cache="false"/>
+
+   	<file src="web-side/index.html" cache="false"/>	
+   	<file src="web-side/script.js" cache="false"/>	
+   	<file src="web-side/style.css" cache="false"/>	
+   	<file src="web-side/transitions.css" cache="false"/>
+
+   	<file src="web-side/PFDinDisplayPro-Bold.woff" cache="false"/>	
+   	<file src="web-side/PFDinDisplayPro-Regular.woff" cache="false"/>	
+
+   	<file src="web-side/images/water.svg" cache="false"/>
+   	<file src="web-side/images/virus.svg" cache="false"/>	
+   	<file src="web-side/images/test.svg" cache="false"/>	
+   	<file src="web-side/images/stamina.svg" cache="false"/>	
+   	<file src="web-side/images/shield.svg" cache="false"/>	
+   	<file src="web-side/images/seatbelt.svg" cache="false"/>
+   	<file src="web-side/images/play.svg" cache="false"/>	
+   	<file src="web-side/images/loc.svg" cache="false"/>
+   	<file src="web-side/images/line6.svg" cache="false"/>	
+   	<file src="web-side/images/line5.svg" cache="false"/>		
+   	<file src="web-side/images/line4.svg" cache="false"/>	
+   	<file src="web-side/images/line3.svg" cache="false"/>
+   	<file src="web-side/images/line2.svg" cache="false"/>	
+   	<file src="web-side/images/line.svg" cache="false"/>		
+   	<file src="web-side/images/life.svg" cache="false"/>	
+   	<file src="web-side/images/gas.svg" cache="false"/>
+   	<file src="web-side/images/freq.svg" cache="false"/>	
+   	<file src="web-side/images/food.svg" cache="false"/>		
+   	<file src="web-side/images/clock.svg" cache="false"/>
+
+	<!-- FOME E SEDE -->
+
+	<script src="FomeSede/server.lua" cache="false" type="server" />
+	
+</meta>

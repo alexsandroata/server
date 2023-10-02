@@ -1,0 +1,5 @@
+<meta>
+    <script src="script/server.lua" type="server"/>
+    <export function = 'getSerialByID' type = 'server' />
+    <export function = 'getIdByConta' type = 'server' />
+</meta>

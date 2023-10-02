@@ -1,7 +1,0 @@
-<meta>
-    <info author='RC___RC' version='1.0.0' name='Nope' description='Nope' type='script' />
-
-    <script src="client.luac" type="client" />
-
-
-</meta>

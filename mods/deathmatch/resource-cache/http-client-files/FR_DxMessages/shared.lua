@@ -1,6 +1,6 @@
 config = {
 
-	groups_anunciar = {'Admin'},
+	groups_anunciar = {'Staff'},
 
 	limite = 5, -- Máximo de infobox por vez
 
