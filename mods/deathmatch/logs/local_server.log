@@ -1,0 +1,16 @@
+==================================================================
+= Multi Theft Auto: San Andreas v1.6
+==================================================================
+= Server name      : Default MTA Server
+= Server IP address: auto
+= Server port      : 22010
+= 
+= Log file         : ..erver/mods/deathmatch/logs/local_server.log
+= Maximum players  : 32
+= HTTP port        : 22011
+= Voice Chat       : Disabled
+= Bandwidth saving : Medium
+==================================================================
+[2023-10-03 09:28:56] Server stopped!
+[2023-10-03 09:28:56] Stopping resources...
+[2023-10-03 09:28:56] Closing SQLite3 database

@@ -3631,3 +3631,4 @@
 [2023-10-01 21:08:11] Stopping star_assets
 [2023-10-01 21:27:05] ERROR: [XELA]\[JBLVinculadaAoInvCompleto]\[GlobalDrops]JBL\LDs.lua:36: exports: Call to non-running server resource (star_inventario) [string "?"]
 [2023-10-01 21:27:05] ERROR: [XELA]\[JBLVinculadaAoInvCompleto]\[GlobalDrops]JBL\LDs.lua:37: exports: Call to non-running server resource (star_inventario) [string "?"]
+[2023-10-02 05:22:55] QUIT: +Alexsandro left the game [Quit] 
