@@ -17,5 +17,5 @@ Config = {
 }
 
 message = function (element, msg, type)
-    exports['XELA_Notify']:addBox(element, msg, type)
+    exports['ALEX_Notify']:addBox(element, msg, type)
 end

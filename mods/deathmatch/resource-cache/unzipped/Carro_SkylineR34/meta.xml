@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<meta>
+     <info author="FillipeMods" type="misc" name="Skyline R34" description="Skyline R34" />
+     <script src="script.lua" type="client" />
+     <file src="infernus.txd" />
+     <file src="infernus.dff" />
+</meta>

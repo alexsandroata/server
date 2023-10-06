@@ -1,3 +1,0 @@
---[[
-    AQUI NÃO FDP KKKKKKKKKKKKKKKK
-]]

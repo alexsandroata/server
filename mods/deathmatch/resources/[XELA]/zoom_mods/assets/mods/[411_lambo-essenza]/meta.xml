@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<meta>
-     <info author="Takayo" type="misc" name="lambo-essenza" description="lambo-essenza" />
-     <script src="script.lua" type="client" />
-     <file src="infernus.txd" />
-     <file src="infernus.dff" />
-</meta>

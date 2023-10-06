@@ -1,7 +1,0 @@
-<meta>
-	<min_mta_version server="1.5.7" client="1.5.7" />
-    <script src="client.lua" type="client" cache="false" />
-    <file src="assets/fonts/font.ttf" />
-    <file src="assets/gfx/loading.png" />
-    <file src="assets/img/fundo.png" />
-</meta>

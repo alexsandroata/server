@@ -1,0 +1,18 @@
+<meta>
+    <info author="Hyper Scripts" version="1.0" name="Auto Escola Encomenda" description="Sistema de Auto Escola Hyper scripts"/>
+
+    <script src="Hyper_G.lua" type="shared"/>
+    <script src="Hyper_S.lua" type="server"/>
+    <script src="Hyper_C.lua" type="client" cache="false"/>
+
+    <file src="ui/bateria.png"/>
+    <file src="ui/logo.png"/>
+    <file src="ui/wifi.png"/>
+    <file src="ui/buy.png"/>
+
+    <file src="ui/Veiculos/caminhao.png"/>
+    <file src="ui/Veiculos/celta.png"/>
+    <file src="ui/Veiculos/moto.png"/>
+
+    <file src="ui/Fonts/RobotoBold.ttf"/>
+</meta>
